@@ -1,0 +1,141 @@
+Performing C SOURCE FILE Test SUPPORTS_LLD failed with the following output:
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-NhRzA8
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2b520/fast && /usr/bin/make  -f CMakeFiles/cmTC_2b520.dir/build.make CMakeFiles/cmTC_2b520.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-NhRzA8'
+Building C object CMakeFiles/cmTC_2b520.dir/src.c.o
+/usr/lib/ccache/cc -DSUPPORTS_LLD  -fuse-ld=lld -fPIE -std=c11 -o CMakeFiles/cmTC_2b520.dir/src.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-NhRzA8/src.c
+cc: error: unrecognized command line option ‘-fuse-ld=lld’
+CMakeFiles/cmTC_2b520.dir/build.make:77: recipe for target 'CMakeFiles/cmTC_2b520.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_2b520.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-NhRzA8'
+Makefile:127: recipe for target 'cmTC_2b520/fast' failed
+make: *** [cmTC_2b520/fast] Error 2
+
+
+Source file was:
+int main() {}
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-9d1Zor
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_283d8/fast && /usr/bin/make  -f CMakeFiles/cmTC_283d8.dir/build.make CMakeFiles/cmTC_283d8.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-9d1Zor'
+Building C object CMakeFiles/cmTC_283d8.dir/src.c.o
+/usr/lib/ccache/cc -DCMAKE_HAVE_LIBC_PTHREAD  -fPIE -std=c11 -o CMakeFiles/cmTC_283d8.dir/src.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-9d1Zor/src.c
+Linking C executable cmTC_283d8
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_283d8.dir/link.txt --verbose=1
+/usr/lib/ccache/cc CMakeFiles/cmTC_283d8.dir/src.c.o -o cmTC_283d8 
+CMakeFiles/cmTC_283d8.dir/src.c.o: In function `main':
+src.c:(.text+0x3e): undefined reference to `pthread_create'
+src.c:(.text+0x4a): undefined reference to `pthread_detach'
+src.c:(.text+0x56): undefined reference to `pthread_cancel'
+src.c:(.text+0x67): undefined reference to `pthread_join'
+src.c:(.text+0x7b): undefined reference to `pthread_atfork'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_283d8.dir/build.make:98: recipe for target 'cmTC_283d8' failed
+make[1]: *** [cmTC_283d8] Error 1
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-9d1Zor'
+Makefile:127: recipe for target 'cmTC_283d8/fast' failed
+make: *** [cmTC_283d8/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-bVtDhy
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1ee63/fast && /usr/bin/make  -f CMakeFiles/cmTC_1ee63.dir/build.make CMakeFiles/cmTC_1ee63.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-bVtDhy'
+Building C object CMakeFiles/cmTC_1ee63.dir/CheckFunctionExists.c.o
+/usr/lib/ccache/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -fPIE -o CMakeFiles/cmTC_1ee63.dir/CheckFunctionExists.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-bVtDhy/CheckFunctionExists.c
+Linking C executable cmTC_1ee63
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ee63.dir/link.txt --verbose=1
+/usr/lib/ccache/cc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_1ee63.dir/CheckFunctionExists.c.o -o cmTC_1ee63  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_1ee63.dir/build.make:98: recipe for target 'cmTC_1ee63' failed
+make[1]: *** [cmTC_1ee63] Error 1
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-bVtDhy'
+Makefile:127: recipe for target 'cmTC_1ee63/fast' failed
+make: *** [cmTC_1ee63/fast] Error 2
+
+
+
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32 failed with the following output:
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-SJoRT9
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d9850/fast && /usr/bin/make  -f CMakeFiles/cmTC_d9850.dir/build.make CMakeFiles/cmTC_d9850.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-SJoRT9'
+Building CXX object CMakeFiles/cmTC_d9850.dir/src.cxx.o
+/usr/lib/ccache/c++ -DHAVE_CXX_FLAG_WSHORTEN_64_TO_32  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32 -fPIE   -Wshorten-64-to-32 -std=c++11 -o CMakeFiles/cmTC_d9850.dir/src.cxx.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-SJoRT9/src.cxx
+c++: error: unrecognized command line option '-Wshorten-64-to-32'
+c++: error: unrecognized command line option '-Wshorten-64-to-32'
+CMakeFiles/cmTC_d9850.dir/build.make:77: recipe for target 'CMakeFiles/cmTC_d9850.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_d9850.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-SJoRT9'
+Makefile:127: recipe for target 'cmTC_d9850/fast' failed
+make: *** [cmTC_d9850/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WD654 failed with the following output:
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-TD6ZEv
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_9b8b5/fast && /usr/bin/make  -f CMakeFiles/cmTC_9b8b5.dir/build.make CMakeFiles/cmTC_9b8b5.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-TD6ZEv'
+Building CXX object CMakeFiles/cmTC_9b8b5.dir/src.cxx.o
+/usr/lib/ccache/c++ -DHAVE_CXX_FLAG_WD654  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -wd654 -fPIE   -wd654 -std=c++11 -o CMakeFiles/cmTC_9b8b5.dir/src.cxx.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-TD6ZEv/src.cxx
+c++: error: unrecognized command line option '-wd654'
+c++: error: unrecognized command line option '-wd654'
+CMakeFiles/cmTC_9b8b5.dir/build.make:77: recipe for target 'CMakeFiles/cmTC_9b8b5.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_9b8b5.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-TD6ZEv'
+Makefile:127: recipe for target 'cmTC_9b8b5/fast' failed
+make: *** [cmTC_9b8b5/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WTHREAD_SAFETY failed with the following output:
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-ilbpgZ
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0fcc4/fast && /usr/bin/make  -f CMakeFiles/cmTC_0fcc4.dir/build.make CMakeFiles/cmTC_0fcc4.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-ilbpgZ'
+Building CXX object CMakeFiles/cmTC_0fcc4.dir/src.cxx.o
+/usr/lib/ccache/c++ -DHAVE_CXX_FLAG_WTHREAD_SAFETY  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -Wthread-safety -fPIE   -Wthread-safety -std=c++11 -o CMakeFiles/cmTC_0fcc4.dir/src.cxx.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-ilbpgZ/src.cxx
+c++: error: unrecognized command line option '-Wthread-safety'
+c++: error: unrecognized command line option '-Wthread-safety'
+CMakeFiles/cmTC_0fcc4.dir/build.make:77: recipe for target 'CMakeFiles/cmTC_0fcc4.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_0fcc4.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-ilbpgZ'
+Makefile:127: recipe for target 'cmTC_0fcc4/fast' failed
+make: *** [cmTC_0fcc4/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+
