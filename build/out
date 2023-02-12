@@ -1,0 +1,201 @@
+[  0%] Built target absl_log_severity
+[  0%] Built target tinyobjloader
+[  1%] Built target ccd
+[  3%] Built target tinyxml2
+[  9%] Built target qhullstatic_r
+[  9%] Built target lodepng
+[ 10%] Built target gtest
+[ 17%] Built target glfw
+[ 17%] Built target absl_spinlock_wait
+[ 17%] Built target absl_int128
+[ 17%] Built target absl_civil_time
+[ 18%] Built target absl_exponential_biased
+[ 20%] Built target absl_time_zone
+[ 20%] Built target absl_raw_logging_internal
+[ 20%] Built target gtest_main
+[ 20%] Built target gmock
+[ 26%] Built target benchmark
+[ 28%] Built target absl_throw_delegate
+[ 29%] Built target absl_base
+[ 31%] Built target absl_debugging_internal
+[ 31%] Built target absl_bad_optional_access
+[ 46%] Built target mujoco
+[ 46%] Built target absl_cordz_functions
+[ 48%] Built target absl_bad_variant_access
+[ 48%] Built target array_traits_test
+[ 48%] Built target func_traits_test
+[ 48%] Built target tuple_tools_test
+[ 48%] Built target absl_strings_internal
+[ 48%] Built target absl_demangle_internal
+[ 48%] Built target absl_malloc_internal
+[ 50%] Built target absl_stacktrace
+[ 50%] Built target absl_city
+[ 53%] Built target absl_low_level_hash
+[ 53%] Built target benchmark_main
+[ 53%] Building CXX object python/mujoco/util/CMakeFiles/func_wrap_test.dir/func_wrap_test.cc.o
+[ 54%] Built target elasticity
+[ 54%] Built target platform_ui_adapter
+[ 54%] Built target compile
+[ 54%] Built target derivative
+[ 54%] Built target basic
+[ 54%] Built target testxml
+[ 56%] Built target testspeed
+[ 57%] Built target record
+[ 57%] Built target absl_graphcycles_internal
+[ 57%] Built target libsimulate
+[ 62%] Built target absl_strings
+[ 62%] Built target simulate
+[ 64%] Built target absl_symbolize
+[ 67%] Built target absl_hash
+[ 67%] Built target absl_time
+[ 70%] Built target absl_str_format_internal
+[ 73%] Built target absl_cord_internal
+[ 75%] Built target absl_synchronization
+[ 75%] Built target absl_hashtablez_sampler
+[ 75%] Built target absl_cordz_handle
+[ 75%] Built target fixture
+[ 76%] Building CXX object test/benchmark/CMakeFiles/step_benchmark_test.dir/step_benchmark_test.cc.o
+[ 76%] Building CXX object test/CMakeFiles/fixture_test.dir/fixture_test.cc.o
+[ 78%] Built target absl_cordz_info
+[ 78%] Building CXX object test/CMakeFiles/pipeline_test.dir/pipeline_test.cc.o
+[ 78%] Building CXX object test/CMakeFiles/header_test.dir/header_test.cc.o
+[ 78%] Building CXX object test/benchmark/CMakeFiles/parse_benchmark_test.dir/parse_benchmark_test.cc.o
+[ 78%] Built target absl_raw_hash_set
+[ 78%] Building CXX object test/benchmark/CMakeFiles/engine_util_spatial_benchmark_test.dir/engine_util_spatial_benchmark_test.cc.o
+[ 78%] Building CXX object test/benchmark/CMakeFiles/engine_core_smooth_benchmark_test.dir/engine_core_smooth_benchmark_test.cc.o
+[ 78%] Linking CXX executable ../../bin/engine_core_smooth_benchmark_test
+[ 78%] Linking CXX executable ../bin/header_test
+[ 78%] Linking CXX executable ../../bin/engine_util_spatial_benchmark_test
+[ 78%] Linking CXX executable ../../bin/step_benchmark_test
+../../lib/libfixture.a(fixture.cc.o): In function `mujoco::SaveAndReadXml[abi:cxx11](mjModel_ const*)':
+fixture.cc:(.text._ZN6mujoco14SaveAndReadXmlB5cxx11EPK8mjModel_+0x1c7): undefined reference to `std::experimental::filesystem::v1::temp_directory_path[abi:cxx11]()'
+fixture.cc:(.text._ZN6mujoco14SaveAndReadXmlB5cxx11EPK8mjModel_+0x884): undefined reference to `std::experimental::filesystem::v1::__cxx11::path::_M_split_cmpts()'
+collect2: error: ld returned 1 exit status
+../lib/libfixture.a(fixture.cc.o): In function `mujoco::SaveAndReadXml[abi:cxx11](mjModel_ const*)':
+fixture.cc:(.text._ZN6mujoco14SaveAndReadXmlB5cxx11EPK8mjModel_+0x1c7): undefined reference to `std::experimental::filesystem::v1::temp_directory_path[abi:cxx11]()'
+fixture.cc:(.text._ZN6mujoco14SaveAndReadXmlB5cxx11EPK8mjModel_+0x884): undefined reference to `std::experimental::filesystem::v1::__cxx11::path::_M_split_cmpts()'
+collect2: error: ld returned 1 exit status
+test/benchmark/CMakeFiles/engine_core_smooth_benchmark_test.dir/build.make:120: recipe for target 'bin/engine_core_smooth_benchmark_test' failed
+make[2]: *** [bin/engine_core_smooth_benchmark_test] Error 1
+test/CMakeFiles/header_test.dir/build.make:119: recipe for target 'bin/header_test' failed
+make[2]: *** [bin/header_test] Error 1
+CMakeFiles/Makefile2:5744: recipe for target 'test/benchmark/CMakeFiles/engine_core_smooth_benchmark_test.dir/all' failed
+make[1]: *** [test/benchmark/CMakeFiles/engine_core_smooth_benchmark_test.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+CMakeFiles/Makefile2:5500: recipe for target 'test/CMakeFiles/header_test.dir/all' failed
+make[1]: *** [test/CMakeFiles/header_test.dir/all] Error 2
+../../lib/libfixture.a(fixture.cc.o): In function `mujoco::SaveAndReadXml[abi:cxx11](mjModel_ const*)':
+fixture.cc:(.text._ZN6mujoco14SaveAndReadXmlB5cxx11EPK8mjModel_+0x1c7): undefined reference to `std::experimental::filesystem::v1::temp_directory_path[abi:cxx11]()'
+fixture.cc:(.text._ZN6mujoco14SaveAndReadXmlB5cxx11EPK8mjModel_+0x884): undefined reference to `std::experimental::filesystem::v1::__cxx11::path::_M_split_cmpts()'
+collect2: error: ld returned 1 exit status
+test/benchmark/CMakeFiles/engine_util_spatial_benchmark_test.dir/build.make:120: recipe for target 'bin/engine_util_spatial_benchmark_test' failed
+make[2]: *** [bin/engine_util_spatial_benchmark_test] Error 1
+CMakeFiles/Makefile2:5695: recipe for target 'test/benchmark/CMakeFiles/engine_util_spatial_benchmark_test.dir/all' failed
+make[1]: *** [test/benchmark/CMakeFiles/engine_util_spatial_benchmark_test.dir/all] Error 2
+../../lib/libfixture.a(fixture.cc.o): In function `mujoco::SaveAndReadXml[abi:cxx11](mjModel_ const*)':
+fixture.cc:(.text._ZN6mujoco14SaveAndReadXmlB5cxx11EPK8mjModel_+0x1c7): undefined reference to `std::experimental::filesystem::v1::temp_directory_path[abi:cxx11]()'
+fixture.cc:(.text._ZN6mujoco14SaveAndReadXmlB5cxx11EPK8mjModel_+0x884): undefined reference to `std::experimental::filesystem::v1::__cxx11::path::_M_split_cmpts()'
+collect2: error: ld returned 1 exit status
+test/benchmark/CMakeFiles/step_benchmark_test.dir/build.make:120: recipe for target 'bin/step_benchmark_test' failed
+make[2]: *** [bin/step_benchmark_test] Error 1
+CMakeFiles/Makefile2:5597: recipe for target 'test/benchmark/CMakeFiles/step_benchmark_test.dir/all' failed
+make[1]: *** [test/benchmark/CMakeFiles/step_benchmark_test.dir/all] Error 2
+[ 78%] Linking CXX executable ../../bin/parse_benchmark_test
+[ 78%] Linking CXX executable ../bin/fixture_test
+../../lib/libfixture.a(fixture.cc.o): In function `mujoco::SaveAndReadXml[abi:cxx11](mjModel_ const*)':
+fixture.cc:(.text._ZN6mujoco14SaveAndReadXmlB5cxx11EPK8mjModel_+0x1c7): undefined reference to `std::experimental::filesystem::v1::temp_directory_path[abi:cxx11]()'
+fixture.cc:(.text._ZN6mujoco14SaveAndReadXmlB5cxx11EPK8mjModel_+0x884): undefined reference to `std::experimental::filesystem::v1::__cxx11::path::_M_split_cmpts()'
+collect2: error: ld returned 1 exit status
+test/benchmark/CMakeFiles/parse_benchmark_test.dir/build.make:120: recipe for target 'bin/parse_benchmark_test' failed
+make[2]: *** [bin/parse_benchmark_test] Error 1
+CMakeFiles/Makefile2:5646: recipe for target 'test/benchmark/CMakeFiles/parse_benchmark_test.dir/all' failed
+make[1]: *** [test/benchmark/CMakeFiles/parse_benchmark_test.dir/all] Error 2
+../lib/libfixture.a(fixture.cc.o): In function `mujoco::SaveAndReadXml[abi:cxx11](mjModel_ const*)':
+fixture.cc:(.text._ZN6mujoco14SaveAndReadXmlB5cxx11EPK8mjModel_+0x1c7): undefined reference to `std::experimental::filesystem::v1::temp_directory_path[abi:cxx11]()'
+fixture.cc:(.text._ZN6mujoco14SaveAndReadXmlB5cxx11EPK8mjModel_+0x884): undefined reference to `std::experimental::filesystem::v1::__cxx11::path::_M_split_cmpts()'
+collect2: error: ld returned 1 exit status
+test/CMakeFiles/fixture_test.dir/build.make:119: recipe for target 'bin/fixture_test' failed
+make[2]: *** [bin/fixture_test] Error 1
+CMakeFiles/Makefile2:5452: recipe for target 'test/CMakeFiles/fixture_test.dir/all' failed
+make[1]: *** [test/CMakeFiles/fixture_test.dir/all] Error 2
+[ 79%] Linking CXX executable ../bin/pipeline_test
+../lib/libfixture.a(fixture.cc.o): In function `mujoco::SaveAndReadXml[abi:cxx11](mjModel_ const*)':
+fixture.cc:(.text._ZN6mujoco14SaveAndReadXmlB5cxx11EPK8mjModel_+0x1c7): undefined reference to `std::experimental::filesystem::v1::temp_directory_path[abi:cxx11]()'
+fixture.cc:(.text._ZN6mujoco14SaveAndReadXmlB5cxx11EPK8mjModel_+0x884): undefined reference to `std::experimental::filesystem::v1::__cxx11::path::_M_split_cmpts()'
+collect2: error: ld returned 1 exit status
+test/CMakeFiles/pipeline_test.dir/build.make:119: recipe for target 'bin/pipeline_test' failed
+make[2]: *** [bin/pipeline_test] Error 1
+CMakeFiles/Makefile2:5548: recipe for target 'test/CMakeFiles/pipeline_test.dir/all' failed
+make[1]: *** [test/CMakeFiles/pipeline_test.dir/all] Error 2
+In file included from /home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap_test.cc:15:0:
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h: In instantiation of ‘mujoco::util::_impl::UnwrapArgs::WrapFunc(Callable&&)::<lambda(mujoco::util::wrapper_t<Args>...)> mutable [with Return = double; Args = {{anonymous}::BoxedDouble, float, {anonymous}::BoxedInt}; Callable = double (&)({anonymous}::BoxedDouble, float, {anonymous}::BoxedInt)]’:
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:124:13:   required from ‘struct mujoco::util::_impl::UnwrapArgs::WrapFunc(Callable&&) [with Return = double; Args = {{anonymous}::BoxedDouble, float, {anonymous}::BoxedInt}; Callable = double (&)({anonymous}::BoxedDouble, float, {anonymous}::BoxedInt)]::<lambda(mujoco::util::wrapper_t<{anonymous}::BoxedDouble>, mujoco::util::wrapper_t<float>, mujoco::util::wrapper_t<{anonymous}::BoxedInt>)>’
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:127:5:   required from ‘static constexpr auto mujoco::util::_impl::UnwrapArgs::WrapFunc(Callable&&) [with Return = double; Args = {{anonymous}::BoxedDouble, float, {anonymous}::BoxedInt}; Callable = double (&)({anonymous}::BoxedDouble, float, {anonymous}::BoxedInt)]’
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:80:54:   required from ‘static constexpr auto mujoco::util::_impl::arg_type_deducer<Return (&)(Args ...)>::WrapFunc(Return (&)(Args ...)) [with WrapOp = mujoco::util::_impl::UnwrapArgs; Return = double; Args = {{anonymous}::BoxedDouble, float, {anonymous}::BoxedInt}]’
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:117:63:   required from ‘constexpr auto mujoco::util::_impl::WrapFunc(Callable&&) [with WrapOp = mujoco::util::_impl::UnwrapArgs; Callable = double (&)({anonymous}::BoxedDouble, float, {anonymous}::BoxedInt)]’
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:182:44:   required from ‘constexpr auto mujoco::util::UnwrapArgs(Callable&&) [with Callable = double (&)({anonymous}::BoxedDouble, float, {anonymous}::BoxedInt)]’
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap_test.cc:76:38:   required from here
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:125:54: error: variable ‘callable’ has function type
+               MUJOCO_ALWAYS_INLINE_LAMBDA_MUTABLE {
+                                                      ^
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:125:54: error: variable ‘callable’ has function type
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h: In instantiation of ‘struct mujoco::util::_impl::UnwrapArgs::WrapFunc(Callable&&) [with Return = double; Args = {{anonymous}::BoxedDouble, float, {anonymous}::BoxedInt}; Callable = double (&)({anonymous}::BoxedDouble, float, {anonymous}::BoxedInt)]::<lambda(mujoco::util::wrapper_t<{anonymous}::BoxedDouble>, mujoco::util::wrapper_t<float>, mujoco::util::wrapper_t<{anonymous}::BoxedInt>)>’:
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:127:5:   required from ‘static constexpr auto mujoco::util::_impl::UnwrapArgs::WrapFunc(Callable&&) [with Return = double; Args = {{anonymous}::BoxedDouble, float, {anonymous}::BoxedInt}; Callable = double (&)({anonymous}::BoxedDouble, float, {anonymous}::BoxedInt)]’
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:80:54:   required from ‘static constexpr auto mujoco::util::_impl::arg_type_deducer<Return (&)(Args ...)>::WrapFunc(Return (&)(Args ...)) [with WrapOp = mujoco::util::_impl::UnwrapArgs; Return = double; Args = {{anonymous}::BoxedDouble, float, {anonymous}::BoxedInt}]’
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:117:63:   required from ‘constexpr auto mujoco::util::_impl::WrapFunc(Callable&&) [with WrapOp = mujoco::util::_impl::UnwrapArgs; Callable = double (&)({anonymous}::BoxedDouble, float, {anonymous}::BoxedInt)]’
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:182:44:   required from ‘constexpr auto mujoco::util::UnwrapArgs(Callable&&) [with Callable = double (&)({anonymous}::BoxedDouble, float, {anonymous}::BoxedInt)]’
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap_test.cc:76:38:   required from here
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:124:13: error: field ‘mujoco::util::_impl::UnwrapArgs::WrapFunc(Callable&&) [with Return = double; Args = {{anonymous}::BoxedDouble, float, {anonymous}::BoxedInt}; Callable = double (&)({anonymous}::BoxedDouble, float, {anonymous}::BoxedInt)]::<lambda(mujoco::util::wrapper_t<{anonymous}::BoxedDouble>, mujoco::util::wrapper_t<float>, mujoco::util::wrapper_t<{anonymous}::BoxedInt>)>::<callable capture>’ invalidly declared function type
+     return [callable](wrapper_t<Args>... wrapped_args)
+             ^~~~~~~~
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap_test.cc: In member function ‘virtual void {anonymous}::FuncWrapTest_UnwrapArgs_Test::TestBody()’:
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap_test.cc:87:4: error: invalid use of void expression
+     EXPECT_EQ(wrapped_add("1.6e+1", 5e-1, 2), 18.5);
+    ^
+In file included from /home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap_test.cc:15:0:
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h: In instantiation of ‘mujoco::util::_impl::UnwrapArgs::WrapFunc(Callable&&)::<lambda(mujoco::util::wrapper_t<Args>...)> mutable [with Return = void; Args = {double (*)[4], const double (*)[4], const double (*)[4]}; Callable = void (&)(double (*)[4], const double (*)[4], const double (*)[4])]’:
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:124:13:   required from ‘struct mujoco::util::_impl::UnwrapArgs::WrapFunc(Callable&&) [with Return = void; Args = {double (*)[4], const double (*)[4], const double (*)[4]}; Callable = void (&)(double (*)[4], const double (*)[4], const double (*)[4])]::<lambda(mujoco::util::wrapper_t<double (*)[4]>, mujoco::util::wrapper_t<const double (*)[4]>, mujoco::util::wrapper_t<const double (*)[4]>)>’
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:127:5:   required from ‘static constexpr auto mujoco::util::_impl::UnwrapArgs::WrapFunc(Callable&&) [with Return = void; Args = {double (*)[4], const double (*)[4], const double (*)[4]}; Callable = void (&)(double (*)[4], const double (*)[4], const double (*)[4])]’
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:80:54:   required from ‘static constexpr auto mujoco::util::_impl::arg_type_deducer<Return (&)(Args ...)>::WrapFunc(Return (&)(Args ...)) [with WrapOp = mujoco::util::_impl::UnwrapArgs; Return = void; Args = {double (*)[4], const double (*)[4], const double (*)[4]}]’
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:117:63:   required from ‘constexpr auto mujoco::util::_impl::WrapFunc(Callable&&) [with WrapOp = mujoco::util::_impl::UnwrapArgs; Callable = void (&)(double (*)[4], const double (*)[4], const double (*)[4])]’
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:182:44:   required from ‘constexpr auto mujoco::util::UnwrapArgs(Callable&&) [with Callable = void (&)(double (*)[4], const double (*)[4], const double (*)[4])]’
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap_test.cc:91:26:   required from here
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:125:54: error: variable ‘callable’ has function type
+               MUJOCO_ALWAYS_INLINE_LAMBDA_MUTABLE {
+                                                      ^
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:125:54: error: variable ‘callable’ has function type
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h: In instantiation of ‘struct mujoco::util::_impl::UnwrapArgs::WrapFunc(Callable&&) [with Return = void; Args = {double (*)[4], const double (*)[4], const double (*)[4]}; Callable = void (&)(double (*)[4], const double (*)[4], const double (*)[4])]::<lambda(mujoco::util::wrapper_t<double (*)[4]>, mujoco::util::wrapper_t<const double (*)[4]>, mujoco::util::wrapper_t<const double (*)[4]>)>’:
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:127:5:   required from ‘static constexpr auto mujoco::util::_impl::UnwrapArgs::WrapFunc(Callable&&) [with Return = void; Args = {double (*)[4], const double (*)[4], const double (*)[4]}; Callable = void (&)(double (*)[4], const double (*)[4], const double (*)[4])]’
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:80:54:   required from ‘static constexpr auto mujoco::util::_impl::arg_type_deducer<Return (&)(Args ...)>::WrapFunc(Return (&)(Args ...)) [with WrapOp = mujoco::util::_impl::UnwrapArgs; Return = void; Args = {double (*)[4], const double (*)[4], const double (*)[4]}]’
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:117:63:   required from ‘constexpr auto mujoco::util::_impl::WrapFunc(Callable&&) [with WrapOp = mujoco::util::_impl::UnwrapArgs; Callable = void (&)(double (*)[4], const double (*)[4], const double (*)[4])]’
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:182:44:   required from ‘constexpr auto mujoco::util::UnwrapArgs(Callable&&) [with Callable = void (&)(double (*)[4], const double (*)[4], const double (*)[4])]’
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap_test.cc:91:26:   required from here
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:124:13: error: field ‘mujoco::util::_impl::UnwrapArgs::WrapFunc(Callable&&) [with Return = void; Args = {double (*)[4], const double (*)[4], const double (*)[4]}; Callable = void (&)(double (*)[4], const double (*)[4], const double (*)[4])]::<lambda(mujoco::util::wrapper_t<double (*)[4]>, mujoco::util::wrapper_t<const double (*)[4]>, mujoco::util::wrapper_t<const double (*)[4]>)>::<callable capture>’ invalidly declared function type
+     return [callable](wrapper_t<Args>... wrapped_args)
+             ^~~~~~~~
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h: In instantiation of ‘mujoco::util::_impl::ReturnArrayArg0<OutArgProvided>::WrapFunc(Callable&&)::<lambda(InArgs ...)> mutable [with Return = void; OutArg = double (*)[4]; InArgs = {const double (*)[4], const double (*)[4]}; Callable = void (&)(double (*)[4], const double (*)[4], const double (*)[4]); bool OutArgProvided = false]’:
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:161:15:   required from ‘struct mujoco::util::_impl::ReturnArrayArg0<OutArgProvided>::WrapFunc(Callable&&) [with Return = void; OutArg = double (*)[4]; InArgs = {const double (*)[4], const double (*)[4]}; Callable = void (&)(double (*)[4], const double (*)[4], const double (*)[4]); bool OutArgProvided = false]::<lambda(const double (*)[4], const double (*)[4])>’
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:169:7:   required from ‘static constexpr auto mujoco::util::_impl::ReturnArrayArg0<OutArgProvided>::WrapFunc(Callable&&) [with Return = void; OutArg = double (*)[4]; InArgs = {const double (*)[4], const double (*)[4]}; Callable = void (&)(double (*)[4], const double (*)[4], const double (*)[4]); bool OutArgProvided = false]’
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:80:54:   required from ‘static constexpr auto mujoco::util::_impl::arg_type_deducer<Return (&)(Args ...)>::WrapFunc(Return (&)(Args ...)) [with WrapOp = mujoco::util::_impl::ReturnArrayArg0<false>; Return = void; Args = {double (*)[4], const double (*)[4], const double (*)[4]}]’
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:117:63:   required from ‘constexpr auto mujoco::util::_impl::WrapFunc(Callable&&) [with WrapOp = mujoco::util::_impl::ReturnArrayArg0<false>; Callable = void (&)(double (*)[4], const double (*)[4], const double (*)[4])]’
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:187:65:   required from ‘constexpr auto mujoco::util::ReturnArrayArg0(Callable&&) [with bool OutArgProvided = false; Callable = void (&)(double (*)[4], const double (*)[4], const double (*)[4])]’
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap_test.cc:97:51:   required from here
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:161:80: error: variable ‘callable’ has function type
+       return [callable](InArgs... args) MUJOCO_ALWAYS_INLINE_LAMBDA_MUTABLE {
+                                                                                ^
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:161:80: error: variable ‘callable’ has function type
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h: In instantiation of ‘struct mujoco::util::_impl::ReturnArrayArg0<OutArgProvided>::WrapFunc(Callable&&) [with Return = void; OutArg = double (*)[4]; InArgs = {const double (*)[4], const double (*)[4]}; Callable = void (&)(double (*)[4], const double (*)[4], const double (*)[4]); bool OutArgProvided = false]::<lambda(const double (*)[4], const double (*)[4])>’:
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:169:7:   required from ‘static constexpr auto mujoco::util::_impl::ReturnArrayArg0<OutArgProvided>::WrapFunc(Callable&&) [with Return = void; OutArg = double (*)[4]; InArgs = {const double (*)[4], const double (*)[4]}; Callable = void (&)(double (*)[4], const double (*)[4], const double (*)[4]); bool OutArgProvided = false]’
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:80:54:   required from ‘static constexpr auto mujoco::util::_impl::arg_type_deducer<Return (&)(Args ...)>::WrapFunc(Return (&)(Args ...)) [with WrapOp = mujoco::util::_impl::ReturnArrayArg0<false>; Return = void; Args = {double (*)[4], const double (*)[4], const double (*)[4]}]’
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:117:63:   required from ‘constexpr auto mujoco::util::_impl::WrapFunc(Callable&&) [with WrapOp = mujoco::util::_impl::ReturnArrayArg0<false>; Callable = void (&)(double (*)[4], const double (*)[4], const double (*)[4])]’
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:187:65:   required from ‘constexpr auto mujoco::util::ReturnArrayArg0(Callable&&) [with bool OutArgProvided = false; Callable = void (&)(double (*)[4], const double (*)[4], const double (*)[4])]’
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap_test.cc:97:51:   required from here
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:161:15: error: field ‘mujoco::util::_impl::ReturnArrayArg0<OutArgProvided>::WrapFunc(Callable&&) [with Return = void; OutArg = double (*)[4]; InArgs = {const double (*)[4], const double (*)[4]}; Callable = void (&)(double (*)[4], const double (*)[4], const double (*)[4]); bool OutArgProvided = false]::<lambda(const double (*)[4], const double (*)[4])>::<callable capture>’ invalidly declared function type
+       return [callable](InArgs... args) MUJOCO_ALWAYS_INLINE_LAMBDA_MUTABLE {
+               ^~~~~~~~
+python/mujoco/util/CMakeFiles/func_wrap_test.dir/build.make:75: recipe for target 'python/mujoco/util/CMakeFiles/func_wrap_test.dir/func_wrap_test.cc.o' failed
+make[2]: *** [python/mujoco/util/CMakeFiles/func_wrap_test.dir/func_wrap_test.cc.o] Error 1
+CMakeFiles/Makefile2:7093: recipe for target 'python/mujoco/util/CMakeFiles/func_wrap_test.dir/all' failed
+make[1]: *** [python/mujoco/util/CMakeFiles/func_wrap_test.dir/all] Error 2
+Makefile:145: recipe for target 'all' failed
+make: *** [all] Error 2

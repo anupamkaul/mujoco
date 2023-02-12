@@ -14,7 +14,8 @@
 
 #include "test/fixture.h"
 
-#include <filesystem>
+//#include <filesystem>
+#include <experimental/filesystem>
 #include <fstream>
 #include <memory>
 #include <string_view>
@@ -110,7 +111,9 @@ const std::string SaveAndReadXml(const mjModel* model) {
 
   constexpr int kMaxPathLen = 1024;
   std::string path_template =
-      std::filesystem::temp_directory_path().append("tmp.XXXXXX").string();
+      //std::filesystem::temp_directory_path().append("tmp.XXXXXX").string();
+      std::experimental::filesystem::temp_directory_path().append("tmp.XXXXXX").string();
+     //std::experimental::filesystem::v1::temp_directory_path
   EXPECT_LT(path_template.size(), kMaxPathLen);
 
   char filepath[kMaxPathLen];

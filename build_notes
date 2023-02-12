@@ -1,3 +1,27 @@
+basic steps:
+1. rm -rf ./build
+2. mkdir build
+3. cmake ../
+4. make -j8
+5. (have not done make install yet)
+
+2.11.2023 : bin populates with executables (simulate etc) and I can launch models now! 
+tests still fail (errors with Callable/lambda definitions and other errors - filesystem vs experimental/filesystem etc)
+
+I built cmake from scratch to get the required version
+(got cmake from kitware's website and built from source, checked it to my github for further maintenance)
+
+
+I upgraded g++ to v7.0 (c++17) but am not setting g++ -std=c++17 explicitly
+(https://stackoverflow.com/questions/63007678/how-do-i-upgrade-to-c17)
+
+I used, for g++ upgrade (and auto-config the versions):
+https://stackoverflow.com/questions/36222912/is-c17-stdshared-mutex-not-available-yet
+http://tuxamito.com/wiki/index.php/Installing_newer_GCC_versions_in_Ubuntu
+
+
+--- Notes (living) -----
+
 I am on Ubuntu xenial (16.04) and cmake 3.5.1 doesn't work.
 https://askubuntu.com/questions/355565/how-do-i-install-the-latest-version-of-cmake-from-the-command-line
 
@@ -116,7 +140,288 @@ This warning is for project developers.  Use -Wno-dev to suppress it.
 -- Build files have been written to: /home/anupam/github_robotics/simulator/mujoco/build
 
 
+Make fails because it doesn't find the C++17 def of std::shared_mutex:
 
+make -j8
+[  0%] Built target absl_log_severity
+[  0%] Built target tinyobjloader
+[  0%] Building CXX object _deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[  1%] Built target tinyxml2
+[  3%] Built target ccd
+[  3%] Built target lodepng
+[  9%] Built target qhullstatic_r
+[  9%] Built target absl_spinlock_wait
+[ 15%] Built target glfw
+[ 15%] Built target absl_civil_time
+[ 15%] Built target absl_int128
+[ 18%] Built target absl_time_zone
+[ 18%] Building C object CMakeFiles/mujoco.dir/src/engine/engine_print.c.o
+[ 18%] Building CXX object CMakeFiles/mujoco.dir/src/engine/engine_plugin.cc.o
+[ 18%] Built target absl_raw_logging_internal
+[ 20%] Built target absl_exponential_biased
+[ 20%] Building C object CMakeFiles/mujoco.dir/src/engine/engine_sensor.c.o
+[ 20%] Building C object CMakeFiles/mujoco.dir/src/engine/engine_ray.c.o
+[ 20%] Building C object CMakeFiles/mujoco.dir/src/engine/engine_setconst.c.o
+[ 20%] Building C object CMakeFiles/mujoco.dir/src/engine/engine_solver.c.o
+[ 26%] Built target benchmark
+[ 26%] Building CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_base.dir/internal/cycleclock.cc.o
+[ 26%] Building CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_base.dir/internal/spinlock.cc.o
+[ 26%] Building C object CMakeFiles/mujoco.dir/src/engine/engine_support.c.o
+[ 26%] Building C object CMakeFiles/mujoco.dir/src/engine/engine_util_blas.c.o
+/home/anupam/github_robotics/simulator/mujoco/src/engine/engine_plugin.cc:89:20: error: ‘shared_mutex’ in namespace ‘std’ does not name a type
+ using Mutex = std::shared_mutex;
+                    ^
+/home/anupam/github_robotics/simulator/mujoco/src/engine/engine_plugin.cc:93:27: error: expected ‘)’ before ‘&’ token
+   ReentrantWriteLock(Mutex& mutex) : mutex_(mutex) {
+                           ^
+/home/anupam/github_robotics/simulator/mujoco/src/engine/engine_plugin.cc:549:1: error: expected ‘}’ at end of input
+ }
+ ^
+/home/anupam/github_robotics/simulator/mujoco/src/engine/engine_plugin.cc:549:1: error: expected unqualified-id at end of input
+/home/anupam/github_robotics/simulator/mujoco/src/engine/engine_plugin.cc:549:1: error: expected ‘}’ at end of input
+cc1plus: warning: unrecognized command line option ‘-Wno-stringop-truncation’
+cc1plus: warning: unrecognized command line option ‘-Wno-stringop-overflow’
+cc1plus: warning: unrecognized command line option ‘-Wno-int-in-bool-context’
+CMakeFiles/mujoco.dir/build.make:257: recipe for target 'CMakeFiles/mujoco.dir/src/engine/engine_plugin.cc.o' failed
+make[2]: *** [CMakeFiles/mujoco.dir/src/engine/engine_plugin.cc.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+[ 26%] Building CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_base.dir/internal/sysinfo.cc.o
+[ 26%] Building CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_base.dir/internal/thread_identity.cc.o
+[ 28%] Building CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_base.dir/internal/unscaledcycleclock.cc.o
+[ 29%] Built target absl_throw_delegate
+[ 31%] Built target absl_debugging_internal
+[ 32%] Built target benchmark_main
+[ 32%] Built target absl_bad_optional_access
+[ 34%] Built target absl_bad_variant_access
+[ 34%] Built target absl_cordz_functions
+[ 35%] Built target absl_stacktrace
+[ 35%] Linking CXX static library ../../../../lib/libabsl_base.a
+[ 35%] Built target absl_base
+[ 35%] Building CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_malloc_internal.dir/internal/low_level_alloc.cc.o
+[ 35%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings_internal.dir/internal/utf8.cc.o
+[ 35%] Building CXX object _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_demangle_internal.dir/internal/demangle.cc.o
+[ 35%] Building CXX object _deps/abseil-cpp-build/absl/hash/CMakeFiles/absl_low_level_hash.dir/internal/low_level_hash.cc.o
+[ 35%] Building CXX object _deps/abseil-cpp-build/absl/hash/CMakeFiles/absl_city.dir/internal/city.cc.o
+[ 35%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings_internal.dir/internal/ostringstream.cc.o
+[ 35%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings_internal.dir/internal/escaping.cc.o
+[ 37%] Linking CXX static library ../../../../lib/libabsl_low_level_hash.a
+[ 37%] Built target absl_low_level_hash
+[ 37%] Linking CXX static library ../../../../lib/libabsl_demangle_internal.a
+[ 37%] Built target absl_demangle_internal
+[ 37%] Linking CXX static library ../../../../lib/libabsl_strings_internal.a
+[ 37%] Built target absl_strings_internal
+[ 37%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/escaping.cc.o
+[ 37%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/ascii.cc.o
+[ 37%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/internal/charconv_bigint.cc.o
+[ 39%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/charconv.cc.o
+[ 39%] Linking CXX static library ../../../../lib/libabsl_city.a
+[ 39%] Built target absl_city
+[ 39%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/internal/charconv_parse.cc.o
+[ 39%] Linking CXX static library ../../../../lib/libabsl_malloc_internal.a
+[ 39%] Built target absl_malloc_internal
+[ 39%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/internal/memutil.cc.o
+[ 39%] Building CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_graphcycles_internal.dir/internal/graphcycles.cc.o
+[ 39%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/match.cc.o
+[ 40%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/numbers.cc.o
+[ 40%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/str_cat.cc.o
+[ 40%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/str_replace.cc.o
+[ 40%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/str_split.cc.o
+[ 40%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/string_view.cc.o
+[ 42%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/substitute.cc.o
+[ 42%] Linking CXX static library ../../../../lib/libabsl_graphcycles_internal.a
+[ 42%] Built target absl_graphcycles_internal
+[ 42%] Linking CXX static library ../../../../lib/libabsl_strings.a
+[ 42%] Built target absl_strings
+[ 42%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cord_internal.dir/internal/cord_internal.cc.o
+[ 43%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cord_internal.dir/internal/cord_rep_btree.cc.o
+[ 43%] Building CXX object _deps/abseil-cpp-build/absl/hash/CMakeFiles/absl_hash.dir/internal/hash.cc.o
+[ 45%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_str_format_internal.dir/internal/str_format/arg.cc.o
+[ 46%] Building CXX object _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_symbolize.dir/symbolize.cc.o
+[ 46%] Building CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time.dir/civil_time.cc.o
+[ 46%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cord_internal.dir/internal/cord_rep_btree_navigator.cc.o
+[ 48%] Linking CXX static library ../../../../lib/libabsl_hash.a
+[ 48%] Built target absl_hash
+[ 48%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cord_internal.dir/internal/cord_rep_btree_reader.cc.o
+[ 48%] Linking CXX static library ../../../../lib/libabsl_symbolize.a
+[ 48%] Built target absl_symbolize
+[ 48%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cord_internal.dir/internal/cord_rep_crc.cc.o
+[ 48%] Building CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time.dir/clock.cc.o
+[ 48%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_str_format_internal.dir/internal/str_format/bind.cc.o
+[ 48%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cord_internal.dir/internal/cord_rep_consume.cc.o
+[ 48%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cord_internal.dir/internal/cord_rep_ring.cc.o
+[ 48%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_str_format_internal.dir/internal/str_format/extension.cc.o
+[ 48%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_str_format_internal.dir/internal/str_format/float_conversion.cc.o
+[ 48%] Building CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time.dir/duration.cc.o
+[ 48%] Building CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time.dir/format.cc.o
+[ 48%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_str_format_internal.dir/internal/str_format/output.cc.o
+[ 50%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_str_format_internal.dir/internal/str_format/parser.cc.o
+[ 51%] Linking CXX static library ../../../../lib/libabsl_cord_internal.a
+[ 51%] Built target absl_cord_internal
+[ 53%] Building CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time.dir/time.cc.o
+CMakeFiles/Makefile2:1224: recipe for target 'CMakeFiles/mujoco.dir/all' failed
+make[1]: *** [CMakeFiles/mujoco.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[ 54%] Linking CXX static library ../../../lib/libgtest.a
+[ 54%] Built target gtest
+[ 54%] Linking CXX static library ../../../../lib/libabsl_str_format_internal.a
+[ 54%] Built target absl_str_format_internal
+[ 54%] Linking CXX static library ../../../../lib/libabsl_time.a
+[ 54%] Built target absl_time
+Makefile:145: recipe for target 'all' failed
+
+
+----
+
+try:
+https://stackoverflow.com/questions/36222912/is-c17-stdshared-mutex-not-available-yet
+http://tuxamito.com/wiki/index.php/Installing_newer_GCC_versions_in_Ubuntu
+
+initially:
+ g++ --version
+g++ (Ubuntu 5.4.0-6ubuntu1~16.04.12) 5.4.0 20160609
+Copyright (C) 2015 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+
+--> this was fixed with the right g++ v 7.0 (using the above two urls)
+
+now, dealing with 'callable' ..
+
+make -j8
+[  0%] Built target lodepng
+[  1%] Built target ccd
+[  1%] Built target absl_log_severity
+[  1%] Built target tinyobjloader
+[  3%] Built target tinyxml2
+[  4%] Built target gtest
+[ 10%] Built target qhullstatic_r
+[ 17%] Built target glfw
+[ 17%] Built target absl_spinlock_wait
+[ 17%] Built target absl_civil_time
+[ 17%] Built target absl_int128
+[ 20%] Built target absl_time_zone
+[ 20%] Built target absl_raw_logging_internal
+[ 20%] Built target absl_exponential_biased
+[ 26%] Built target benchmark
+[ 26%] Built target gmock
+[ 26%] Built target gtest_main
+[ 28%] Built target absl_bad_optional_access
+[ 29%] Built target absl_base
+[ 29%] Built target absl_throw_delegate
+[ 31%] Built target absl_debugging_internal
+[ 46%] Built target mujoco
+[ 46%] Built target absl_cordz_functions
+[ 50%] Built target benchmark_main
+[ 50%] Built target absl_bad_variant_access
+[ 50%] Built target func_traits_test
+[ 51%] Built target elasticity
+[ 51%] Built target array_traits_test
+[ 51%] Built target tuple_tools_test
+[ 51%] Built target compile
+[ 51%] Built target platform_ui_adapter
+[ 51%] Built target derivative
+[ 53%] Built target testspeed
+[ 53%] Building CXX object python/mujoco/util/CMakeFiles/func_wrap_test.dir/func_wrap_test.cc.o
+[ 53%] Built target testxml
+[ 53%] Built target basic
+[ 54%] Built target record
+[ 54%] Built target absl_malloc_internal
+[ 56%] Built target absl_stacktrace
+[ 56%] Built target absl_demangle_internal
+[ 56%] Built target absl_strings_internal
+[ 57%] Built target absl_low_level_hash
+[ 57%] Built target libsimulate
+[ 57%] Built target absl_city
+[ 57%] Built target absl_graphcycles_internal
+[ 57%] Built target simulate
+[ 62%] Built target absl_strings
+[ 64%] Built target absl_time
+[ 67%] Built target absl_symbolize
+[ 67%] Built target absl_hash
+[ 70%] Built target absl_str_format_internal
+[ 73%] Built target absl_cord_internal
+[ 75%] Built target absl_synchronization
+[ 75%] Built target absl_cordz_handle
+[ 75%] Built target absl_hashtablez_sampler
+[ 75%] Building CXX object test/CMakeFiles/fixture.dir/fixture.cc.o
+[ 76%] Built target absl_cordz_info
+[ 76%] Built target absl_raw_hash_set
+[ 78%] Built target absl_cord
+In file included from /home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap_test.cc:15:0:
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h: In instantiation of ‘mujoco::util::_impl::UnwrapArgs::WrapFunc(Callable&&)::<lambda(mujoco::util::wrapper_t<Args>...)> mutable [with Return = double; Args = {{anonymous}::BoxedDouble, float, {anonymous}::BoxedInt}; Callable = double (&)({anonymous}::BoxedDouble, float, {anonymous}::BoxedInt)]’:
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:124:13:   required from ‘struct mujoco::util::_impl::UnwrapArgs::WrapFunc(Callable&&) [with Return = double; Args = {{anonymous}::BoxedDouble, float, {anonymous}::BoxedInt}; Callable = double (&)({anonymous}::BoxedDouble, float, {anonymous}::BoxedInt)]::<lambda(mujoco::util::wrapper_t<{anonymous}::BoxedDouble>, mujoco::util::wrapper_t<float>, mujoco::util::wrapper_t<{anonymous}::BoxedInt>)>’
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:127:5:   required from ‘static constexpr auto mujoco::util::_impl::UnwrapArgs::WrapFunc(Callable&&) [with Return = double; Args = {{anonymous}::BoxedDouble, float, {anonymous}::BoxedInt}; Callable = double (&)({anonymous}::BoxedDouble, float, {anonymous}::BoxedInt)]’
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:80:54:   required from ‘static constexpr auto mujoco::util::_impl::arg_type_deducer<Return (&)(Args ...)>::WrapFunc(Return (&)(Args ...)) [with WrapOp = mujoco::util::_impl::UnwrapArgs; Return = double; Args = {{anonymous}::BoxedDouble, float, {anonymous}::BoxedInt}]’
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:117:63:   required from ‘constexpr auto mujoco::util::_impl::WrapFunc(Callable&&) [with WrapOp = mujoco::util::_impl::UnwrapArgs; Callable = double (&)({anonymous}::BoxedDouble, float, {anonymous}::BoxedInt)]’
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:182:44:   required from ‘constexpr auto mujoco::util::UnwrapArgs(Callable&&) [with Callable = double (&)({anonymous}::BoxedDouble, float, {anonymous}::BoxedInt)]’
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap_test.cc:76:38:   required from here
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:125:54: error: variable ‘callable’ has function type
+               MUJOCO_ALWAYS_INLINE_LAMBDA_MUTABLE {
+                                                      ^
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:125:54: error: variable ‘callable’ has function type
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h: In instantiation of ‘struct mujoco::util::_impl::UnwrapArgs::WrapFunc(Callable&&) [with Return = double; Args = {{anonymous}::BoxedDouble, float, {anonymous}::BoxedInt}; Callable = double (&)({anonymous}::BoxedDouble, float, {anonymous}::BoxedInt)]::<lambda(mujoco::util::wrapper_t<{anonymous}::BoxedDouble>, mujoco::util::wrapper_t<float>, mujoco::util::wrapper_t<{anonymous}::BoxedInt>)>’:
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:127:5:   required from ‘static constexpr auto mujoco::util::_impl::UnwrapArgs::WrapFunc(Callable&&) [with Return = double; Args = {{anonymous}::BoxedDouble, float, {anonymous}::BoxedInt}; Callable = double (&)({anonymous}::BoxedDouble, float, {anonymous}::BoxedInt)]’
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:80:54:   required from ‘static constexpr auto mujoco::util::_impl::arg_type_deducer<Return (&)(Args ...)>::WrapFunc(Return (&)(Args ...)) [with WrapOp = mujoco::util::_impl::UnwrapArgs; Return = double; Args = {{anonymous}::BoxedDouble, float, {anonymous}::BoxedInt}]’
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:117:63:   required from ‘constexpr auto mujoco::util::_impl::WrapFunc(Callable&&) [with WrapOp = mujoco::util::_impl::UnwrapArgs; Callable = double (&)({anonymous}::BoxedDouble, float, {anonymous}::BoxedInt)]’
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:182:44:   required from ‘constexpr auto mujoco::util::UnwrapArgs(Callable&&) [with Callable = double (&)({anonymous}::BoxedDouble, float, {anonymous}::BoxedInt)]’
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap_test.cc:76:38:   required from here
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:124:13: error: field ‘mujoco::util::_impl::UnwrapArgs::WrapFunc(Callable&&) [with Return = double; Args = {{anonymous}::BoxedDouble, float, {anonymous}::BoxedInt}; Callable = double (&)({anonymous}::BoxedDouble, float, {anonymous}::BoxedInt)]::<lambda(mujoco::util::wrapper_t<{anonymous}::BoxedDouble>, mujoco::util::wrapper_t<float>, mujoco::util::wrapper_t<{anonymous}::BoxedInt>)>::<callable capture>’ invalidly declared function type
+     return [callable](wrapper_t<Args>... wrapped_args)
+             ^~~~~~~~
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap_test.cc: In member function ‘virtual void {anonymous}::FuncWrapTest_UnwrapArgs_Test::TestBody()’:
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap_test.cc:87:4: error: invalid use of void expression
+     EXPECT_EQ(wrapped_add("1.6e+1", 5e-1, 2), 18.5);
+    ^
+In file included from /home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap_test.cc:15:0:
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h: In instantiation of ‘mujoco::util::_impl::UnwrapArgs::WrapFunc(Callable&&)::<lambda(mujoco::util::wrapper_t<Args>...)> mutable [with Return = void; Args = {double (*)[4], const double (*)[4], const double (*)[4]}; Callable = void (&)(double (*)[4], const double (*)[4], const double (*)[4])]’:
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:124:13:   required from ‘struct mujoco::util::_impl::UnwrapArgs::WrapFunc(Callable&&) [with Return = void; Args = {double (*)[4], const double (*)[4], const double (*)[4]}; Callable = void (&)(double (*)[4], const double (*)[4], const double (*)[4])]::<lambda(mujoco::util::wrapper_t<double (*)[4]>, mujoco::util::wrapper_t<const double (*)[4]>, mujoco::util::wrapper_t<const double (*)[4]>)>’
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:127:5:   required from ‘static constexpr auto mujoco::util::_impl::UnwrapArgs::WrapFunc(Callable&&) [with Return = void; Args = {double (*)[4], const double (*)[4], const double (*)[4]}; Callable = void (&)(double (*)[4], const double (*)[4], const double (*)[4])]’
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:80:54:   required from ‘static constexpr auto mujoco::util::_impl::arg_type_deducer<Return (&)(Args ...)>::WrapFunc(Return (&)(Args ...)) [with WrapOp = mujoco::util::_impl::UnwrapArgs; Return = void; Args = {double (*)[4], const double (*)[4], const double (*)[4]}]’
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:117:63:   required from ‘constexpr auto mujoco::util::_impl::WrapFunc(Callable&&) [with WrapOp = mujoco::util::_impl::UnwrapArgs; Callable = void (&)(double (*)[4], const double (*)[4], const double (*)[4])]’
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:182:44:   required from ‘constexpr auto mujoco::util::UnwrapArgs(Callable&&) [with Callable = void (&)(double (*)[4], const double (*)[4], const double (*)[4])]’
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap_test.cc:91:26:   required from here
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:125:54: error: variable ‘callable’ has function type
+               MUJOCO_ALWAYS_INLINE_LAMBDA_MUTABLE {
+                                                      ^
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:125:54: error: variable ‘callable’ has function type
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h: In instantiation of ‘struct mujoco::util::_impl::UnwrapArgs::WrapFunc(Callable&&) [with Return = void; Args = {double (*)[4], const double (*)[4], const double (*)[4]}; Callable = void (&)(double (*)[4], const double (*)[4], const double (*)[4])]::<lambda(mujoco::util::wrapper_t<double (*)[4]>, mujoco::util::wrapper_t<const double (*)[4]>, mujoco::util::wrapper_t<const double (*)[4]>)>’:
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:127:5:   required from ‘static constexpr auto mujoco::util::_impl::UnwrapArgs::WrapFunc(Callable&&) [with Return = void; Args = {double (*)[4], const double (*)[4], const double (*)[4]}; Callable = void (&)(double (*)[4], const double (*)[4], const double (*)[4])]’
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:80:54:   required from ‘static constexpr auto mujoco::util::_impl::arg_type_deducer<Return (&)(Args ...)>::WrapFunc(Return (&)(Args ...)) [with WrapOp = mujoco::util::_impl::UnwrapArgs; Return = void; Args = {double (*)[4], const double (*)[4], const double (*)[4]}]’
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:117:63:   required from ‘constexpr auto mujoco::util::_impl::WrapFunc(Callable&&) [with WrapOp = mujoco::util::_impl::UnwrapArgs; Callable = void (&)(double (*)[4], const double (*)[4], const double (*)[4])]’
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:182:44:   required from ‘constexpr auto mujoco::util::UnwrapArgs(Callable&&) [with Callable = void (&)(double (*)[4], const double (*)[4], const double (*)[4])]’
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap_test.cc:91:26:   required from here
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:124:13: error: field ‘mujoco::util::_impl::UnwrapArgs::WrapFunc(Callable&&) [with Return = void; Args = {double (*)[4], const double (*)[4], const double (*)[4]}; Callable = void (&)(double (*)[4], const double (*)[4], const double (*)[4])]::<lambda(mujoco::util::wrapper_t<double (*)[4]>, mujoco::util::wrapper_t<const double (*)[4]>, mujoco::util::wrapper_t<const double (*)[4]>)>::<callable capture>’ invalidly declared function type
+     return [callable](wrapper_t<Args>... wrapped_args)
+             ^~~~~~~~
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h: In instantiation of ‘mujoco::util::_impl::ReturnArrayArg0<OutArgProvided>::WrapFunc(Callable&&)::<lambda(InArgs ...)> mutable [with Return = void; OutArg = double (*)[4]; InArgs = {const double (*)[4], const double (*)[4]}; Callable = void (&)(double (*)[4], const double (*)[4], const double (*)[4]); bool OutArgProvided = false]’:
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:161:15:   required from ‘struct mujoco::util::_impl::ReturnArrayArg0<OutArgProvided>::WrapFunc(Callable&&) [with Return = void; OutArg = double (*)[4]; InArgs = {const double (*)[4], const double (*)[4]}; Callable = void (&)(double (*)[4], const double (*)[4], const double (*)[4]); bool OutArgProvided = false]::<lambda(const double (*)[4], const double (*)[4])>’
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:169:7:   required from ‘static constexpr auto mujoco::util::_impl::ReturnArrayArg0<OutArgProvided>::WrapFunc(Callable&&) [with Return = void; OutArg = double (*)[4]; InArgs = {const double (*)[4], const double (*)[4]}; Callable = void (&)(double (*)[4], const double (*)[4], const double (*)[4]); bool OutArgProvided = false]’
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:80:54:   required from ‘static constexpr auto mujoco::util::_impl::arg_type_deducer<Return (&)(Args ...)>::WrapFunc(Return (&)(Args ...)) [with WrapOp = mujoco::util::_impl::ReturnArrayArg0<false>; Return = void; Args = {double (*)[4], const double (*)[4], const double (*)[4]}]’
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:117:63:   required from ‘constexpr auto mujoco::util::_impl::WrapFunc(Callable&&) [with WrapOp = mujoco::util::_impl::ReturnArrayArg0<false>; Callable = void (&)(double (*)[4], const double (*)[4], const double (*)[4])]’
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:187:65:   required from ‘constexpr auto mujoco::util::ReturnArrayArg0(Callable&&) [with bool OutArgProvided = false; Callable = void (&)(double (*)[4], const double (*)[4], const double (*)[4])]’
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap_test.cc:97:51:   required from here
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:161:80: error: variable ‘callable’ has function type
+       return [callable](InArgs... args) MUJOCO_ALWAYS_INLINE_LAMBDA_MUTABLE {
+                                                                                ^
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:161:80: error: variable ‘callable’ has function type
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h: In instantiation of ‘struct mujoco::util::_impl::ReturnArrayArg0<OutArgProvided>::WrapFunc(Callable&&) [with Return = void; OutArg = double (*)[4]; InArgs = {const double (*)[4], const double (*)[4]}; Callable = void (&)(double (*)[4], const double (*)[4], const double (*)[4]); bool OutArgProvided = false]::<lambda(const double (*)[4], const double (*)[4])>’:
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:169:7:   required from ‘static constexpr auto mujoco::util::_impl::ReturnArrayArg0<OutArgProvided>::WrapFunc(Callable&&) [with Return = void; OutArg = double (*)[4]; InArgs = {const double (*)[4], const double (*)[4]}; Callable = void (&)(double (*)[4], const double (*)[4], const double (*)[4]); bool OutArgProvided = false]’
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:80:54:   required from ‘static constexpr auto mujoco::util::_impl::arg_type_deducer<Return (&)(Args ...)>::WrapFunc(Return (&)(Args ...)) [with WrapOp = mujoco::util::_impl::ReturnArrayArg0<false>; Return = void; Args = {double (*)[4], const double (*)[4], const double (*)[4]}]’
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:117:63:   required from ‘constexpr auto mujoco::util::_impl::WrapFunc(Callable&&) [with WrapOp = mujoco::util::_impl::ReturnArrayArg0<false>; Callable = void (&)(double (*)[4], const double (*)[4], const double (*)[4])]’
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:187:65:   required from ‘constexpr auto mujoco::util::ReturnArrayArg0(Callable&&) [with bool OutArgProvided = false; Callable = void (&)(double (*)[4], const double (*)[4], const double (*)[4])]’
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap_test.cc:97:51:   required from here
+/home/anupam/github_robotics/simulator/mujoco/python/mujoco/util/func_wrap.h:161:15: error: field ‘mujoco::util::_impl::ReturnArrayArg0<OutArgProvided>::WrapFunc(Callable&&) [with Return = void; OutArg = double (*)[4]; InArgs = {const double (*)[4], const double (*)[4]}; Callable = void (&)(double (*)[4], const double (*)[4], const double (*)[4]); bool OutArgProvided = false]::<lambda(const double (*)[4], const double (*)[4])>::<callable capture>’ invalidly declared function type
+       return [callable](InArgs... args) MUJOCO_ALWAYS_INLINE_LAMBDA_MUTABLE {
+               ^~~~~~~~
+python/mujoco/util/CMakeFiles/func_wrap_test.dir/build.make:75: recipe for target 'python/mujoco/util/CMakeFiles/func_wrap_test.dir/func_wrap_test.cc.o' failed
+make[2]: *** [python/mujoco/util/CMakeFiles/func_wrap_test.dir/func_wrap_test.cc.o] Error 1
+CMakeFiles/Makefile2:7093: recipe for target 'python/mujoco/util/CMakeFiles/func_wrap_test.dir/all' failed
+make[1]: *** [python/mujoco/util/CMakeFiles/func_wrap_test.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[ 78%] Linking CXX static library ../lib/libfixture.a
+[ 78%] Built target fixture
+Makefile:145: recipe for target 'all' failed
 
 
 
