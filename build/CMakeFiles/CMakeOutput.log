@@ -26,12 +26,12 @@ Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" p
 The CXX compiler identification is GNU, found in "/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/3.25.2/CompilerIdCXX/a.out"
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-VsM3GW
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-a36yYZ
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_749ad/fast && /usr/bin/make  -f CMakeFiles/cmTC_749ad.dir/build.make CMakeFiles/cmTC_749ad.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-VsM3GW'
-Building C object CMakeFiles/cmTC_749ad.dir/CMakeCCompilerABI.c.o
-/usr/lib/ccache/cc   -v -o CMakeFiles/cmTC_749ad.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake-3.25/Modules/CMakeCCompilerABI.c
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_eb242/fast && /usr/bin/make  -f CMakeFiles/cmTC_eb242.dir/build.make CMakeFiles/cmTC_eb242.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-a36yYZ'
+Building C object CMakeFiles/cmTC_eb242.dir/CMakeCCompilerABI.c.o
+/usr/lib/ccache/cc   -v -o CMakeFiles/cmTC_eb242.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake-3.25/Modules/CMakeCCompilerABI.c
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 OFFLOAD_TARGET_NAMES=nvptx-none
@@ -80,9 +80,9 @@ GNU assembler version 2.26.1 (x86_64-linux-gnu) using BFD version (GNU Binutils 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
 COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_2ecbd.dir/CMakeCCompilerABI.c.o' '-mtune=generic' '-march=x86-64'
-Linking C executable cmTC_749ad
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_749ad.dir/link.txt --verbose=1
-/usr/lib/ccache/cc  -v CMakeFiles/cmTC_749ad.dir/CMakeCCompilerABI.c.o -o cmTC_749ad 
+Linking C executable cmTC_eb242
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb242.dir/link.txt --verbose=1
+/usr/lib/ccache/cc  -v CMakeFiles/cmTC_eb242.dir/CMakeCCompilerABI.c.o -o cmTC_eb242 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -94,10 +94,10 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~16.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_749ad' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccjdZuXV.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_749ad /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_749ad.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtend.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_749ad' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-VsM3GW'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_eb242' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccVGyVeZ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_eb242 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_eb242.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtend.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_eb242' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-a36yYZ'
 
 
 
@@ -120,12 +120,12 @@ Parsed C implicit include dir info from above output: rv=done
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-VsM3GW]
+  ignore line: [Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-a36yYZ]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_749ad/fast && /usr/bin/make  -f CMakeFiles/cmTC_749ad.dir/build.make CMakeFiles/cmTC_749ad.dir/build]
-  ignore line: [make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-VsM3GW']
-  ignore line: [Building C object CMakeFiles/cmTC_749ad.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/lib/ccache/cc   -v -o CMakeFiles/cmTC_749ad.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake-3.25/Modules/CMakeCCompilerABI.c]
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_eb242/fast && /usr/bin/make  -f CMakeFiles/cmTC_eb242.dir/build.make CMakeFiles/cmTC_eb242.dir/build]
+  ignore line: [make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-a36yYZ']
+  ignore line: [Building C object CMakeFiles/cmTC_eb242.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/lib/ccache/cc   -v -o CMakeFiles/cmTC_eb242.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake-3.25/Modules/CMakeCCompilerABI.c]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
@@ -174,9 +174,9 @@ Parsed C implicit link information from above output:
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
   ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_2ecbd.dir/CMakeCCompilerABI.c.o' '-mtune=generic' '-march=x86-64']
-  ignore line: [Linking C executable cmTC_749ad]
-  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_749ad.dir/link.txt --verbose=1]
-  ignore line: [/usr/lib/ccache/cc  -v CMakeFiles/cmTC_749ad.dir/CMakeCCompilerABI.c.o -o cmTC_749ad ]
+  ignore line: [Linking C executable cmTC_eb242]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb242.dir/link.txt --verbose=1]
+  ignore line: [/usr/lib/ccache/cc  -v CMakeFiles/cmTC_eb242.dir/CMakeCCompilerABI.c.o -o cmTC_eb242 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -188,13 +188,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~16.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_749ad' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccjdZuXV.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_749ad /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_749ad.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtend.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_eb242' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccVGyVeZ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_eb242 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_eb242.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtend.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccjdZuXV.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccVGyVeZ.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -210,7 +210,7 @@ Parsed C implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_749ad] ==> ignore
+    arg [cmTC_eb242] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crt1.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbegin.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/7/crtbegin.o]
@@ -222,7 +222,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_749ad.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_eb242.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -254,12 +254,12 @@ Parsed C implicit link information from above output:
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-gxoqzL
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-ZhYzLO
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_c2509/fast && /usr/bin/make  -f CMakeFiles/cmTC_c2509.dir/build.make CMakeFiles/cmTC_c2509.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-gxoqzL'
-Building CXX object CMakeFiles/cmTC_c2509.dir/CMakeCXXCompilerABI.cpp.o
-/usr/lib/ccache/c++   -v -o CMakeFiles/cmTC_c2509.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_cff89/fast && /usr/bin/make  -f CMakeFiles/cmTC_cff89.dir/build.make CMakeFiles/cmTC_cff89.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-ZhYzLO'
+Building CXX object CMakeFiles/cmTC_cff89.dir/CMakeCXXCompilerABI.cpp.o
+/usr/lib/ccache/c++   -v -o CMakeFiles/cmTC_cff89.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 OFFLOAD_TARGET_NAMES=nvptx-none
@@ -312,9 +312,9 @@ GNU assembler version 2.26.1 (x86_64-linux-gnu) using BFD version (GNU Binutils 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
 COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_776c8.dir/CMakeCXXCompilerABI.cpp.o' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-Linking CXX executable cmTC_c2509
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2509.dir/link.txt --verbose=1
-/usr/lib/ccache/c++  -v CMakeFiles/cmTC_c2509.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_c2509 
+Linking CXX executable cmTC_cff89
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cff89.dir/link.txt --verbose=1
+/usr/lib/ccache/c++  -v CMakeFiles/cmTC_cff89.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_cff89 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -326,10 +326,10 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~16.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c2509' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccoaSM21.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_c2509 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_c2509.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtend.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c2509' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-gxoqzL'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cff89' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5slBk5.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_cff89 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_cff89.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtend.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cff89' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-ZhYzLO'
 
 
 
@@ -358,12 +358,12 @@ Parsed CXX implicit include dir info from above output: rv=done
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-gxoqzL]
+  ignore line: [Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-ZhYzLO]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_c2509/fast && /usr/bin/make  -f CMakeFiles/cmTC_c2509.dir/build.make CMakeFiles/cmTC_c2509.dir/build]
-  ignore line: [make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-gxoqzL']
-  ignore line: [Building CXX object CMakeFiles/cmTC_c2509.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/lib/ccache/c++   -v -o CMakeFiles/cmTC_c2509.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_cff89/fast && /usr/bin/make  -f CMakeFiles/cmTC_cff89.dir/build.make CMakeFiles/cmTC_cff89.dir/build]
+  ignore line: [make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-ZhYzLO']
+  ignore line: [Building CXX object CMakeFiles/cmTC_cff89.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/lib/ccache/c++   -v -o CMakeFiles/cmTC_cff89.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
@@ -416,9 +416,9 @@ Parsed CXX implicit link information from above output:
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
   ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_776c8.dir/CMakeCXXCompilerABI.cpp.o' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  ignore line: [Linking CXX executable cmTC_c2509]
-  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2509.dir/link.txt --verbose=1]
-  ignore line: [/usr/lib/ccache/c++  -v CMakeFiles/cmTC_c2509.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_c2509 ]
+  ignore line: [Linking CXX executable cmTC_cff89]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cff89.dir/link.txt --verbose=1]
+  ignore line: [/usr/lib/ccache/c++  -v CMakeFiles/cmTC_cff89.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_cff89 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -430,13 +430,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~16.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c2509' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccoaSM21.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_c2509 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_c2509.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtend.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cff89' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5slBk5.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_cff89 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_cff89.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtend.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccoaSM21.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc5slBk5.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -452,7 +452,7 @@ Parsed CXX implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_c2509] ==> ignore
+    arg [cmTC_cff89] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crt1.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbegin.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/7/crtbegin.o]
@@ -464,7 +464,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_c2509.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_cff89.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -492,16 +492,16 @@ Parsed CXX implicit link information from above output:
 
 
 Performing C SOURCE FILE Test CAN_BUILD_AVX succeeded with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-t6FrDA
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-0wH1JD
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_66bd4/fast && /usr/bin/make  -f CMakeFiles/cmTC_66bd4.dir/build.make CMakeFiles/cmTC_66bd4.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-t6FrDA'
-Building C object CMakeFiles/cmTC_66bd4.dir/src.c.o
-/usr/lib/ccache/cc -DCAN_BUILD_AVX  -mavx -fPIE -std=c11 -o CMakeFiles/cmTC_66bd4.dir/src.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-t6FrDA/src.c
-Linking C executable cmTC_66bd4
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66bd4.dir/link.txt --verbose=1
-/usr/lib/ccache/cc  -mavx CMakeFiles/cmTC_66bd4.dir/src.c.o -o cmTC_66bd4 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-t6FrDA'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ea44a/fast && /usr/bin/make  -f CMakeFiles/cmTC_ea44a.dir/build.make CMakeFiles/cmTC_ea44a.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-0wH1JD'
+Building C object CMakeFiles/cmTC_ea44a.dir/src.c.o
+/usr/lib/ccache/cc -DCAN_BUILD_AVX  -mavx -fPIE -std=c11 -o CMakeFiles/cmTC_ea44a.dir/src.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-0wH1JD/src.c
+Linking C executable cmTC_ea44a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea44a.dir/link.txt --verbose=1
+/usr/lib/ccache/cc  -mavx CMakeFiles/cmTC_ea44a.dir/src.c.o -o cmTC_ea44a 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-0wH1JD'
 
 
 Source file was:
@@ -514,118 +514,118 @@ Source file was:
     
 
 Performing C SOURCE FILE Test SUPPORTS_GOLD succeeded with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-5JoDRf
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-sDZlMi
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_d166f/fast && /usr/bin/make  -f CMakeFiles/cmTC_d166f.dir/build.make CMakeFiles/cmTC_d166f.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-5JoDRf'
-Building C object CMakeFiles/cmTC_d166f.dir/src.c.o
-/usr/lib/ccache/cc -DSUPPORTS_GOLD  -fuse-ld=gold -fPIE -std=c11 -o CMakeFiles/cmTC_d166f.dir/src.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-5JoDRf/src.c
-Linking C executable cmTC_d166f
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d166f.dir/link.txt --verbose=1
-/usr/lib/ccache/cc  -fuse-ld=gold CMakeFiles/cmTC_d166f.dir/src.c.o -o cmTC_d166f 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-5JoDRf'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_9fdad/fast && /usr/bin/make  -f CMakeFiles/cmTC_9fdad.dir/build.make CMakeFiles/cmTC_9fdad.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-sDZlMi'
+Building C object CMakeFiles/cmTC_9fdad.dir/src.c.o
+/usr/lib/ccache/cc -DSUPPORTS_GOLD  -fuse-ld=gold -fPIE -std=c11 -o CMakeFiles/cmTC_9fdad.dir/src.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-sDZlMi/src.c
+Linking C executable cmTC_9fdad
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9fdad.dir/link.txt --verbose=1
+/usr/lib/ccache/cc  -fuse-ld=gold CMakeFiles/cmTC_9fdad.dir/src.c.o -o cmTC_9fdad 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-sDZlMi'
 
 
 Source file was:
 int main() {}
 
 Performing C SOURCE FILE Test SUPPORTS_GC_SECTIONS succeeded with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-Mq9DI5
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-jTkXx8
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_91821/fast && /usr/bin/make  -f CMakeFiles/cmTC_91821.dir/build.make CMakeFiles/cmTC_91821.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-Mq9DI5'
-Building C object CMakeFiles/cmTC_91821.dir/src.c.o
-/usr/lib/ccache/cc -DSUPPORTS_GC_SECTIONS  -fuse-ld=gold -fPIE -std=c11 -o CMakeFiles/cmTC_91821.dir/src.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-Mq9DI5/src.c
-Linking C executable cmTC_91821
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91821.dir/link.txt --verbose=1
-/usr/lib/ccache/cc  -fuse-ld=gold CMakeFiles/cmTC_91821.dir/src.c.o -o cmTC_91821 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-Mq9DI5'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e1c39/fast && /usr/bin/make  -f CMakeFiles/cmTC_e1c39.dir/build.make CMakeFiles/cmTC_e1c39.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-jTkXx8'
+Building C object CMakeFiles/cmTC_e1c39.dir/src.c.o
+/usr/lib/ccache/cc -DSUPPORTS_GC_SECTIONS  -fuse-ld=gold -fPIE -std=c11 -o CMakeFiles/cmTC_e1c39.dir/src.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-jTkXx8/src.c
+Linking C executable cmTC_e1c39
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1c39.dir/link.txt --verbose=1
+/usr/lib/ccache/cc  -fuse-ld=gold CMakeFiles/cmTC_e1c39.dir/src.c.o -o cmTC_e1c39 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-jTkXx8'
 
 
 Source file was:
 int main() {}
 
 Determining if the include file sys/types.h exists passed with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-7ijQF3
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-iHJeff
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_8a2c5/fast && /usr/bin/make  -f CMakeFiles/cmTC_8a2c5.dir/build.make CMakeFiles/cmTC_8a2c5.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-7ijQF3'
-Building C object CMakeFiles/cmTC_8a2c5.dir/CheckIncludeFile.c.o
-/usr/lib/ccache/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fPIE -o CMakeFiles/cmTC_8a2c5.dir/CheckIncludeFile.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-7ijQF3/CheckIncludeFile.c
-Linking C executable cmTC_8a2c5
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8a2c5.dir/link.txt --verbose=1
-/usr/lib/ccache/cc -rdynamic CMakeFiles/cmTC_8a2c5.dir/CheckIncludeFile.c.o -o cmTC_8a2c5 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-7ijQF3'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_730b0/fast && /usr/bin/make  -f CMakeFiles/cmTC_730b0.dir/build.make CMakeFiles/cmTC_730b0.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-iHJeff'
+Building C object CMakeFiles/cmTC_730b0.dir/CheckIncludeFile.c.o
+/usr/lib/ccache/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fPIE -o CMakeFiles/cmTC_730b0.dir/CheckIncludeFile.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-iHJeff/CheckIncludeFile.c
+Linking C executable cmTC_730b0
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_730b0.dir/link.txt --verbose=1
+/usr/lib/ccache/cc -rdynamic CMakeFiles/cmTC_730b0.dir/CheckIncludeFile.c.o -o cmTC_730b0 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-iHJeff'
 
 
 
 Determining if the include file inttypes.h exists passed with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-EvsTO1
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-Ygni7l
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_13510/fast && /usr/bin/make  -f CMakeFiles/cmTC_13510.dir/build.make CMakeFiles/cmTC_13510.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-EvsTO1'
-Building C object CMakeFiles/cmTC_13510.dir/CheckIncludeFile.c.o
-/usr/lib/ccache/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fPIE -o CMakeFiles/cmTC_13510.dir/CheckIncludeFile.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-EvsTO1/CheckIncludeFile.c
-Linking C executable cmTC_13510
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13510.dir/link.txt --verbose=1
-/usr/lib/ccache/cc -rdynamic CMakeFiles/cmTC_13510.dir/CheckIncludeFile.c.o -o cmTC_13510 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-EvsTO1'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1b525/fast && /usr/bin/make  -f CMakeFiles/cmTC_1b525.dir/build.make CMakeFiles/cmTC_1b525.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-Ygni7l'
+Building C object CMakeFiles/cmTC_1b525.dir/CheckIncludeFile.c.o
+/usr/lib/ccache/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fPIE -o CMakeFiles/cmTC_1b525.dir/CheckIncludeFile.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-Ygni7l/CheckIncludeFile.c
+Linking C executable cmTC_1b525
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b525.dir/link.txt --verbose=1
+/usr/lib/ccache/cc -rdynamic CMakeFiles/cmTC_1b525.dir/CheckIncludeFile.c.o -o cmTC_1b525 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-Ygni7l'
 
 
 
 Determining if the include file stddef.h exists passed with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-TFIg8Z
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-825uat
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_1892e/fast && /usr/bin/make  -f CMakeFiles/cmTC_1892e.dir/build.make CMakeFiles/cmTC_1892e.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-TFIg8Z'
-Building C object CMakeFiles/cmTC_1892e.dir/CheckIncludeFile.c.o
-/usr/lib/ccache/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fPIE -o CMakeFiles/cmTC_1892e.dir/CheckIncludeFile.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-TFIg8Z/CheckIncludeFile.c
-Linking C executable cmTC_1892e
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1892e.dir/link.txt --verbose=1
-/usr/lib/ccache/cc -rdynamic CMakeFiles/cmTC_1892e.dir/CheckIncludeFile.c.o -o cmTC_1892e 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-TFIg8Z'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_718f5/fast && /usr/bin/make  -f CMakeFiles/cmTC_718f5.dir/build.make CMakeFiles/cmTC_718f5.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-825uat'
+Building C object CMakeFiles/cmTC_718f5.dir/CheckIncludeFile.c.o
+/usr/lib/ccache/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fPIE -o CMakeFiles/cmTC_718f5.dir/CheckIncludeFile.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-825uat/CheckIncludeFile.c
+Linking C executable cmTC_718f5
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_718f5.dir/link.txt --verbose=1
+/usr/lib/ccache/cc -rdynamic CMakeFiles/cmTC_718f5.dir/CheckIncludeFile.c.o -o cmTC_718f5 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-825uat'
 
 
 
 Determining if the include file stdint.h exists passed with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-2P83BY
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-YsaLoA
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_bfd91/fast && /usr/bin/make  -f CMakeFiles/cmTC_bfd91.dir/build.make CMakeFiles/cmTC_bfd91.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-2P83BY'
-Building C object CMakeFiles/cmTC_bfd91.dir/CheckIncludeFile.c.o
-/usr/lib/ccache/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fPIE -o CMakeFiles/cmTC_bfd91.dir/CheckIncludeFile.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-2P83BY/CheckIncludeFile.c
-Linking C executable cmTC_bfd91
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bfd91.dir/link.txt --verbose=1
-/usr/lib/ccache/cc -rdynamic CMakeFiles/cmTC_bfd91.dir/CheckIncludeFile.c.o -o cmTC_bfd91 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-2P83BY'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e2664/fast && /usr/bin/make  -f CMakeFiles/cmTC_e2664.dir/build.make CMakeFiles/cmTC_e2664.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-YsaLoA'
+Building C object CMakeFiles/cmTC_e2664.dir/CheckIncludeFile.c.o
+/usr/lib/ccache/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fPIE -o CMakeFiles/cmTC_e2664.dir/CheckIncludeFile.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-YsaLoA/CheckIncludeFile.c
+Linking C executable cmTC_e2664
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2664.dir/link.txt --verbose=1
+/usr/lib/ccache/cc -rdynamic CMakeFiles/cmTC_e2664.dir/CheckIncludeFile.c.o -o cmTC_e2664 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-YsaLoA'
 
 
 
 Determining size of off_t passed with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-PImihX
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-3RneOH
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_e987c/fast && /usr/bin/make  -f CMakeFiles/cmTC_e987c.dir/build.make CMakeFiles/cmTC_e987c.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-PImihX'
-Building C object CMakeFiles/cmTC_e987c.dir/SIZEOF_OFF_T.c.o
-/usr/lib/ccache/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fPIE -o CMakeFiles/cmTC_e987c.dir/SIZEOF_OFF_T.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-PImihX/SIZEOF_OFF_T.c
-Linking C executable cmTC_e987c
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e987c.dir/link.txt --verbose=1
-/usr/lib/ccache/cc -rdynamic CMakeFiles/cmTC_e987c.dir/SIZEOF_OFF_T.c.o -o cmTC_e987c 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-PImihX'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ad531/fast && /usr/bin/make  -f CMakeFiles/cmTC_ad531.dir/build.make CMakeFiles/cmTC_ad531.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-3RneOH'
+Building C object CMakeFiles/cmTC_ad531.dir/SIZEOF_OFF_T.c.o
+/usr/lib/ccache/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fPIE -o CMakeFiles/cmTC_ad531.dir/SIZEOF_OFF_T.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-3RneOH/SIZEOF_OFF_T.c
+Linking C executable cmTC_ad531
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad531.dir/link.txt --verbose=1
+/usr/lib/ccache/cc -rdynamic CMakeFiles/cmTC_ad531.dir/SIZEOF_OFF_T.c.o -o cmTC_ad531 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-3RneOH'
 
 
 
 Determining if the fseeko exist passed with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-zDX67V
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-VQRfqP
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_617c9/fast && /usr/bin/make  -f CMakeFiles/cmTC_617c9.dir/build.make CMakeFiles/cmTC_617c9.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-zDX67V'
-Building C object CMakeFiles/cmTC_617c9.dir/CheckSymbolExists.c.o
-/usr/lib/ccache/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fPIE -o CMakeFiles/cmTC_617c9.dir/CheckSymbolExists.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-zDX67V/CheckSymbolExists.c
-Linking C executable cmTC_617c9
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_617c9.dir/link.txt --verbose=1
-/usr/lib/ccache/cc -rdynamic CMakeFiles/cmTC_617c9.dir/CheckSymbolExists.c.o -o cmTC_617c9 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-zDX67V'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b8134/fast && /usr/bin/make  -f CMakeFiles/cmTC_b8134.dir/build.make CMakeFiles/cmTC_b8134.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-VQRfqP'
+Building C object CMakeFiles/cmTC_b8134.dir/CheckSymbolExists.c.o
+/usr/lib/ccache/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fPIE -o CMakeFiles/cmTC_b8134.dir/CheckSymbolExists.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-VQRfqP/CheckSymbolExists.c
+Linking C executable cmTC_b8134
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8134.dir/link.txt --verbose=1
+/usr/lib/ccache/cc -rdynamic CMakeFiles/cmTC_b8134.dir/CheckSymbolExists.c.o -o cmTC_b8134 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-VQRfqP'
 
 
 File CheckSymbolExists.c:
@@ -644,16 +644,16 @@ int main(int argc, char** argv)
 }
 
 Determining if the ftello exist passed with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-lZ8pbV
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-g9HbfX
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_a423c/fast && /usr/bin/make  -f CMakeFiles/cmTC_a423c.dir/build.make CMakeFiles/cmTC_a423c.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-lZ8pbV'
-Building C object CMakeFiles/cmTC_a423c.dir/CheckSymbolExists.c.o
-/usr/lib/ccache/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fPIE -o CMakeFiles/cmTC_a423c.dir/CheckSymbolExists.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-lZ8pbV/CheckSymbolExists.c
-Linking C executable cmTC_a423c
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a423c.dir/link.txt --verbose=1
-/usr/lib/ccache/cc -rdynamic CMakeFiles/cmTC_a423c.dir/CheckSymbolExists.c.o -o cmTC_a423c 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-lZ8pbV'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_73674/fast && /usr/bin/make  -f CMakeFiles/cmTC_73674.dir/build.make CMakeFiles/cmTC_73674.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-g9HbfX'
+Building C object CMakeFiles/cmTC_73674.dir/CheckSymbolExists.c.o
+/usr/lib/ccache/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fPIE -o CMakeFiles/cmTC_73674.dir/CheckSymbolExists.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-g9HbfX/CheckSymbolExists.c
+Linking C executable cmTC_73674
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73674.dir/link.txt --verbose=1
+/usr/lib/ccache/cc -rdynamic CMakeFiles/cmTC_73674.dir/CheckSymbolExists.c.o -o cmTC_73674 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-g9HbfX'
 
 
 File CheckSymbolExists.c:
@@ -672,16 +672,16 @@ int main(int argc, char** argv)
 }
 
 Determining if the PRIdMAX exist passed with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-uHODrU
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-Oxm5g5
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_d4e76/fast && /usr/bin/make  -f CMakeFiles/cmTC_d4e76.dir/build.make CMakeFiles/cmTC_d4e76.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-uHODrU'
-Building C object CMakeFiles/cmTC_d4e76.dir/CheckSymbolExists.c.o
-/usr/lib/ccache/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fPIE -o CMakeFiles/cmTC_d4e76.dir/CheckSymbolExists.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-uHODrU/CheckSymbolExists.c
-Linking C executable cmTC_d4e76
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4e76.dir/link.txt --verbose=1
-/usr/lib/ccache/cc -rdynamic CMakeFiles/cmTC_d4e76.dir/CheckSymbolExists.c.o -o cmTC_d4e76 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-uHODrU'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a689e/fast && /usr/bin/make  -f CMakeFiles/cmTC_a689e.dir/build.make CMakeFiles/cmTC_a689e.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-Oxm5g5'
+Building C object CMakeFiles/cmTC_a689e.dir/CheckSymbolExists.c.o
+/usr/lib/ccache/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fPIE -o CMakeFiles/cmTC_a689e.dir/CheckSymbolExists.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-Oxm5g5/CheckSymbolExists.c
+Linking C executable cmTC_a689e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a689e.dir/link.txt --verbose=1
+/usr/lib/ccache/cc -rdynamic CMakeFiles/cmTC_a689e.dir/CheckSymbolExists.c.o -o cmTC_a689e 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-Oxm5g5'
 
 
 File CheckSymbolExists.c:
@@ -700,338 +700,338 @@ int main(int argc, char** argv)
 }
 
 Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_VISIBILITY succeeded with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-Z97ur8
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-BHG0Bo
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_d7eda/fast && /usr/bin/make  -f CMakeFiles/cmTC_d7eda.dir/build.make CMakeFiles/cmTC_d7eda.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-Z97ur8'
-Building CXX object CMakeFiles/cmTC_d7eda.dir/src.cxx.o
-/usr/lib/ccache/c++ -DCOMPILER_SUPPORTS_VISIBILITY  -fPIE   -fvisibility=hidden -std=c++1z -o CMakeFiles/cmTC_d7eda.dir/src.cxx.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-Z97ur8/src.cxx
-Linking CXX executable cmTC_d7eda
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7eda.dir/link.txt --verbose=1
-/usr/lib/ccache/c++ CMakeFiles/cmTC_d7eda.dir/src.cxx.o -o cmTC_d7eda 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-Z97ur8'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d30e0/fast && /usr/bin/make  -f CMakeFiles/cmTC_d30e0.dir/build.make CMakeFiles/cmTC_d30e0.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-BHG0Bo'
+Building CXX object CMakeFiles/cmTC_d30e0.dir/src.cxx.o
+/usr/lib/ccache/c++ -DCOMPILER_SUPPORTS_VISIBILITY  -fPIE   -fvisibility=hidden -std=c++1z -o CMakeFiles/cmTC_d30e0.dir/src.cxx.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-BHG0Bo/src.cxx
+Linking CXX executable cmTC_d30e0
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d30e0.dir/link.txt --verbose=1
+/usr/lib/ccache/c++ CMakeFiles/cmTC_d30e0.dir/src.cxx.o -o cmTC_d30e0 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-BHG0Bo'
 
 
 Source file was:
 int main() { return 0; }
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-F9lVda
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-TDGnWK
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_b8b9e/fast && /usr/bin/make  -f CMakeFiles/cmTC_b8b9e.dir/build.make CMakeFiles/cmTC_b8b9e.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-F9lVda'
-Building C object CMakeFiles/cmTC_b8b9e.dir/CheckFunctionExists.c.o
-/usr/lib/ccache/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -fPIE -o CMakeFiles/cmTC_b8b9e.dir/CheckFunctionExists.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-F9lVda/CheckFunctionExists.c
-Linking C executable cmTC_b8b9e
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8b9e.dir/link.txt --verbose=1
-/usr/lib/ccache/cc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_b8b9e.dir/CheckFunctionExists.c.o -o cmTC_b8b9e  -lpthread 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-F9lVda'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_6a049/fast && /usr/bin/make  -f CMakeFiles/cmTC_6a049.dir/build.make CMakeFiles/cmTC_6a049.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-TDGnWK'
+Building C object CMakeFiles/cmTC_6a049.dir/CheckFunctionExists.c.o
+/usr/lib/ccache/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -fPIE -o CMakeFiles/cmTC_6a049.dir/CheckFunctionExists.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-TDGnWK/CheckFunctionExists.c
+Linking C executable cmTC_6a049
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a049.dir/link.txt --verbose=1
+/usr/lib/ccache/cc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_6a049.dir/CheckFunctionExists.c.o -o cmTC_6a049  -lpthread 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-TDGnWK'
 
 
 
 Determining if the function shm_open exists in the rt passed with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-7Kb1zJ
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-MX9LOq
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_0a306/fast && /usr/bin/make  -f CMakeFiles/cmTC_0a306.dir/build.make CMakeFiles/cmTC_0a306.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-7Kb1zJ'
-Building C object CMakeFiles/cmTC_0a306.dir/CheckFunctionExists.c.o
-/usr/lib/ccache/cc   -DCHECK_FUNCTION_EXISTS=shm_open -fPIE -o CMakeFiles/cmTC_0a306.dir/CheckFunctionExists.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-7Kb1zJ/CheckFunctionExists.c
-Linking C executable cmTC_0a306
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a306.dir/link.txt --verbose=1
-/usr/lib/ccache/cc  -DCHECK_FUNCTION_EXISTS=shm_open CMakeFiles/cmTC_0a306.dir/CheckFunctionExists.c.o -o cmTC_0a306  -lrt 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-7Kb1zJ'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2b79e/fast && /usr/bin/make  -f CMakeFiles/cmTC_2b79e.dir/build.make CMakeFiles/cmTC_2b79e.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-MX9LOq'
+Building C object CMakeFiles/cmTC_2b79e.dir/CheckFunctionExists.c.o
+/usr/lib/ccache/cc   -DCHECK_FUNCTION_EXISTS=shm_open -fPIE -o CMakeFiles/cmTC_2b79e.dir/CheckFunctionExists.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-MX9LOq/CheckFunctionExists.c
+Linking C executable cmTC_2b79e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b79e.dir/link.txt --verbose=1
+/usr/lib/ccache/cc  -DCHECK_FUNCTION_EXISTS=shm_open CMakeFiles/cmTC_2b79e.dir/CheckFunctionExists.c.o -o cmTC_2b79e  -lrt 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-MX9LOq'
 
 
 
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WALL succeeded with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-Iw3paj
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-IbThT6
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_672ba/fast && /usr/bin/make  -f CMakeFiles/cmTC_672ba.dir/build.make CMakeFiles/cmTC_672ba.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-Iw3paj'
-Building CXX object CMakeFiles/cmTC_672ba.dir/src.cxx.o
-/usr/lib/ccache/c++ -DHAVE_CXX_FLAG_WALL  -Wall -fPIE   -Wall -std=c++11 -o CMakeFiles/cmTC_672ba.dir/src.cxx.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-Iw3paj/src.cxx
-Linking CXX executable cmTC_672ba
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_672ba.dir/link.txt --verbose=1
-/usr/lib/ccache/c++   -Wall CMakeFiles/cmTC_672ba.dir/src.cxx.o -o cmTC_672ba 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-Iw3paj'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d3b7c/fast && /usr/bin/make  -f CMakeFiles/cmTC_d3b7c.dir/build.make CMakeFiles/cmTC_d3b7c.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-IbThT6'
+Building CXX object CMakeFiles/cmTC_d3b7c.dir/src.cxx.o
+/usr/lib/ccache/c++ -DHAVE_CXX_FLAG_WALL  -Wall -fPIE   -Wall -std=c++11 -o CMakeFiles/cmTC_d3b7c.dir/src.cxx.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-IbThT6/src.cxx
+Linking CXX executable cmTC_d3b7c
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3b7c.dir/link.txt --verbose=1
+/usr/lib/ccache/c++   -Wall CMakeFiles/cmTC_d3b7c.dir/src.cxx.o -o cmTC_d3b7c 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-IbThT6'
 
 
 Source file was:
 int main() { return 0; }
 
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WEXTRA succeeded with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-RWncZS
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-yDh79M
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_9ad69/fast && /usr/bin/make  -f CMakeFiles/cmTC_9ad69.dir/build.make CMakeFiles/cmTC_9ad69.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-RWncZS'
-Building CXX object CMakeFiles/cmTC_9ad69.dir/src.cxx.o
-/usr/lib/ccache/c++ -DHAVE_CXX_FLAG_WEXTRA  -Wall  -Wextra -fPIE   -Wextra -std=c++11 -o CMakeFiles/cmTC_9ad69.dir/src.cxx.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-RWncZS/src.cxx
-Linking CXX executable cmTC_9ad69
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ad69.dir/link.txt --verbose=1
-/usr/lib/ccache/c++   -Wall  -Wextra CMakeFiles/cmTC_9ad69.dir/src.cxx.o -o cmTC_9ad69 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-RWncZS'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7e99c/fast && /usr/bin/make  -f CMakeFiles/cmTC_7e99c.dir/build.make CMakeFiles/cmTC_7e99c.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-yDh79M'
+Building CXX object CMakeFiles/cmTC_7e99c.dir/src.cxx.o
+/usr/lib/ccache/c++ -DHAVE_CXX_FLAG_WEXTRA  -Wall  -Wextra -fPIE   -Wextra -std=c++11 -o CMakeFiles/cmTC_7e99c.dir/src.cxx.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-yDh79M/src.cxx
+Linking CXX executable cmTC_7e99c
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e99c.dir/link.txt --verbose=1
+/usr/lib/ccache/c++   -Wall  -Wextra CMakeFiles/cmTC_7e99c.dir/src.cxx.o -o cmTC_7e99c 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-yDh79M'
 
 
 Source file was:
 int main() { return 0; }
 
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSHADOW succeeded with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-BsF0Zs
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-F6koDt
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_31d0f/fast && /usr/bin/make  -f CMakeFiles/cmTC_31d0f.dir/build.make CMakeFiles/cmTC_31d0f.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-BsF0Zs'
-Building CXX object CMakeFiles/cmTC_31d0f.dir/src.cxx.o
-/usr/lib/ccache/c++ -DHAVE_CXX_FLAG_WSHADOW  -Wall  -Wextra  -Wshadow -fPIE   -Wshadow -std=c++11 -o CMakeFiles/cmTC_31d0f.dir/src.cxx.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-BsF0Zs/src.cxx
-Linking CXX executable cmTC_31d0f
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31d0f.dir/link.txt --verbose=1
-/usr/lib/ccache/c++   -Wall  -Wextra  -Wshadow CMakeFiles/cmTC_31d0f.dir/src.cxx.o -o cmTC_31d0f 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-BsF0Zs'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_4cbc0/fast && /usr/bin/make  -f CMakeFiles/cmTC_4cbc0.dir/build.make CMakeFiles/cmTC_4cbc0.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-F6koDt'
+Building CXX object CMakeFiles/cmTC_4cbc0.dir/src.cxx.o
+/usr/lib/ccache/c++ -DHAVE_CXX_FLAG_WSHADOW  -Wall  -Wextra  -Wshadow -fPIE   -Wshadow -std=c++11 -o CMakeFiles/cmTC_4cbc0.dir/src.cxx.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-F6koDt/src.cxx
+Linking CXX executable cmTC_4cbc0
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4cbc0.dir/link.txt --verbose=1
+/usr/lib/ccache/c++   -Wall  -Wextra  -Wshadow CMakeFiles/cmTC_4cbc0.dir/src.cxx.o -o cmTC_4cbc0 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-F6koDt'
 
 
 Source file was:
 int main() { return 0; }
 
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WFLOAT_EQUAL succeeded with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-MP6Hc3
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-bukMia
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_f8c70/fast && /usr/bin/make  -f CMakeFiles/cmTC_f8c70.dir/build.make CMakeFiles/cmTC_f8c70.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-MP6Hc3'
-Building CXX object CMakeFiles/cmTC_f8c70.dir/src.cxx.o
-/usr/lib/ccache/c++ -DHAVE_CXX_FLAG_WFLOAT_EQUAL  -Wall  -Wextra  -Wshadow  -Wfloat-equal -fPIE   -Wfloat-equal -std=c++11 -o CMakeFiles/cmTC_f8c70.dir/src.cxx.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-MP6Hc3/src.cxx
-Linking CXX executable cmTC_f8c70
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8c70.dir/link.txt --verbose=1
-/usr/lib/ccache/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal CMakeFiles/cmTC_f8c70.dir/src.cxx.o -o cmTC_f8c70 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-MP6Hc3'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c7d32/fast && /usr/bin/make  -f CMakeFiles/cmTC_c7d32.dir/build.make CMakeFiles/cmTC_c7d32.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-bukMia'
+Building CXX object CMakeFiles/cmTC_c7d32.dir/src.cxx.o
+/usr/lib/ccache/c++ -DHAVE_CXX_FLAG_WFLOAT_EQUAL  -Wall  -Wextra  -Wshadow  -Wfloat-equal -fPIE   -Wfloat-equal -std=c++11 -o CMakeFiles/cmTC_c7d32.dir/src.cxx.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-bukMia/src.cxx
+Linking CXX executable cmTC_c7d32
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7d32.dir/link.txt --verbose=1
+/usr/lib/ccache/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal CMakeFiles/cmTC_c7d32.dir/src.cxx.o -o cmTC_c7d32 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-bukMia'
 
 
 Source file was:
 int main() { return 0; }
 
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WERROR succeeded with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-DZyXBD
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-W79naR
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_dc0eb/fast && /usr/bin/make  -f CMakeFiles/cmTC_dc0eb.dir/build.make CMakeFiles/cmTC_dc0eb.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-DZyXBD'
-Building CXX object CMakeFiles/cmTC_dc0eb.dir/src.cxx.o
-/usr/lib/ccache/c++ -DHAVE_CXX_FLAG_WERROR  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror -fPIE   -Werror -std=c++11 -o CMakeFiles/cmTC_dc0eb.dir/src.cxx.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-DZyXBD/src.cxx
-Linking CXX executable cmTC_dc0eb
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc0eb.dir/link.txt --verbose=1
-/usr/lib/ccache/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror CMakeFiles/cmTC_dc0eb.dir/src.cxx.o -o cmTC_dc0eb 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-DZyXBD'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_3ec92/fast && /usr/bin/make  -f CMakeFiles/cmTC_3ec92.dir/build.make CMakeFiles/cmTC_3ec92.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-W79naR'
+Building CXX object CMakeFiles/cmTC_3ec92.dir/src.cxx.o
+/usr/lib/ccache/c++ -DHAVE_CXX_FLAG_WERROR  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror -fPIE   -Werror -std=c++11 -o CMakeFiles/cmTC_3ec92.dir/src.cxx.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-W79naR/src.cxx
+Linking CXX executable cmTC_3ec92
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ec92.dir/link.txt --verbose=1
+/usr/lib/ccache/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror CMakeFiles/cmTC_3ec92.dir/src.cxx.o -o cmTC_3ec92 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-W79naR'
 
 
 Source file was:
 int main() { return 0; }
 
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSUGGEST_OVERRIDE succeeded with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-M1yAde
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-lJj3dy
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_052ca/fast && /usr/bin/make  -f CMakeFiles/cmTC_052ca.dir/build.make CMakeFiles/cmTC_052ca.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-M1yAde'
-Building CXX object CMakeFiles/cmTC_052ca.dir/src.cxx.o
-/usr/lib/ccache/c++ -DHAVE_CXX_FLAG_WSUGGEST_OVERRIDE  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override -fPIE   -Wsuggest-override -std=c++11 -o CMakeFiles/cmTC_052ca.dir/src.cxx.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-M1yAde/src.cxx
-Linking CXX executable cmTC_052ca
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_052ca.dir/link.txt --verbose=1
-/usr/lib/ccache/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override CMakeFiles/cmTC_052ca.dir/src.cxx.o -o cmTC_052ca 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-M1yAde'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0f948/fast && /usr/bin/make  -f CMakeFiles/cmTC_0f948.dir/build.make CMakeFiles/cmTC_0f948.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-lJj3dy'
+Building CXX object CMakeFiles/cmTC_0f948.dir/src.cxx.o
+/usr/lib/ccache/c++ -DHAVE_CXX_FLAG_WSUGGEST_OVERRIDE  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override -fPIE   -Wsuggest-override -std=c++11 -o CMakeFiles/cmTC_0f948.dir/src.cxx.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-lJj3dy/src.cxx
+Linking CXX executable cmTC_0f948
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f948.dir/link.txt --verbose=1
+/usr/lib/ccache/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override CMakeFiles/cmTC_0f948.dir/src.cxx.o -o cmTC_0f948 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-lJj3dy'
 
 
 Source file was:
 int main() { return 0; }
 
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_PEDANTIC succeeded with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-iFLu1O
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-Vxswtf
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_b4308/fast && /usr/bin/make  -f CMakeFiles/cmTC_b4308.dir/build.make CMakeFiles/cmTC_b4308.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-iFLu1O'
-Building CXX object CMakeFiles/cmTC_b4308.dir/src.cxx.o
-/usr/lib/ccache/c++ -DHAVE_CXX_FLAG_PEDANTIC  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic -fPIE   -pedantic -std=c++11 -o CMakeFiles/cmTC_b4308.dir/src.cxx.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-iFLu1O/src.cxx
-Linking CXX executable cmTC_b4308
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4308.dir/link.txt --verbose=1
-/usr/lib/ccache/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic CMakeFiles/cmTC_b4308.dir/src.cxx.o -o cmTC_b4308 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-iFLu1O'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ff719/fast && /usr/bin/make  -f CMakeFiles/cmTC_ff719.dir/build.make CMakeFiles/cmTC_ff719.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-Vxswtf'
+Building CXX object CMakeFiles/cmTC_ff719.dir/src.cxx.o
+/usr/lib/ccache/c++ -DHAVE_CXX_FLAG_PEDANTIC  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic -fPIE   -pedantic -std=c++11 -o CMakeFiles/cmTC_ff719.dir/src.cxx.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-Vxswtf/src.cxx
+Linking CXX executable cmTC_ff719
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff719.dir/link.txt --verbose=1
+/usr/lib/ccache/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic CMakeFiles/cmTC_ff719.dir/src.cxx.o -o cmTC_ff719 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-Vxswtf'
 
 
 Source file was:
 int main() { return 0; }
 
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_PEDANTIC_ERRORS succeeded with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-5ekF1p
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-GZDXUW
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_66b6d/fast && /usr/bin/make  -f CMakeFiles/cmTC_66b6d.dir/build.make CMakeFiles/cmTC_66b6d.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-5ekF1p'
-Building CXX object CMakeFiles/cmTC_66b6d.dir/src.cxx.o
-/usr/lib/ccache/c++ -DHAVE_CXX_FLAG_PEDANTIC_ERRORS  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors -fPIE   -pedantic-errors -std=c++11 -o CMakeFiles/cmTC_66b6d.dir/src.cxx.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-5ekF1p/src.cxx
-Linking CXX executable cmTC_66b6d
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66b6d.dir/link.txt --verbose=1
-/usr/lib/ccache/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors CMakeFiles/cmTC_66b6d.dir/src.cxx.o -o cmTC_66b6d 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-5ekF1p'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_81617/fast && /usr/bin/make  -f CMakeFiles/cmTC_81617.dir/build.make CMakeFiles/cmTC_81617.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-GZDXUW'
+Building CXX object CMakeFiles/cmTC_81617.dir/src.cxx.o
+/usr/lib/ccache/c++ -DHAVE_CXX_FLAG_PEDANTIC_ERRORS  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors -fPIE   -pedantic-errors -std=c++11 -o CMakeFiles/cmTC_81617.dir/src.cxx.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-GZDXUW/src.cxx
+Linking CXX executable cmTC_81617
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81617.dir/link.txt --verbose=1
+/usr/lib/ccache/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors CMakeFiles/cmTC_81617.dir/src.cxx.o -o cmTC_81617 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-GZDXUW'
 
 
 Source file was:
 int main() { return 0; }
 
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_FSTRICT_ALIASING succeeded with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-80MWwC
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-BJcThm
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_c3797/fast && /usr/bin/make  -f CMakeFiles/cmTC_c3797.dir/build.make CMakeFiles/cmTC_c3797.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-80MWwC'
-Building CXX object CMakeFiles/cmTC_c3797.dir/src.cxx.o
-/usr/lib/ccache/c++ -DHAVE_CXX_FLAG_FSTRICT_ALIASING  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing -fPIE   -fstrict-aliasing -std=c++11 -o CMakeFiles/cmTC_c3797.dir/src.cxx.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-80MWwC/src.cxx
-Linking CXX executable cmTC_c3797
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3797.dir/link.txt --verbose=1
-/usr/lib/ccache/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing CMakeFiles/cmTC_c3797.dir/src.cxx.o -o cmTC_c3797 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-80MWwC'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_bc064/fast && /usr/bin/make  -f CMakeFiles/cmTC_bc064.dir/build.make CMakeFiles/cmTC_bc064.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-BJcThm'
+Building CXX object CMakeFiles/cmTC_bc064.dir/src.cxx.o
+/usr/lib/ccache/c++ -DHAVE_CXX_FLAG_FSTRICT_ALIASING  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing -fPIE   -fstrict-aliasing -std=c++11 -o CMakeFiles/cmTC_bc064.dir/src.cxx.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-BJcThm/src.cxx
+Linking CXX executable cmTC_bc064
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc064.dir/link.txt --verbose=1
+/usr/lib/ccache/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing CMakeFiles/cmTC_bc064.dir/src.cxx.o -o cmTC_bc064 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-BJcThm'
 
 
 Source file was:
 int main() { return 0; }
 
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS succeeded with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-ILAU1d
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-yqLJd4
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_66469/fast && /usr/bin/make  -f CMakeFiles/cmTC_66469.dir/build.make CMakeFiles/cmTC_66469.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-ILAU1d'
-Building CXX object CMakeFiles/cmTC_66469.dir/src.cxx.o
-/usr/lib/ccache/c++ -DHAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations -fPIE   -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/cmTC_66469.dir/src.cxx.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-ILAU1d/src.cxx
-Linking CXX executable cmTC_66469
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66469.dir/link.txt --verbose=1
-/usr/lib/ccache/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations CMakeFiles/cmTC_66469.dir/src.cxx.o -o cmTC_66469 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-ILAU1d'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5379d/fast && /usr/bin/make  -f CMakeFiles/cmTC_5379d.dir/build.make CMakeFiles/cmTC_5379d.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-yqLJd4'
+Building CXX object CMakeFiles/cmTC_5379d.dir/src.cxx.o
+/usr/lib/ccache/c++ -DHAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations -fPIE   -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/cmTC_5379d.dir/src.cxx.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-yqLJd4/src.cxx
+Linking CXX executable cmTC_5379d
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5379d.dir/link.txt --verbose=1
+/usr/lib/ccache/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations CMakeFiles/cmTC_5379d.dir/src.cxx.o -o cmTC_5379d 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-yqLJd4'
 
 
 Source file was:
 int main() { return 0; }
 
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WNO_DEPRECATED succeeded with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-t9nQIP
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-htsFlM
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_7d57a/fast && /usr/bin/make  -f CMakeFiles/cmTC_7d57a.dir/build.make CMakeFiles/cmTC_7d57a.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-t9nQIP'
-Building CXX object CMakeFiles/cmTC_7d57a.dir/src.cxx.o
-/usr/lib/ccache/c++ -DHAVE_CXX_FLAG_WNO_DEPRECATED  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated -fPIE   -Wno-deprecated -std=c++11 -o CMakeFiles/cmTC_7d57a.dir/src.cxx.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-t9nQIP/src.cxx
-Linking CXX executable cmTC_7d57a
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d57a.dir/link.txt --verbose=1
-/usr/lib/ccache/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated CMakeFiles/cmTC_7d57a.dir/src.cxx.o -o cmTC_7d57a 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-t9nQIP'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_6d5a0/fast && /usr/bin/make  -f CMakeFiles/cmTC_6d5a0.dir/build.make CMakeFiles/cmTC_6d5a0.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-htsFlM'
+Building CXX object CMakeFiles/cmTC_6d5a0.dir/src.cxx.o
+/usr/lib/ccache/c++ -DHAVE_CXX_FLAG_WNO_DEPRECATED  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated -fPIE   -Wno-deprecated -std=c++11 -o CMakeFiles/cmTC_6d5a0.dir/src.cxx.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-htsFlM/src.cxx
+Linking CXX executable cmTC_6d5a0
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d5a0.dir/link.txt --verbose=1
+/usr/lib/ccache/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated CMakeFiles/cmTC_6d5a0.dir/src.cxx.o -o cmTC_6d5a0 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-htsFlM'
 
 
 Source file was:
 int main() { return 0; }
 
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSTRICT_ALIASING succeeded with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-cwDRBr
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-NPsYFu
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_21d6c/fast && /usr/bin/make  -f CMakeFiles/cmTC_21d6c.dir/build.make CMakeFiles/cmTC_21d6c.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-cwDRBr'
-Building CXX object CMakeFiles/cmTC_21d6c.dir/src.cxx.o
-/usr/lib/ccache/c++ -DHAVE_CXX_FLAG_WSTRICT_ALIASING  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -fPIE   -Wstrict-aliasing -std=c++11 -o CMakeFiles/cmTC_21d6c.dir/src.cxx.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-cwDRBr/src.cxx
-Linking CXX executable cmTC_21d6c
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21d6c.dir/link.txt --verbose=1
-/usr/lib/ccache/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing CMakeFiles/cmTC_21d6c.dir/src.cxx.o -o cmTC_21d6c 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-cwDRBr'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_9ed2d/fast && /usr/bin/make  -f CMakeFiles/cmTC_9ed2d.dir/build.make CMakeFiles/cmTC_9ed2d.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-NPsYFu'
+Building CXX object CMakeFiles/cmTC_9ed2d.dir/src.cxx.o
+/usr/lib/ccache/c++ -DHAVE_CXX_FLAG_WSTRICT_ALIASING  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -fPIE   -Wstrict-aliasing -std=c++11 -o CMakeFiles/cmTC_9ed2d.dir/src.cxx.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-NPsYFu/src.cxx
+Linking CXX executable cmTC_9ed2d
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ed2d.dir/link.txt --verbose=1
+/usr/lib/ccache/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing CMakeFiles/cmTC_9ed2d.dir/src.cxx.o -o cmTC_9ed2d 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-NPsYFu'
 
 
 Source file was:
 int main() { return 0; }
 
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_COVERAGE succeeded with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-nQS34h
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-AVA6tE
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_933e6/fast && /usr/bin/make  -f CMakeFiles/cmTC_933e6.dir/build.make CMakeFiles/cmTC_933e6.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-nQS34h'
-Building CXX object CMakeFiles/cmTC_933e6.dir/src.cxx.o
-/usr/lib/ccache/c++ -DHAVE_CXX_FLAG_COVERAGE  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  --coverage -fPIE   --coverage -std=c++11 -o CMakeFiles/cmTC_933e6.dir/src.cxx.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-nQS34h/src.cxx
-Linking CXX executable cmTC_933e6
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_933e6.dir/link.txt --verbose=1
-/usr/lib/ccache/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  --coverage CMakeFiles/cmTC_933e6.dir/src.cxx.o -o cmTC_933e6 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-nQS34h'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2cbf7/fast && /usr/bin/make  -f CMakeFiles/cmTC_2cbf7.dir/build.make CMakeFiles/cmTC_2cbf7.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-AVA6tE'
+Building CXX object CMakeFiles/cmTC_2cbf7.dir/src.cxx.o
+/usr/lib/ccache/c++ -DHAVE_CXX_FLAG_COVERAGE  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  --coverage -fPIE   --coverage -std=c++11 -o CMakeFiles/cmTC_2cbf7.dir/src.cxx.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-AVA6tE/src.cxx
+Linking CXX executable cmTC_2cbf7
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2cbf7.dir/link.txt --verbose=1
+/usr/lib/ccache/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  --coverage CMakeFiles/cmTC_2cbf7.dir/src.cxx.o -o cmTC_2cbf7 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-AVA6tE'
 
 
 Source file was:
 int main() { return 0; }
 
 Determining if the function XOpenDisplay exists in the /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so passed with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-pJ3lF7
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-0cmOKN
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_3d7ed/fast && /usr/bin/make  -f CMakeFiles/cmTC_3d7ed.dir/build.make CMakeFiles/cmTC_3d7ed.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-pJ3lF7'
-Building C object CMakeFiles/cmTC_3d7ed.dir/CheckFunctionExists.c.o
-/usr/lib/ccache/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -fPIE -o CMakeFiles/cmTC_3d7ed.dir/CheckFunctionExists.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-pJ3lF7/CheckFunctionExists.c
-Linking C executable cmTC_3d7ed
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d7ed.dir/link.txt --verbose=1
-/usr/lib/ccache/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_3d7ed.dir/CheckFunctionExists.c.o -o cmTC_3d7ed  /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-pJ3lF7'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1f80f/fast && /usr/bin/make  -f CMakeFiles/cmTC_1f80f.dir/build.make CMakeFiles/cmTC_1f80f.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-0cmOKN'
+Building C object CMakeFiles/cmTC_1f80f.dir/CheckFunctionExists.c.o
+/usr/lib/ccache/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -fPIE -o CMakeFiles/cmTC_1f80f.dir/CheckFunctionExists.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-0cmOKN/CheckFunctionExists.c
+Linking C executable cmTC_1f80f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f80f.dir/link.txt --verbose=1
+/usr/lib/ccache/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_1f80f.dir/CheckFunctionExists.c.o -o cmTC_1f80f  /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-0cmOKN'
 
 
 
 Determining if the function gethostbyname exists passed with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-IlT1Vj
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-iHlngd
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_6cfab/fast && /usr/bin/make  -f CMakeFiles/cmTC_6cfab.dir/build.make CMakeFiles/cmTC_6cfab.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-IlT1Vj'
-Building C object CMakeFiles/cmTC_6cfab.dir/CheckFunctionExists.c.o
-/usr/lib/ccache/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname -fPIE -std=c11 -o CMakeFiles/cmTC_6cfab.dir/CheckFunctionExists.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-IlT1Vj/CheckFunctionExists.c
-Linking C executable cmTC_6cfab
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6cfab.dir/link.txt --verbose=1
-/usr/lib/ccache/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_6cfab.dir/CheckFunctionExists.c.o -o cmTC_6cfab 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-IlT1Vj'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7de43/fast && /usr/bin/make  -f CMakeFiles/cmTC_7de43.dir/build.make CMakeFiles/cmTC_7de43.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-iHlngd'
+Building C object CMakeFiles/cmTC_7de43.dir/CheckFunctionExists.c.o
+/usr/lib/ccache/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname -fPIE -std=c11 -o CMakeFiles/cmTC_7de43.dir/CheckFunctionExists.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-iHlngd/CheckFunctionExists.c
+Linking C executable cmTC_7de43
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7de43.dir/link.txt --verbose=1
+/usr/lib/ccache/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_7de43.dir/CheckFunctionExists.c.o -o cmTC_7de43 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-iHlngd'
 
 
 
 Determining if the function connect exists passed with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-QgDTmw
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-7jr7VC
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_87b08/fast && /usr/bin/make  -f CMakeFiles/cmTC_87b08.dir/build.make CMakeFiles/cmTC_87b08.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-QgDTmw'
-Building C object CMakeFiles/cmTC_87b08.dir/CheckFunctionExists.c.o
-/usr/lib/ccache/cc   -DCHECK_FUNCTION_EXISTS=connect -fPIE -std=c11 -o CMakeFiles/cmTC_87b08.dir/CheckFunctionExists.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-QgDTmw/CheckFunctionExists.c
-Linking C executable cmTC_87b08
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_87b08.dir/link.txt --verbose=1
-/usr/lib/ccache/cc  -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_87b08.dir/CheckFunctionExists.c.o -o cmTC_87b08 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-QgDTmw'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f62f4/fast && /usr/bin/make  -f CMakeFiles/cmTC_f62f4.dir/build.make CMakeFiles/cmTC_f62f4.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-7jr7VC'
+Building C object CMakeFiles/cmTC_f62f4.dir/CheckFunctionExists.c.o
+/usr/lib/ccache/cc   -DCHECK_FUNCTION_EXISTS=connect -fPIE -std=c11 -o CMakeFiles/cmTC_f62f4.dir/CheckFunctionExists.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-7jr7VC/CheckFunctionExists.c
+Linking C executable cmTC_f62f4
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f62f4.dir/link.txt --verbose=1
+/usr/lib/ccache/cc  -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_f62f4.dir/CheckFunctionExists.c.o -o cmTC_f62f4 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-7jr7VC'
 
 
 
 Determining if the function remove exists passed with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-X9LlYI
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-c8r9M2
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_3739f/fast && /usr/bin/make  -f CMakeFiles/cmTC_3739f.dir/build.make CMakeFiles/cmTC_3739f.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-X9LlYI'
-Building C object CMakeFiles/cmTC_3739f.dir/CheckFunctionExists.c.o
-/usr/lib/ccache/cc   -DCHECK_FUNCTION_EXISTS=remove -fPIE -std=c11 -o CMakeFiles/cmTC_3739f.dir/CheckFunctionExists.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-X9LlYI/CheckFunctionExists.c
-Linking C executable cmTC_3739f
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3739f.dir/link.txt --verbose=1
-/usr/lib/ccache/cc  -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_3739f.dir/CheckFunctionExists.c.o -o cmTC_3739f 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-X9LlYI'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b9170/fast && /usr/bin/make  -f CMakeFiles/cmTC_b9170.dir/build.make CMakeFiles/cmTC_b9170.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-c8r9M2'
+Building C object CMakeFiles/cmTC_b9170.dir/CheckFunctionExists.c.o
+/usr/lib/ccache/cc   -DCHECK_FUNCTION_EXISTS=remove -fPIE -std=c11 -o CMakeFiles/cmTC_b9170.dir/CheckFunctionExists.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-c8r9M2/CheckFunctionExists.c
+Linking C executable cmTC_b9170
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9170.dir/link.txt --verbose=1
+/usr/lib/ccache/cc  -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_b9170.dir/CheckFunctionExists.c.o -o cmTC_b9170 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-c8r9M2'
 
 
 
 Determining if the function shmat exists passed with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-l2LcKV
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-oP4DOs
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_4cabf/fast && /usr/bin/make  -f CMakeFiles/cmTC_4cabf.dir/build.make CMakeFiles/cmTC_4cabf.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-l2LcKV'
-Building C object CMakeFiles/cmTC_4cabf.dir/CheckFunctionExists.c.o
-/usr/lib/ccache/cc   -DCHECK_FUNCTION_EXISTS=shmat -fPIE -std=c11 -o CMakeFiles/cmTC_4cabf.dir/CheckFunctionExists.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-l2LcKV/CheckFunctionExists.c
-Linking C executable cmTC_4cabf
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4cabf.dir/link.txt --verbose=1
-/usr/lib/ccache/cc  -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_4cabf.dir/CheckFunctionExists.c.o -o cmTC_4cabf 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-l2LcKV'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b7b6a/fast && /usr/bin/make  -f CMakeFiles/cmTC_b7b6a.dir/build.make CMakeFiles/cmTC_b7b6a.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-oP4DOs'
+Building C object CMakeFiles/cmTC_b7b6a.dir/CheckFunctionExists.c.o
+/usr/lib/ccache/cc   -DCHECK_FUNCTION_EXISTS=shmat -fPIE -std=c11 -o CMakeFiles/cmTC_b7b6a.dir/CheckFunctionExists.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-oP4DOs/CheckFunctionExists.c
+Linking C executable cmTC_b7b6a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7b6a.dir/link.txt --verbose=1
+/usr/lib/ccache/cc  -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_b7b6a.dir/CheckFunctionExists.c.o -o cmTC_b7b6a 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-oP4DOs'
 
 
 
 Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-gizGG8
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-AjXE0S
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_589c6/fast && /usr/bin/make  -f CMakeFiles/cmTC_589c6.dir/build.make CMakeFiles/cmTC_589c6.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-gizGG8'
-Building C object CMakeFiles/cmTC_589c6.dir/CheckFunctionExists.c.o
-/usr/lib/ccache/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -fPIE -o CMakeFiles/cmTC_589c6.dir/CheckFunctionExists.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-gizGG8/CheckFunctionExists.c
-Linking C executable cmTC_589c6
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_589c6.dir/link.txt --verbose=1
-/usr/lib/ccache/cc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber CMakeFiles/cmTC_589c6.dir/CheckFunctionExists.c.o -o cmTC_589c6  -lICE 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-gizGG8'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e22f6/fast && /usr/bin/make  -f CMakeFiles/cmTC_e22f6.dir/build.make CMakeFiles/cmTC_e22f6.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-AjXE0S'
+Building C object CMakeFiles/cmTC_e22f6.dir/CheckFunctionExists.c.o
+/usr/lib/ccache/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -fPIE -o CMakeFiles/cmTC_e22f6.dir/CheckFunctionExists.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-AjXE0S/CheckFunctionExists.c
+Linking C executable cmTC_e22f6
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e22f6.dir/link.txt --verbose=1
+/usr/lib/ccache/cc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber CMakeFiles/cmTC_e22f6.dir/CheckFunctionExists.c.o -o cmTC_e22f6  -lICE 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-AjXE0S'
 
 
 
