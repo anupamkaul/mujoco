@@ -44,6 +44,8 @@ macro(mujoco_test name)
   endif()
 endmacro()
 
+# set access to filesystem (fs) and check for c++17
+set (CMAKE_CXX_FLAGS "-lstdc++fs -std=c++17")
 add_library(fixture STATIC fixture.h fixture.cc)
 target_include_directories(fixture PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/..)
 target_compile_definitions(fixture PUBLIC MJSTATIC)

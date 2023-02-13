@@ -1,3 +1,9 @@
+Now we have https://mujoco.readthedocs.io/en/latest/programming/index.html#building-mujoco-from-source
+(check https://github.com/deepmind/mujoco/blob/main/.github/workflows/build.yml)
+
+----
+Prior to this, I had done:
+
 basic steps:
 1. rm -rf ./build
 2. mkdir build

@@ -18,8 +18,8 @@ CMakeFiles/mujoco.dir/src/engine/engine_collision_convex.c.o: \
  /usr/include/x86_64-linux-gnu/bits/mathdef.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/mathinline.h \
- /usr/lib/gcc/x86_64-linux-gnu/5/include/float.h /usr/include/stdlib.h \
- /usr/lib/gcc/x86_64-linux-gnu/5/include/stddef.h \
+ /usr/lib/gcc/x86_64-linux-gnu/7/include/float.h /usr/include/stdlib.h \
+ /usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h \
  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h /usr/include/endian.h \
  /usr/include/x86_64-linux-gnu/bits/endian.h \
@@ -42,7 +42,7 @@ CMakeFiles/mujoco.dir/src/engine/engine_collision_convex.c.o: \
  /home/anupam/github_robotics/simulator/mujoco/build/_deps/ccd-build/src/ccd/config.h \
  /home/anupam/github_robotics/simulator/mujoco/build/_deps/ccd-src/src/ccd/ccd_export.h \
  /home/anupam/github_robotics/simulator/mujoco/include/mujoco/mjdata.h \
- /usr/lib/gcc/x86_64-linux-gnu/5/include/stdint.h /usr/include/stdint.h \
+ /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /home/anupam/github_robotics/simulator/mujoco/include/mujoco/mjtnum.h \
  /home/anupam/github_robotics/simulator/mujoco/include/mujoco/mjmodel.h \

@@ -33,6 +33,8 @@ namespace {
 
 using ::testing::NotNull;
 
+namespace fs = std::experimental::filesystem;
+
 ABSL_CONST_INIT static absl::Mutex handlers_mutex(absl::kConstInit);
 static int guard_count ABSL_GUARDED_BY(handlers_mutex) = 0;
 
@@ -112,8 +114,8 @@ const std::string SaveAndReadXml(const mjModel* model) {
   constexpr int kMaxPathLen = 1024;
   std::string path_template =
       //std::filesystem::temp_directory_path().append("tmp.XXXXXX").string();
-      std::experimental::filesystem::temp_directory_path().append("tmp.XXXXXX").string();
-     //std::experimental::filesystem::v1::temp_directory_path
+      //std::experimental::filesystem::temp_directory_path().append("tmp.XXXXXX").string();
+      fs::temp_directory_path().append("tmp.XXXXXX").string();
   EXPECT_LT(path_template.size(), kMaxPathLen);
 
   char filepath[kMaxPathLen];

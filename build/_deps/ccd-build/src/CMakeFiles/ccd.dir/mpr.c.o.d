@@ -5,7 +5,7 @@ _deps/ccd-build/src/CMakeFiles/ccd.dir/mpr.c.o: \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
- /usr/lib/gcc/x86_64-linux-gnu/5/include/stddef.h \
+ /usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
@@ -21,7 +21,7 @@ _deps/ccd-build/src/CMakeFiles/ccd.dir/mpr.c.o: \
  /usr/include/x86_64-linux-gnu/bits/mathdef.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/mathinline.h \
- /usr/lib/gcc/x86_64-linux-gnu/5/include/float.h \
+ /usr/lib/gcc/x86_64-linux-gnu/7/include/float.h \
  /home/anupam/github_robotics/simulator/mujoco/build/_deps/ccd-src/src/ccd/compiler.h \
  /home/anupam/github_robotics/simulator/mujoco/build/_deps/ccd-build/src/ccd/config.h \
  /home/anupam/github_robotics/simulator/mujoco/build/_deps/ccd-src/src/ccd/ccd_export.h \

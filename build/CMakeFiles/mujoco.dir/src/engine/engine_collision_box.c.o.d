@@ -15,7 +15,7 @@ CMakeFiles/mujoco.dir/src/engine/engine_collision_box.c.o: \
  /usr/include/x86_64-linux-gnu/bits/mathdef.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/mathinline.h /usr/include/string.h \
- /usr/lib/gcc/x86_64-linux-gnu/5/include/stddef.h /usr/include/xlocale.h \
+ /usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h /usr/include/xlocale.h \
  /usr/include/x86_64-linux-gnu/bits/string.h \
  /usr/include/x86_64-linux-gnu/bits/string2.h /usr/include/endian.h \
  /usr/include/x86_64-linux-gnu/bits/endian.h \
@@ -26,7 +26,7 @@ CMakeFiles/mujoco.dir/src/engine/engine_collision_box.c.o: \
  /usr/include/x86_64-linux-gnu/bits/string3.h \
  /home/anupam/github_robotics/simulator/mujoco/src/engine/engine_collision_primitive.h \
  /home/anupam/github_robotics/simulator/mujoco/include/mujoco/mjdata.h \
- /usr/lib/gcc/x86_64-linux-gnu/5/include/stdint.h /usr/include/stdint.h \
+ /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /home/anupam/github_robotics/simulator/mujoco/include/mujoco/mjtnum.h \
  /home/anupam/github_robotics/simulator/mujoco/include/mujoco/mjmodel.h \

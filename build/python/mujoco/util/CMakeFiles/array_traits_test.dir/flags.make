@@ -6,5 +6,5 @@ CXX_DEFINES = -DEIGEN_MPL2_ONLY
 
 CXX_INCLUDES = -I/home/anupam/github_robotics/simulator/mujoco/mujoco -isystem /home/anupam/github_robotics/simulator/mujoco/build/_deps/eigen3-src -isystem /home/anupam/github_robotics/simulator/mujoco/build/_deps/googletest-src/googlemock/include -isystem /home/anupam/github_robotics/simulator/mujoco/build/_deps/googletest-src/googlemock -isystem /home/anupam/github_robotics/simulator/mujoco/build/_deps/googletest-src/googletest/include -isystem /home/anupam/github_robotics/simulator/mujoco/build/_deps/googletest-src/googletest
 
-CXX_FLAGS = -O3 -DNDEBUG -fPIE -fvisibility=hidden -fvisibility-inlines-hidden -fdata-sections -ffunction-sections -pthread -std=c++1z
+CXX_FLAGS = -O3 -DNDEBUG -fPIE -fvisibility=hidden -fvisibility-inlines-hidden -fdata-sections -ffunction-sections -std=c++1z
 
