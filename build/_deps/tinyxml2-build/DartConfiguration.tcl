@@ -64,7 +64,7 @@ UpdateType: git
 
 # Compiler info
 Compiler: /usr/lib/ccache/c++
-CompilerVersion: 7.5.0
+CompilerVersion: 8.4.0
 
 # Dynamic analysis (MemCheck)
 PurifyCommand: 

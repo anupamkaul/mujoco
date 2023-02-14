@@ -26,180 +26,164 @@ Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" p
 The CXX compiler identification is GNU, found in "/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/3.25.2/CompilerIdCXX/a.out"
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-a36yYZ
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-ERkAUd
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_eb242/fast && /usr/bin/make  -f CMakeFiles/cmTC_eb242.dir/build.make CMakeFiles/cmTC_eb242.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-a36yYZ'
-Building C object CMakeFiles/cmTC_eb242.dir/CMakeCCompilerABI.c.o
-/usr/lib/ccache/cc   -v -o CMakeFiles/cmTC_eb242.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake-3.25/Modules/CMakeCCompilerABI.c
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_85c59/fast && /usr/bin/make  -f CMakeFiles/cmTC_85c59.dir/build.make CMakeFiles/cmTC_85c59.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-ERkAUd'
+Building C object CMakeFiles/cmTC_85c59.dir/CMakeCCompilerABI.c.o
+/usr/lib/ccache/cc   -v -o CMakeFiles/cmTC_85c59.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake-3.25/Modules/CMakeCCompilerABI.c
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
-OFFLOAD_TARGET_NAMES=nvptx-none
-OFFLOAD_TARGET_DEFAULT=1
 Target: x86_64-linux-gnu
-Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~16.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.5.0-12ubuntu1~16.04' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
-gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~16.04) 
+gcc version 5.5.0 20171010 (Ubuntu 5.5.0-12ubuntu1~16.04) 
 COLLECT_GCC_OPTIONS='-v' '-E' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/cc1 -E -quiet -v -imultiarch x86_64-linux-gnu /usr/local/share/cmake-3.25/Modules/CMakeCCompilerABI.c -mtune=generic -march=x86-64 -fstack-protector-strong -Wformat -Wformat-security
+ /usr/lib/gcc/x86_64-linux-gnu/5/cc1 -E -quiet -v -imultiarch x86_64-linux-gnu /usr/local/share/cmake-3.25/Modules/CMakeCCompilerABI.c -mtune=generic -march=x86-64 -fstack-protector-strong -Wformat -Wformat-security
 ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
-ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/include"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/5/../../../../x86_64-linux-gnu/include"
 #include "..." search starts here:
 #include <...> search starts here:
- /usr/lib/gcc/x86_64-linux-gnu/7/include
+ /usr/lib/gcc/x86_64-linux-gnu/5/include
  /usr/local/include
- /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed
+ /usr/lib/gcc/x86_64-linux-gnu/5/include-fixed
  /usr/include/x86_64-linux-gnu
  /usr/include
 End of search list.
-COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
-LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
 COLLECT_GCC_OPTIONS='-v' '-E' '-mtune=generic' '-march=x86-64'
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
-OFFLOAD_TARGET_NAMES=nvptx-none
-OFFLOAD_TARGET_DEFAULT=1
 Target: x86_64-linux-gnu
-Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~16.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.5.0-12ubuntu1~16.04' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
-gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~16.04) 
-COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_2ecbd.dir/CMakeCCompilerABI.c.o' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/cc1 -fpreprocessed /home/anupam/.ccache/tmp/CMakeCComp.stdout.anupam-Inspiron-15-7000-Gaming.20306.wUylkT.i -quiet -dumpbase CMakeCComp.stdout.anupam-Inspiron-15-7000-Gaming.20306.wUylkT.i -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_2ecbd.dir/CMakeCCompilerABI.c.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccKMaBeM.s
-GNU C11 (Ubuntu 7.5.0-3ubuntu1~16.04) version 7.5.0 (x86_64-linux-gnu)
-	compiled by GNU C version 7.5.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.16.1-GMP
-
+gcc version 5.5.0 20171010 (Ubuntu 5.5.0-12ubuntu1~16.04) 
+COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_85c59.dir/CMakeCCompilerABI.c.o' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/cc1 -fpreprocessed /home/anupam/.ccache/tmp/CMakeCComp.stdout.anupam-Inspiron-15-7000-Gaming.9112.YeOc2F.i -quiet -dumpbase CMakeCComp.stdout.anupam-Inspiron-15-7000-Gaming.9112.YeOc2F.i -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_85c59.dir/CMakeCCompilerABI.c.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccmkSGzh.s
+GNU C11 (Ubuntu 5.5.0-12ubuntu1~16.04) version 5.5.0 20171010 (x86_64-linux-gnu)
+	compiled by GNU C version 5.5.0 20171010, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-GNU C11 (Ubuntu 7.5.0-3ubuntu1~16.04) version 7.5.0 (x86_64-linux-gnu)
-	compiled by GNU C version 7.5.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.16.1-GMP
-
+GNU C11 (Ubuntu 5.5.0-12ubuntu1~16.04) version 5.5.0 20171010 (x86_64-linux-gnu)
+	compiled by GNU C version 5.5.0 20171010, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-Compiler executable checksum: 44e234e02b2c346319ac820615a93765
-COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_2ecbd.dir/CMakeCCompilerABI.c.o' '-mtune=generic' '-march=x86-64'
- as -v --64 -o CMakeFiles/cmTC_2ecbd.dir/CMakeCCompilerABI.c.o /tmp/ccKMaBeM.s
+Compiler executable checksum: a17d0cd9aea7093f02a2e3f3b1a39337
+COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_85c59.dir/CMakeCCompilerABI.c.o' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_85c59.dir/CMakeCCompilerABI.c.o /tmp/ccmkSGzh.s
 GNU assembler version 2.26.1 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.26.1
-COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
-LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_2ecbd.dir/CMakeCCompilerABI.c.o' '-mtune=generic' '-march=x86-64'
-Linking C executable cmTC_eb242
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb242.dir/link.txt --verbose=1
-/usr/lib/ccache/cc  -v CMakeFiles/cmTC_eb242.dir/CMakeCCompilerABI.c.o -o cmTC_eb242 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_85c59.dir/CMakeCCompilerABI.c.o' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_85c59
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85c59.dir/link.txt --verbose=1
+/usr/lib/ccache/cc  -v CMakeFiles/cmTC_85c59.dir/CMakeCCompilerABI.c.o -o cmTC_85c59 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
-COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
-OFFLOAD_TARGET_NAMES=nvptx-none
-OFFLOAD_TARGET_DEFAULT=1
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
 Target: x86_64-linux-gnu
-Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~16.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.5.0-12ubuntu1~16.04' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
-gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~16.04) 
-COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
-LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_eb242' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccVGyVeZ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_eb242 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_eb242.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtend.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_eb242' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-a36yYZ'
+gcc version 5.5.0 20171010 (Ubuntu 5.5.0-12ubuntu1~16.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_85c59' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccy3AEHg.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_85c59 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_85c59.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-ERkAUd'
 
 
 
 Parsed C implicit include dir info from above output: rv=done
   found start of include info
   found start of implicit include info
-    add: [/usr/lib/gcc/x86_64-linux-gnu/7/include]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/5/include]
     add: [/usr/local/include]
-    add: [/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed]
     add: [/usr/include/x86_64-linux-gnu]
     add: [/usr/include]
   end of search list found
-  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/7/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/7/include]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/5/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/5/include]
   collapse include dir [/usr/local/include] ==> [/usr/local/include]
-  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed] ==> [/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed] ==> [/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed]
   collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
   collapse include dir [/usr/include] ==> [/usr/include]
-  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/7/include;/usr/local/include;/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed;/usr/include/x86_64-linux-gnu;/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/5/include;/usr/local/include;/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed;/usr/include/x86_64-linux-gnu;/usr/include]
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-a36yYZ]
+  ignore line: [Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-ERkAUd]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_eb242/fast && /usr/bin/make  -f CMakeFiles/cmTC_eb242.dir/build.make CMakeFiles/cmTC_eb242.dir/build]
-  ignore line: [make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-a36yYZ']
-  ignore line: [Building C object CMakeFiles/cmTC_eb242.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/lib/ccache/cc   -v -o CMakeFiles/cmTC_eb242.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake-3.25/Modules/CMakeCCompilerABI.c]
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_85c59/fast && /usr/bin/make  -f CMakeFiles/cmTC_85c59.dir/build.make CMakeFiles/cmTC_85c59.dir/build]
+  ignore line: [make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-ERkAUd']
+  ignore line: [Building C object CMakeFiles/cmTC_85c59.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/lib/ccache/cc   -v -o CMakeFiles/cmTC_85c59.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake-3.25/Modules/CMakeCCompilerABI.c]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
-  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
-  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
   ignore line: [Target: x86_64-linux-gnu]
-  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~16.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.5.0-12ubuntu1~16.04' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c ada c++ java go d fortran objc obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
   ignore line: [Thread model: posix]
-  ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~16.04) ]
+  ignore line: [gcc version 5.5.0 20171010 (Ubuntu 5.5.0-12ubuntu1~16.04) ]
   ignore line: [COLLECT_GCC_OPTIONS='-v' '-E' '-mtune=generic' '-march=x86-64']
-  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/cc1 -E -quiet -v -imultiarch x86_64-linux-gnu /usr/local/share/cmake-3.25/Modules/CMakeCCompilerABI.c -mtune=generic -march=x86-64 -fstack-protector-strong -Wformat -Wformat-security]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/5/cc1 -E -quiet -v -imultiarch x86_64-linux-gnu /usr/local/share/cmake-3.25/Modules/CMakeCCompilerABI.c -mtune=generic -march=x86-64 -fstack-protector-strong -Wformat -Wformat-security]
   ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
-  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/include"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/5/../../../../x86_64-linux-gnu/include"]
   ignore line: [#include "..." search starts here:]
   ignore line: [#include <...> search starts here:]
-  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/include]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/5/include]
   ignore line: [ /usr/local/include]
-  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/5/include-fixed]
   ignore line: [ /usr/include/x86_64-linux-gnu]
   ignore line: [ /usr/include]
   ignore line: [End of search list.]
-  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
-  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
   ignore line: [COLLECT_GCC_OPTIONS='-v' '-E' '-mtune=generic' '-march=x86-64']
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
-  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
-  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
   ignore line: [Target: x86_64-linux-gnu]
-  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~16.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.5.0-12ubuntu1~16.04' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c ada c++ java go d fortran objc obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
   ignore line: [Thread model: posix]
-  ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~16.04) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_2ecbd.dir/CMakeCCompilerABI.c.o' '-mtune=generic' '-march=x86-64']
-  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/cc1 -fpreprocessed /home/anupam/.ccache/tmp/CMakeCComp.stdout.anupam-Inspiron-15-7000-Gaming.20306.wUylkT.i -quiet -dumpbase CMakeCComp.stdout.anupam-Inspiron-15-7000-Gaming.20306.wUylkT.i -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_2ecbd.dir/CMakeCCompilerABI.c.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccKMaBeM.s]
-  ignore line: [GNU C11 (Ubuntu 7.5.0-3ubuntu1~16.04) version 7.5.0 (x86_64-linux-gnu)]
-  ignore line: [	compiled by GNU C version 7.5.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.16.1-GMP]
-  ignore line: []
+  ignore line: [gcc version 5.5.0 20171010 (Ubuntu 5.5.0-12ubuntu1~16.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_85c59.dir/CMakeCCompilerABI.c.o' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/5/cc1 -fpreprocessed /home/anupam/.ccache/tmp/CMakeCComp.stdout.anupam-Inspiron-15-7000-Gaming.9112.YeOc2F.i -quiet -dumpbase CMakeCComp.stdout.anupam-Inspiron-15-7000-Gaming.9112.YeOc2F.i -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_85c59.dir/CMakeCCompilerABI.c.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccmkSGzh.s]
+  ignore line: [GNU C11 (Ubuntu 5.5.0-12ubuntu1~16.04) version 5.5.0 20171010 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 5.5.0 20171010  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-  ignore line: [GNU C11 (Ubuntu 7.5.0-3ubuntu1~16.04) version 7.5.0 (x86_64-linux-gnu)]
-  ignore line: [	compiled by GNU C version 7.5.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.16.1-GMP]
-  ignore line: []
+  ignore line: [GNU C11 (Ubuntu 5.5.0-12ubuntu1~16.04) version 5.5.0 20171010 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 5.5.0 20171010  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-  ignore line: [Compiler executable checksum: 44e234e02b2c346319ac820615a93765]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_2ecbd.dir/CMakeCCompilerABI.c.o' '-mtune=generic' '-march=x86-64']
-  ignore line: [ as -v --64 -o CMakeFiles/cmTC_2ecbd.dir/CMakeCCompilerABI.c.o /tmp/ccKMaBeM.s]
+  ignore line: [Compiler executable checksum: a17d0cd9aea7093f02a2e3f3b1a39337]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_85c59.dir/CMakeCCompilerABI.c.o' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_85c59.dir/CMakeCCompilerABI.c.o /tmp/ccmkSGzh.s]
   ignore line: [GNU assembler version 2.26.1 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.26.1]
-  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
-  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_2ecbd.dir/CMakeCCompilerABI.c.o' '-mtune=generic' '-march=x86-64']
-  ignore line: [Linking C executable cmTC_eb242]
-  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb242.dir/link.txt --verbose=1]
-  ignore line: [/usr/lib/ccache/cc  -v CMakeFiles/cmTC_eb242.dir/CMakeCCompilerABI.c.o -o cmTC_eb242 ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_85c59.dir/CMakeCCompilerABI.c.o' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_85c59]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85c59.dir/link.txt --verbose=1]
+  ignore line: [/usr/lib/ccache/cc  -v CMakeFiles/cmTC_85c59.dir/CMakeCCompilerABI.c.o -o cmTC_85c59 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
-  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
-  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
-  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
   ignore line: [Target: x86_64-linux-gnu]
-  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~16.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.5.0-12ubuntu1~16.04' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c ada c++ java go d fortran objc obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
   ignore line: [Thread model: posix]
-  ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~16.04) ]
-  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
-  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_eb242' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccVGyVeZ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_eb242 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_eb242.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtend.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
-    arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
+  ignore line: [gcc version 5.5.0 20171010 (Ubuntu 5.5.0-12ubuntu1~16.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_85c59' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccy3AEHg.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_85c59 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_85c59.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
-    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccVGyVeZ.res] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccy3AEHg.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
     arg [--build-id] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
     arg [-m] ==> ignore
@@ -210,19 +194,19 @@ Parsed C implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_eb242] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crt1.o]
-    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o]
-    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbegin.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/7/crtbegin.o]
-    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7]
-    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu]
-    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib]
+    arg [cmTC_85c59] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib]
     arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
     arg [-L/lib/../lib] ==> dir [/lib/../lib]
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
-    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_eb242.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
+    arg [CMakeFiles/cmTC_85c59.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -234,209 +218,209 @@ Parsed C implicit link information from above output:
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
     arg [--pop-state] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtend.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/7/crtend.o]
-    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
-  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crt1.o] ==> [/usr/lib/x86_64-linux-gnu/crt1.o]
-  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
-  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
-  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7] ==> [/usr/lib/gcc/x86_64-linux-gnu/7]
-  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
-  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> [/usr/lib]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtend.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/5/crtend.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> [/usr/lib/x86_64-linux-gnu/crt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5] ==> [/usr/lib/gcc/x86_64-linux-gnu/5]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> [/usr/lib]
   collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
   collapse library dir [/lib/../lib] ==> [/lib]
   collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
   collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
-  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
   implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
-  implicit objs: [/usr/lib/x86_64-linux-gnu/crt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/7/crtbegin.o;/usr/lib/gcc/x86_64-linux-gnu/7/crtend.o;/usr/lib/x86_64-linux-gnu/crtn.o]
-  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/crt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o;/usr/lib/gcc/x86_64-linux-gnu/5/crtend.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
   implicit fwks: []
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-ZhYzLO
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-aTcUEB
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_cff89/fast && /usr/bin/make  -f CMakeFiles/cmTC_cff89.dir/build.make CMakeFiles/cmTC_cff89.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-ZhYzLO'
-Building CXX object CMakeFiles/cmTC_cff89.dir/CMakeCXXCompilerABI.cpp.o
-/usr/lib/ccache/c++   -v -o CMakeFiles/cmTC_cff89.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2aa7b/fast && /usr/bin/make  -f CMakeFiles/cmTC_2aa7b.dir/build.make CMakeFiles/cmTC_2aa7b.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-aTcUEB'
+Building CXX object CMakeFiles/cmTC_2aa7b.dir/CMakeCXXCompilerABI.cpp.o
+/usr/lib/ccache/c++   -v -o CMakeFiles/cmTC_2aa7b.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 OFFLOAD_TARGET_NAMES=nvptx-none
 OFFLOAD_TARGET_DEFAULT=1
 Target: x86_64-linux-gnu
-Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~16.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 8.4.0-1ubuntu1~16.04.1' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
-gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~16.04) 
+gcc version 8.4.0 (Ubuntu 8.4.0-1ubuntu1~16.04.1) 
 COLLECT_GCC_OPTIONS='-v' '-E' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/cc1plus -E -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/local/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -fstack-protector-strong -Wformat -Wformat-security
-ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/7"
+ /usr/lib/gcc/x86_64-linux-gnu/8/cc1plus -E -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/local/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -fstack-protector-strong -Wformat -Wformat-security
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/8"
 ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
-ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/include"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/8/../../../../x86_64-linux-gnu/include"
 #include "..." search starts here:
 #include <...> search starts here:
- /usr/include/c++/7
- /usr/include/x86_64-linux-gnu/c++/7
- /usr/include/c++/7/backward
- /usr/lib/gcc/x86_64-linux-gnu/7/include
+ /usr/include/c++/8
+ /usr/include/x86_64-linux-gnu/c++/8
+ /usr/include/c++/8/backward
+ /usr/lib/gcc/x86_64-linux-gnu/8/include
  /usr/local/include
- /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed
+ /usr/lib/gcc/x86_64-linux-gnu/8/include-fixed
  /usr/include/x86_64-linux-gnu
  /usr/include
 End of search list.
-COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
-LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/
 COLLECT_GCC_OPTIONS='-v' '-E' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 OFFLOAD_TARGET_NAMES=nvptx-none
 OFFLOAD_TARGET_DEFAULT=1
 Target: x86_64-linux-gnu
-Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~16.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 8.4.0-1ubuntu1~16.04.1' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
-gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~16.04) 
-COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_776c8.dir/CMakeCXXCompilerABI.cpp.o' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/cc1plus -fpreprocessed /home/anupam/.ccache/tmp/CMakeCXXCo.stdout.anupam-Inspiron-15-7000-Gaming.20323.v1okcY.ii -quiet -dumpbase CMakeCXXCo.stdout.anupam-Inspiron-15-7000-Gaming.20323.v1okcY.ii -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_776c8.dir/CMakeCXXCompilerABI.cpp.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccp95H0Q.s
-GNU C++14 (Ubuntu 7.5.0-3ubuntu1~16.04) version 7.5.0 (x86_64-linux-gnu)
-	compiled by GNU C version 7.5.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.16.1-GMP
+gcc version 8.4.0 (Ubuntu 8.4.0-1ubuntu1~16.04.1) 
+COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_2aa7b.dir/CMakeCXXCompilerABI.cpp.o' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/8/cc1plus -fpreprocessed /home/anupam/.ccache/tmp/CMakeCXXCo.stdout.anupam-Inspiron-15-7000-Gaming.9129.qOzVYK.ii -quiet -dumpbase CMakeCXXCo.stdout.anupam-Inspiron-15-7000-Gaming.9129.qOzVYK.ii -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_2aa7b.dir/CMakeCXXCompilerABI.cpp.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccPjMzqm.s
+GNU C++14 (Ubuntu 8.4.0-1ubuntu1~16.04.1) version 8.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 8.4.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.16.1-GMP
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-GNU C++14 (Ubuntu 7.5.0-3ubuntu1~16.04) version 7.5.0 (x86_64-linux-gnu)
-	compiled by GNU C version 7.5.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.16.1-GMP
+GNU C++14 (Ubuntu 8.4.0-1ubuntu1~16.04.1) version 8.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 8.4.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.16.1-GMP
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-Compiler executable checksum: 7c5a6fba17db5aeafc8fac9d2f3e86bb
-COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_776c8.dir/CMakeCXXCompilerABI.cpp.o' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- as -v --64 -o CMakeFiles/cmTC_776c8.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccp95H0Q.s
+Compiler executable checksum: 7dad3bff82ecfae38e491e2a60b7bf75
+COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_2aa7b.dir/CMakeCXXCompilerABI.cpp.o' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_2aa7b.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccPjMzqm.s
 GNU assembler version 2.26.1 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.26.1
-COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
-LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_776c8.dir/CMakeCXXCompilerABI.cpp.o' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-Linking CXX executable cmTC_cff89
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cff89.dir/link.txt --verbose=1
-/usr/lib/ccache/c++  -v CMakeFiles/cmTC_cff89.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_cff89 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_2aa7b.dir/CMakeCXXCompilerABI.cpp.o' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_2aa7b
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2aa7b.dir/link.txt --verbose=1
+/usr/lib/ccache/c++  -v CMakeFiles/cmTC_2aa7b.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_2aa7b 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
-COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper
 OFFLOAD_TARGET_NAMES=nvptx-none
 OFFLOAD_TARGET_DEFAULT=1
 Target: x86_64-linux-gnu
-Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~16.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 8.4.0-1ubuntu1~16.04.1' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
-gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~16.04) 
-COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
-LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cff89' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5slBk5.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_cff89 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_cff89.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtend.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cff89' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-ZhYzLO'
+gcc version 8.4.0 (Ubuntu 8.4.0-1ubuntu1~16.04.1) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2aa7b' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccc4gBGl.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_2aa7b /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_2aa7b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2aa7b' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-aTcUEB'
 
 
 
 Parsed CXX implicit include dir info from above output: rv=done
   found start of include info
   found start of implicit include info
-    add: [/usr/include/c++/7]
-    add: [/usr/include/x86_64-linux-gnu/c++/7]
-    add: [/usr/include/c++/7/backward]
-    add: [/usr/lib/gcc/x86_64-linux-gnu/7/include]
+    add: [/usr/include/c++/8]
+    add: [/usr/include/x86_64-linux-gnu/c++/8]
+    add: [/usr/include/c++/8/backward]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/8/include]
     add: [/usr/local/include]
-    add: [/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed]
     add: [/usr/include/x86_64-linux-gnu]
     add: [/usr/include]
   end of search list found
-  collapse include dir [/usr/include/c++/7] ==> [/usr/include/c++/7]
-  collapse include dir [/usr/include/x86_64-linux-gnu/c++/7] ==> [/usr/include/x86_64-linux-gnu/c++/7]
-  collapse include dir [/usr/include/c++/7/backward] ==> [/usr/include/c++/7/backward]
-  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/7/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/7/include]
+  collapse include dir [/usr/include/c++/8] ==> [/usr/include/c++/8]
+  collapse include dir [/usr/include/x86_64-linux-gnu/c++/8] ==> [/usr/include/x86_64-linux-gnu/c++/8]
+  collapse include dir [/usr/include/c++/8/backward] ==> [/usr/include/c++/8/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/8/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/8/include]
   collapse include dir [/usr/local/include] ==> [/usr/local/include]
-  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed] ==> [/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed] ==> [/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed]
   collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
   collapse include dir [/usr/include] ==> [/usr/include]
-  implicit include dirs: [/usr/include/c++/7;/usr/include/x86_64-linux-gnu/c++/7;/usr/include/c++/7/backward;/usr/lib/gcc/x86_64-linux-gnu/7/include;/usr/local/include;/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed;/usr/include/x86_64-linux-gnu;/usr/include]
+  implicit include dirs: [/usr/include/c++/8;/usr/include/x86_64-linux-gnu/c++/8;/usr/include/c++/8/backward;/usr/lib/gcc/x86_64-linux-gnu/8/include;/usr/local/include;/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed;/usr/include/x86_64-linux-gnu;/usr/include]
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-ZhYzLO]
+  ignore line: [Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-aTcUEB]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_cff89/fast && /usr/bin/make  -f CMakeFiles/cmTC_cff89.dir/build.make CMakeFiles/cmTC_cff89.dir/build]
-  ignore line: [make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-ZhYzLO']
-  ignore line: [Building CXX object CMakeFiles/cmTC_cff89.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/lib/ccache/c++   -v -o CMakeFiles/cmTC_cff89.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_2aa7b/fast && /usr/bin/make  -f CMakeFiles/cmTC_2aa7b.dir/build.make CMakeFiles/cmTC_2aa7b.dir/build]
+  ignore line: [make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-aTcUEB']
+  ignore line: [Building CXX object CMakeFiles/cmTC_2aa7b.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/lib/ccache/c++   -v -o CMakeFiles/cmTC_2aa7b.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
   ignore line: [OFFLOAD_TARGET_DEFAULT=1]
   ignore line: [Target: x86_64-linux-gnu]
-  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~16.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 8.4.0-1ubuntu1~16.04.1' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
   ignore line: [Thread model: posix]
-  ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~16.04) ]
+  ignore line: [gcc version 8.4.0 (Ubuntu 8.4.0-1ubuntu1~16.04.1) ]
   ignore line: [COLLECT_GCC_OPTIONS='-v' '-E' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/cc1plus -E -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/local/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -fstack-protector-strong -Wformat -Wformat-security]
-  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/7"]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/8/cc1plus -E -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/local/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -fstack-protector-strong -Wformat -Wformat-security]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/8"]
   ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
-  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/include"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/8/../../../../x86_64-linux-gnu/include"]
   ignore line: [#include "..." search starts here:]
   ignore line: [#include <...> search starts here:]
-  ignore line: [ /usr/include/c++/7]
-  ignore line: [ /usr/include/x86_64-linux-gnu/c++/7]
-  ignore line: [ /usr/include/c++/7/backward]
-  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/include]
+  ignore line: [ /usr/include/c++/8]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/8]
+  ignore line: [ /usr/include/c++/8/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/8/include]
   ignore line: [ /usr/local/include]
-  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/8/include-fixed]
   ignore line: [ /usr/include/x86_64-linux-gnu]
   ignore line: [ /usr/include]
   ignore line: [End of search list.]
-  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
-  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/]
   ignore line: [COLLECT_GCC_OPTIONS='-v' '-E' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
   ignore line: [OFFLOAD_TARGET_DEFAULT=1]
   ignore line: [Target: x86_64-linux-gnu]
-  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~16.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 8.4.0-1ubuntu1~16.04.1' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
   ignore line: [Thread model: posix]
-  ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~16.04) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_776c8.dir/CMakeCXXCompilerABI.cpp.o' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/cc1plus -fpreprocessed /home/anupam/.ccache/tmp/CMakeCXXCo.stdout.anupam-Inspiron-15-7000-Gaming.20323.v1okcY.ii -quiet -dumpbase CMakeCXXCo.stdout.anupam-Inspiron-15-7000-Gaming.20323.v1okcY.ii -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_776c8.dir/CMakeCXXCompilerABI.cpp.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccp95H0Q.s]
-  ignore line: [GNU C++14 (Ubuntu 7.5.0-3ubuntu1~16.04) version 7.5.0 (x86_64-linux-gnu)]
-  ignore line: [	compiled by GNU C version 7.5.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.16.1-GMP]
+  ignore line: [gcc version 8.4.0 (Ubuntu 8.4.0-1ubuntu1~16.04.1) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_2aa7b.dir/CMakeCXXCompilerABI.cpp.o' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/8/cc1plus -fpreprocessed /home/anupam/.ccache/tmp/CMakeCXXCo.stdout.anupam-Inspiron-15-7000-Gaming.9129.qOzVYK.ii -quiet -dumpbase CMakeCXXCo.stdout.anupam-Inspiron-15-7000-Gaming.9129.qOzVYK.ii -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_2aa7b.dir/CMakeCXXCompilerABI.cpp.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccPjMzqm.s]
+  ignore line: [GNU C++14 (Ubuntu 8.4.0-1ubuntu1~16.04.1) version 8.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 8.4.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.16.1-GMP]
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-  ignore line: [GNU C++14 (Ubuntu 7.5.0-3ubuntu1~16.04) version 7.5.0 (x86_64-linux-gnu)]
-  ignore line: [	compiled by GNU C version 7.5.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.16.1-GMP]
+  ignore line: [GNU C++14 (Ubuntu 8.4.0-1ubuntu1~16.04.1) version 8.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 8.4.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.16.1-GMP]
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-  ignore line: [Compiler executable checksum: 7c5a6fba17db5aeafc8fac9d2f3e86bb]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_776c8.dir/CMakeCXXCompilerABI.cpp.o' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  ignore line: [ as -v --64 -o CMakeFiles/cmTC_776c8.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccp95H0Q.s]
+  ignore line: [Compiler executable checksum: 7dad3bff82ecfae38e491e2a60b7bf75]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_2aa7b.dir/CMakeCXXCompilerABI.cpp.o' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_2aa7b.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccPjMzqm.s]
   ignore line: [GNU assembler version 2.26.1 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.26.1]
-  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
-  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_776c8.dir/CMakeCXXCompilerABI.cpp.o' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  ignore line: [Linking CXX executable cmTC_cff89]
-  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cff89.dir/link.txt --verbose=1]
-  ignore line: [/usr/lib/ccache/c++  -v CMakeFiles/cmTC_cff89.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_cff89 ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_2aa7b.dir/CMakeCXXCompilerABI.cpp.o' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_2aa7b]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2aa7b.dir/link.txt --verbose=1]
+  ignore line: [/usr/lib/ccache/c++  -v CMakeFiles/cmTC_2aa7b.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_2aa7b ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
-  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper]
   ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
   ignore line: [OFFLOAD_TARGET_DEFAULT=1]
   ignore line: [Target: x86_64-linux-gnu]
-  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~16.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 8.4.0-1ubuntu1~16.04.1' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
   ignore line: [Thread model: posix]
-  ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~16.04) ]
-  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
-  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cff89' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5slBk5.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_cff89 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_cff89.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtend.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
-    arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
+  ignore line: [gcc version 8.4.0 (Ubuntu 8.4.0-1ubuntu1~16.04.1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2aa7b' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccc4gBGl.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_2aa7b /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_2aa7b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/collect2] ==> ignore
     arg [-plugin] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
-    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc5slBk5.res] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccc4gBGl.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -452,19 +436,19 @@ Parsed CXX implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_cff89] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crt1.o]
-    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o]
-    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbegin.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/7/crtbegin.o]
-    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7]
-    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu]
-    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib]
+    arg [cmTC_2aa7b] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/crtbegin.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/8/crtbegin.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/8] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib]
     arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
     arg [-L/lib/../lib] ==> dir [/lib/../lib]
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
-    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_cff89.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../..]
+    arg [CMakeFiles/cmTC_2aa7b.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -472,36 +456,36 @@ Parsed CXX implicit link information from above output:
     arg [-lc] ==> lib [c]
     arg [-lgcc_s] ==> lib [gcc_s]
     arg [-lgcc] ==> lib [gcc]
-    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtend.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/7/crtend.o]
-    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
-  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crt1.o] ==> [/usr/lib/x86_64-linux-gnu/crt1.o]
-  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
-  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
-  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7] ==> [/usr/lib/gcc/x86_64-linux-gnu/7]
-  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
-  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> [/usr/lib]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/crtend.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/8/crtend.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crt1.o] ==> [/usr/lib/x86_64-linux-gnu/crt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/8] ==> [/usr/lib/gcc/x86_64-linux-gnu/8]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib] ==> [/usr/lib]
   collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
   collapse library dir [/lib/../lib] ==> [/lib]
   collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
   collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
-  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../..] ==> [/usr/lib]
   implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
-  implicit objs: [/usr/lib/x86_64-linux-gnu/crt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/7/crtbegin.o;/usr/lib/gcc/x86_64-linux-gnu/7/crtend.o;/usr/lib/x86_64-linux-gnu/crtn.o]
-  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/crt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/8/crtbegin.o;/usr/lib/gcc/x86_64-linux-gnu/8/crtend.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/8;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
   implicit fwks: []
 
 
 Performing C SOURCE FILE Test CAN_BUILD_AVX succeeded with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-0wH1JD
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-HTlDDZ
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_ea44a/fast && /usr/bin/make  -f CMakeFiles/cmTC_ea44a.dir/build.make CMakeFiles/cmTC_ea44a.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-0wH1JD'
-Building C object CMakeFiles/cmTC_ea44a.dir/src.c.o
-/usr/lib/ccache/cc -DCAN_BUILD_AVX  -mavx -fPIE -std=c11 -o CMakeFiles/cmTC_ea44a.dir/src.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-0wH1JD/src.c
-Linking C executable cmTC_ea44a
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea44a.dir/link.txt --verbose=1
-/usr/lib/ccache/cc  -mavx CMakeFiles/cmTC_ea44a.dir/src.c.o -o cmTC_ea44a 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-0wH1JD'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_59215/fast && /usr/bin/make  -f CMakeFiles/cmTC_59215.dir/build.make CMakeFiles/cmTC_59215.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-HTlDDZ'
+Building C object CMakeFiles/cmTC_59215.dir/src.c.o
+/usr/lib/ccache/cc -DCAN_BUILD_AVX  -mavx -fPIE -std=c11 -o CMakeFiles/cmTC_59215.dir/src.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-HTlDDZ/src.c
+Linking C executable cmTC_59215
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_59215.dir/link.txt --verbose=1
+/usr/lib/ccache/cc  -mavx CMakeFiles/cmTC_59215.dir/src.c.o -o cmTC_59215 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-HTlDDZ'
 
 
 Source file was:
@@ -514,118 +498,118 @@ Source file was:
     
 
 Performing C SOURCE FILE Test SUPPORTS_GOLD succeeded with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-sDZlMi
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-wpEtxM
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_9fdad/fast && /usr/bin/make  -f CMakeFiles/cmTC_9fdad.dir/build.make CMakeFiles/cmTC_9fdad.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-sDZlMi'
-Building C object CMakeFiles/cmTC_9fdad.dir/src.c.o
-/usr/lib/ccache/cc -DSUPPORTS_GOLD  -fuse-ld=gold -fPIE -std=c11 -o CMakeFiles/cmTC_9fdad.dir/src.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-sDZlMi/src.c
-Linking C executable cmTC_9fdad
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9fdad.dir/link.txt --verbose=1
-/usr/lib/ccache/cc  -fuse-ld=gold CMakeFiles/cmTC_9fdad.dir/src.c.o -o cmTC_9fdad 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-sDZlMi'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_52c80/fast && /usr/bin/make  -f CMakeFiles/cmTC_52c80.dir/build.make CMakeFiles/cmTC_52c80.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-wpEtxM'
+Building C object CMakeFiles/cmTC_52c80.dir/src.c.o
+/usr/lib/ccache/cc -DSUPPORTS_GOLD  -fuse-ld=gold -fPIE -std=c11 -o CMakeFiles/cmTC_52c80.dir/src.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-wpEtxM/src.c
+Linking C executable cmTC_52c80
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52c80.dir/link.txt --verbose=1
+/usr/lib/ccache/cc  -fuse-ld=gold CMakeFiles/cmTC_52c80.dir/src.c.o -o cmTC_52c80 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-wpEtxM'
 
 
 Source file was:
 int main() {}
 
 Performing C SOURCE FILE Test SUPPORTS_GC_SECTIONS succeeded with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-jTkXx8
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-rKHUab
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_e1c39/fast && /usr/bin/make  -f CMakeFiles/cmTC_e1c39.dir/build.make CMakeFiles/cmTC_e1c39.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-jTkXx8'
-Building C object CMakeFiles/cmTC_e1c39.dir/src.c.o
-/usr/lib/ccache/cc -DSUPPORTS_GC_SECTIONS  -fuse-ld=gold -fPIE -std=c11 -o CMakeFiles/cmTC_e1c39.dir/src.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-jTkXx8/src.c
-Linking C executable cmTC_e1c39
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1c39.dir/link.txt --verbose=1
-/usr/lib/ccache/cc  -fuse-ld=gold CMakeFiles/cmTC_e1c39.dir/src.c.o -o cmTC_e1c39 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-jTkXx8'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_992eb/fast && /usr/bin/make  -f CMakeFiles/cmTC_992eb.dir/build.make CMakeFiles/cmTC_992eb.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-rKHUab'
+Building C object CMakeFiles/cmTC_992eb.dir/src.c.o
+/usr/lib/ccache/cc -DSUPPORTS_GC_SECTIONS  -fuse-ld=gold -fPIE -std=c11 -o CMakeFiles/cmTC_992eb.dir/src.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-rKHUab/src.c
+Linking C executable cmTC_992eb
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_992eb.dir/link.txt --verbose=1
+/usr/lib/ccache/cc  -fuse-ld=gold CMakeFiles/cmTC_992eb.dir/src.c.o -o cmTC_992eb 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-rKHUab'
 
 
 Source file was:
 int main() {}
 
 Determining if the include file sys/types.h exists passed with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-iHJeff
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-MWzEaI
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_730b0/fast && /usr/bin/make  -f CMakeFiles/cmTC_730b0.dir/build.make CMakeFiles/cmTC_730b0.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-iHJeff'
-Building C object CMakeFiles/cmTC_730b0.dir/CheckIncludeFile.c.o
-/usr/lib/ccache/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fPIE -o CMakeFiles/cmTC_730b0.dir/CheckIncludeFile.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-iHJeff/CheckIncludeFile.c
-Linking C executable cmTC_730b0
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_730b0.dir/link.txt --verbose=1
-/usr/lib/ccache/cc -rdynamic CMakeFiles/cmTC_730b0.dir/CheckIncludeFile.c.o -o cmTC_730b0 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-iHJeff'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_04803/fast && /usr/bin/make  -f CMakeFiles/cmTC_04803.dir/build.make CMakeFiles/cmTC_04803.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-MWzEaI'
+Building C object CMakeFiles/cmTC_04803.dir/CheckIncludeFile.c.o
+/usr/lib/ccache/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fPIE -o CMakeFiles/cmTC_04803.dir/CheckIncludeFile.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-MWzEaI/CheckIncludeFile.c
+Linking C executable cmTC_04803
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04803.dir/link.txt --verbose=1
+/usr/lib/ccache/cc -rdynamic CMakeFiles/cmTC_04803.dir/CheckIncludeFile.c.o -o cmTC_04803 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-MWzEaI'
 
 
 
 Determining if the include file inttypes.h exists passed with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-Ygni7l
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-8jD8jf
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_1b525/fast && /usr/bin/make  -f CMakeFiles/cmTC_1b525.dir/build.make CMakeFiles/cmTC_1b525.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-Ygni7l'
-Building C object CMakeFiles/cmTC_1b525.dir/CheckIncludeFile.c.o
-/usr/lib/ccache/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fPIE -o CMakeFiles/cmTC_1b525.dir/CheckIncludeFile.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-Ygni7l/CheckIncludeFile.c
-Linking C executable cmTC_1b525
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b525.dir/link.txt --verbose=1
-/usr/lib/ccache/cc -rdynamic CMakeFiles/cmTC_1b525.dir/CheckIncludeFile.c.o -o cmTC_1b525 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-Ygni7l'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_17e23/fast && /usr/bin/make  -f CMakeFiles/cmTC_17e23.dir/build.make CMakeFiles/cmTC_17e23.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-8jD8jf'
+Building C object CMakeFiles/cmTC_17e23.dir/CheckIncludeFile.c.o
+/usr/lib/ccache/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fPIE -o CMakeFiles/cmTC_17e23.dir/CheckIncludeFile.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-8jD8jf/CheckIncludeFile.c
+Linking C executable cmTC_17e23
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17e23.dir/link.txt --verbose=1
+/usr/lib/ccache/cc -rdynamic CMakeFiles/cmTC_17e23.dir/CheckIncludeFile.c.o -o cmTC_17e23 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-8jD8jf'
 
 
 
 Determining if the include file stddef.h exists passed with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-825uat
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-8sZ5CM
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_718f5/fast && /usr/bin/make  -f CMakeFiles/cmTC_718f5.dir/build.make CMakeFiles/cmTC_718f5.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-825uat'
-Building C object CMakeFiles/cmTC_718f5.dir/CheckIncludeFile.c.o
-/usr/lib/ccache/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fPIE -o CMakeFiles/cmTC_718f5.dir/CheckIncludeFile.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-825uat/CheckIncludeFile.c
-Linking C executable cmTC_718f5
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_718f5.dir/link.txt --verbose=1
-/usr/lib/ccache/cc -rdynamic CMakeFiles/cmTC_718f5.dir/CheckIncludeFile.c.o -o cmTC_718f5 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-825uat'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2ffce/fast && /usr/bin/make  -f CMakeFiles/cmTC_2ffce.dir/build.make CMakeFiles/cmTC_2ffce.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-8sZ5CM'
+Building C object CMakeFiles/cmTC_2ffce.dir/CheckIncludeFile.c.o
+/usr/lib/ccache/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fPIE -o CMakeFiles/cmTC_2ffce.dir/CheckIncludeFile.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-8sZ5CM/CheckIncludeFile.c
+Linking C executable cmTC_2ffce
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ffce.dir/link.txt --verbose=1
+/usr/lib/ccache/cc -rdynamic CMakeFiles/cmTC_2ffce.dir/CheckIncludeFile.c.o -o cmTC_2ffce 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-8sZ5CM'
 
 
 
 Determining if the include file stdint.h exists passed with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-YsaLoA
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-c7Se7j
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_e2664/fast && /usr/bin/make  -f CMakeFiles/cmTC_e2664.dir/build.make CMakeFiles/cmTC_e2664.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-YsaLoA'
-Building C object CMakeFiles/cmTC_e2664.dir/CheckIncludeFile.c.o
-/usr/lib/ccache/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fPIE -o CMakeFiles/cmTC_e2664.dir/CheckIncludeFile.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-YsaLoA/CheckIncludeFile.c
-Linking C executable cmTC_e2664
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2664.dir/link.txt --verbose=1
-/usr/lib/ccache/cc -rdynamic CMakeFiles/cmTC_e2664.dir/CheckIncludeFile.c.o -o cmTC_e2664 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-YsaLoA'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_adb23/fast && /usr/bin/make  -f CMakeFiles/cmTC_adb23.dir/build.make CMakeFiles/cmTC_adb23.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-c7Se7j'
+Building C object CMakeFiles/cmTC_adb23.dir/CheckIncludeFile.c.o
+/usr/lib/ccache/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fPIE -o CMakeFiles/cmTC_adb23.dir/CheckIncludeFile.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-c7Se7j/CheckIncludeFile.c
+Linking C executable cmTC_adb23
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_adb23.dir/link.txt --verbose=1
+/usr/lib/ccache/cc -rdynamic CMakeFiles/cmTC_adb23.dir/CheckIncludeFile.c.o -o cmTC_adb23 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-c7Se7j'
 
 
 
 Determining size of off_t passed with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-3RneOH
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-RIGtNR
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_ad531/fast && /usr/bin/make  -f CMakeFiles/cmTC_ad531.dir/build.make CMakeFiles/cmTC_ad531.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-3RneOH'
-Building C object CMakeFiles/cmTC_ad531.dir/SIZEOF_OFF_T.c.o
-/usr/lib/ccache/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fPIE -o CMakeFiles/cmTC_ad531.dir/SIZEOF_OFF_T.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-3RneOH/SIZEOF_OFF_T.c
-Linking C executable cmTC_ad531
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad531.dir/link.txt --verbose=1
-/usr/lib/ccache/cc -rdynamic CMakeFiles/cmTC_ad531.dir/SIZEOF_OFF_T.c.o -o cmTC_ad531 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-3RneOH'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1eef1/fast && /usr/bin/make  -f CMakeFiles/cmTC_1eef1.dir/build.make CMakeFiles/cmTC_1eef1.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-RIGtNR'
+Building C object CMakeFiles/cmTC_1eef1.dir/SIZEOF_OFF_T.c.o
+/usr/lib/ccache/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fPIE -o CMakeFiles/cmTC_1eef1.dir/SIZEOF_OFF_T.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-RIGtNR/SIZEOF_OFF_T.c
+Linking C executable cmTC_1eef1
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1eef1.dir/link.txt --verbose=1
+/usr/lib/ccache/cc -rdynamic CMakeFiles/cmTC_1eef1.dir/SIZEOF_OFF_T.c.o -o cmTC_1eef1 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-RIGtNR'
 
 
 
 Determining if the fseeko exist passed with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-VQRfqP
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-yVTqHp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_b8134/fast && /usr/bin/make  -f CMakeFiles/cmTC_b8134.dir/build.make CMakeFiles/cmTC_b8134.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-VQRfqP'
-Building C object CMakeFiles/cmTC_b8134.dir/CheckSymbolExists.c.o
-/usr/lib/ccache/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fPIE -o CMakeFiles/cmTC_b8134.dir/CheckSymbolExists.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-VQRfqP/CheckSymbolExists.c
-Linking C executable cmTC_b8134
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8134.dir/link.txt --verbose=1
-/usr/lib/ccache/cc -rdynamic CMakeFiles/cmTC_b8134.dir/CheckSymbolExists.c.o -o cmTC_b8134 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-VQRfqP'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_884b0/fast && /usr/bin/make  -f CMakeFiles/cmTC_884b0.dir/build.make CMakeFiles/cmTC_884b0.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-yVTqHp'
+Building C object CMakeFiles/cmTC_884b0.dir/CheckSymbolExists.c.o
+/usr/lib/ccache/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fPIE -o CMakeFiles/cmTC_884b0.dir/CheckSymbolExists.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-yVTqHp/CheckSymbolExists.c
+Linking C executable cmTC_884b0
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_884b0.dir/link.txt --verbose=1
+/usr/lib/ccache/cc -rdynamic CMakeFiles/cmTC_884b0.dir/CheckSymbolExists.c.o -o cmTC_884b0 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-yVTqHp'
 
 
 File CheckSymbolExists.c:
@@ -644,16 +628,16 @@ int main(int argc, char** argv)
 }
 
 Determining if the ftello exist passed with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-g9HbfX
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-60rENX
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_73674/fast && /usr/bin/make  -f CMakeFiles/cmTC_73674.dir/build.make CMakeFiles/cmTC_73674.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-g9HbfX'
-Building C object CMakeFiles/cmTC_73674.dir/CheckSymbolExists.c.o
-/usr/lib/ccache/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fPIE -o CMakeFiles/cmTC_73674.dir/CheckSymbolExists.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-g9HbfX/CheckSymbolExists.c
-Linking C executable cmTC_73674
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73674.dir/link.txt --verbose=1
-/usr/lib/ccache/cc -rdynamic CMakeFiles/cmTC_73674.dir/CheckSymbolExists.c.o -o cmTC_73674 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-g9HbfX'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1f0a1/fast && /usr/bin/make  -f CMakeFiles/cmTC_1f0a1.dir/build.make CMakeFiles/cmTC_1f0a1.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-60rENX'
+Building C object CMakeFiles/cmTC_1f0a1.dir/CheckSymbolExists.c.o
+/usr/lib/ccache/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fPIE -o CMakeFiles/cmTC_1f0a1.dir/CheckSymbolExists.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-60rENX/CheckSymbolExists.c
+Linking C executable cmTC_1f0a1
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f0a1.dir/link.txt --verbose=1
+/usr/lib/ccache/cc -rdynamic CMakeFiles/cmTC_1f0a1.dir/CheckSymbolExists.c.o -o cmTC_1f0a1 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-60rENX'
 
 
 File CheckSymbolExists.c:
@@ -672,16 +656,16 @@ int main(int argc, char** argv)
 }
 
 Determining if the PRIdMAX exist passed with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-Oxm5g5
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-A9lY6v
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_a689e/fast && /usr/bin/make  -f CMakeFiles/cmTC_a689e.dir/build.make CMakeFiles/cmTC_a689e.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-Oxm5g5'
-Building C object CMakeFiles/cmTC_a689e.dir/CheckSymbolExists.c.o
-/usr/lib/ccache/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fPIE -o CMakeFiles/cmTC_a689e.dir/CheckSymbolExists.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-Oxm5g5/CheckSymbolExists.c
-Linking C executable cmTC_a689e
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a689e.dir/link.txt --verbose=1
-/usr/lib/ccache/cc -rdynamic CMakeFiles/cmTC_a689e.dir/CheckSymbolExists.c.o -o cmTC_a689e 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-Oxm5g5'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_40fcd/fast && /usr/bin/make  -f CMakeFiles/cmTC_40fcd.dir/build.make CMakeFiles/cmTC_40fcd.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-A9lY6v'
+Building C object CMakeFiles/cmTC_40fcd.dir/CheckSymbolExists.c.o
+/usr/lib/ccache/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fPIE -o CMakeFiles/cmTC_40fcd.dir/CheckSymbolExists.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-A9lY6v/CheckSymbolExists.c
+Linking C executable cmTC_40fcd
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40fcd.dir/link.txt --verbose=1
+/usr/lib/ccache/cc -rdynamic CMakeFiles/cmTC_40fcd.dir/CheckSymbolExists.c.o -o cmTC_40fcd 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-A9lY6v'
 
 
 File CheckSymbolExists.c:
@@ -700,338 +684,338 @@ int main(int argc, char** argv)
 }
 
 Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_VISIBILITY succeeded with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-BHG0Bo
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-11QcRf
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_d30e0/fast && /usr/bin/make  -f CMakeFiles/cmTC_d30e0.dir/build.make CMakeFiles/cmTC_d30e0.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-BHG0Bo'
-Building CXX object CMakeFiles/cmTC_d30e0.dir/src.cxx.o
-/usr/lib/ccache/c++ -DCOMPILER_SUPPORTS_VISIBILITY  -fPIE   -fvisibility=hidden -std=c++1z -o CMakeFiles/cmTC_d30e0.dir/src.cxx.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-BHG0Bo/src.cxx
-Linking CXX executable cmTC_d30e0
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d30e0.dir/link.txt --verbose=1
-/usr/lib/ccache/c++ CMakeFiles/cmTC_d30e0.dir/src.cxx.o -o cmTC_d30e0 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-BHG0Bo'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2f5f0/fast && /usr/bin/make  -f CMakeFiles/cmTC_2f5f0.dir/build.make CMakeFiles/cmTC_2f5f0.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-11QcRf'
+Building CXX object CMakeFiles/cmTC_2f5f0.dir/src.cxx.o
+/usr/lib/ccache/c++ -DCOMPILER_SUPPORTS_VISIBILITY  -fPIE   -fvisibility=hidden -std=c++17 -o CMakeFiles/cmTC_2f5f0.dir/src.cxx.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-11QcRf/src.cxx
+Linking CXX executable cmTC_2f5f0
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f5f0.dir/link.txt --verbose=1
+/usr/lib/ccache/c++ CMakeFiles/cmTC_2f5f0.dir/src.cxx.o -o cmTC_2f5f0 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-11QcRf'
 
 
 Source file was:
 int main() { return 0; }
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-TDGnWK
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-qOB2PU
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_6a049/fast && /usr/bin/make  -f CMakeFiles/cmTC_6a049.dir/build.make CMakeFiles/cmTC_6a049.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-TDGnWK'
-Building C object CMakeFiles/cmTC_6a049.dir/CheckFunctionExists.c.o
-/usr/lib/ccache/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -fPIE -o CMakeFiles/cmTC_6a049.dir/CheckFunctionExists.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-TDGnWK/CheckFunctionExists.c
-Linking C executable cmTC_6a049
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a049.dir/link.txt --verbose=1
-/usr/lib/ccache/cc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_6a049.dir/CheckFunctionExists.c.o -o cmTC_6a049  -lpthread 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-TDGnWK'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d22f5/fast && /usr/bin/make  -f CMakeFiles/cmTC_d22f5.dir/build.make CMakeFiles/cmTC_d22f5.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-qOB2PU'
+Building C object CMakeFiles/cmTC_d22f5.dir/CheckFunctionExists.c.o
+/usr/lib/ccache/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -fPIE -o CMakeFiles/cmTC_d22f5.dir/CheckFunctionExists.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-qOB2PU/CheckFunctionExists.c
+Linking C executable cmTC_d22f5
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d22f5.dir/link.txt --verbose=1
+/usr/lib/ccache/cc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_d22f5.dir/CheckFunctionExists.c.o -o cmTC_d22f5  -lpthread 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-qOB2PU'
 
 
 
 Determining if the function shm_open exists in the rt passed with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-MX9LOq
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-dsKqp2
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_2b79e/fast && /usr/bin/make  -f CMakeFiles/cmTC_2b79e.dir/build.make CMakeFiles/cmTC_2b79e.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-MX9LOq'
-Building C object CMakeFiles/cmTC_2b79e.dir/CheckFunctionExists.c.o
-/usr/lib/ccache/cc   -DCHECK_FUNCTION_EXISTS=shm_open -fPIE -o CMakeFiles/cmTC_2b79e.dir/CheckFunctionExists.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-MX9LOq/CheckFunctionExists.c
-Linking C executable cmTC_2b79e
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b79e.dir/link.txt --verbose=1
-/usr/lib/ccache/cc  -DCHECK_FUNCTION_EXISTS=shm_open CMakeFiles/cmTC_2b79e.dir/CheckFunctionExists.c.o -o cmTC_2b79e  -lrt 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-MX9LOq'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a15d7/fast && /usr/bin/make  -f CMakeFiles/cmTC_a15d7.dir/build.make CMakeFiles/cmTC_a15d7.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-dsKqp2'
+Building C object CMakeFiles/cmTC_a15d7.dir/CheckFunctionExists.c.o
+/usr/lib/ccache/cc   -DCHECK_FUNCTION_EXISTS=shm_open -fPIE -o CMakeFiles/cmTC_a15d7.dir/CheckFunctionExists.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-dsKqp2/CheckFunctionExists.c
+Linking C executable cmTC_a15d7
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a15d7.dir/link.txt --verbose=1
+/usr/lib/ccache/cc  -DCHECK_FUNCTION_EXISTS=shm_open CMakeFiles/cmTC_a15d7.dir/CheckFunctionExists.c.o -o cmTC_a15d7  -lrt 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-dsKqp2'
 
 
 
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WALL succeeded with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-IbThT6
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-p3T6aa
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_d3b7c/fast && /usr/bin/make  -f CMakeFiles/cmTC_d3b7c.dir/build.make CMakeFiles/cmTC_d3b7c.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-IbThT6'
-Building CXX object CMakeFiles/cmTC_d3b7c.dir/src.cxx.o
-/usr/lib/ccache/c++ -DHAVE_CXX_FLAG_WALL  -Wall -fPIE   -Wall -std=c++11 -o CMakeFiles/cmTC_d3b7c.dir/src.cxx.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-IbThT6/src.cxx
-Linking CXX executable cmTC_d3b7c
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3b7c.dir/link.txt --verbose=1
-/usr/lib/ccache/c++   -Wall CMakeFiles/cmTC_d3b7c.dir/src.cxx.o -o cmTC_d3b7c 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-IbThT6'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1068a/fast && /usr/bin/make  -f CMakeFiles/cmTC_1068a.dir/build.make CMakeFiles/cmTC_1068a.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-p3T6aa'
+Building CXX object CMakeFiles/cmTC_1068a.dir/src.cxx.o
+/usr/lib/ccache/c++ -DHAVE_CXX_FLAG_WALL  -Wall -fPIE   -Wall -std=c++11 -o CMakeFiles/cmTC_1068a.dir/src.cxx.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-p3T6aa/src.cxx
+Linking CXX executable cmTC_1068a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1068a.dir/link.txt --verbose=1
+/usr/lib/ccache/c++   -Wall CMakeFiles/cmTC_1068a.dir/src.cxx.o -o cmTC_1068a 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-p3T6aa'
 
 
 Source file was:
 int main() { return 0; }
 
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WEXTRA succeeded with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-yDh79M
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-xXI5ai
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_7e99c/fast && /usr/bin/make  -f CMakeFiles/cmTC_7e99c.dir/build.make CMakeFiles/cmTC_7e99c.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-yDh79M'
-Building CXX object CMakeFiles/cmTC_7e99c.dir/src.cxx.o
-/usr/lib/ccache/c++ -DHAVE_CXX_FLAG_WEXTRA  -Wall  -Wextra -fPIE   -Wextra -std=c++11 -o CMakeFiles/cmTC_7e99c.dir/src.cxx.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-yDh79M/src.cxx
-Linking CXX executable cmTC_7e99c
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e99c.dir/link.txt --verbose=1
-/usr/lib/ccache/c++   -Wall  -Wextra CMakeFiles/cmTC_7e99c.dir/src.cxx.o -o cmTC_7e99c 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-yDh79M'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a9374/fast && /usr/bin/make  -f CMakeFiles/cmTC_a9374.dir/build.make CMakeFiles/cmTC_a9374.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-xXI5ai'
+Building CXX object CMakeFiles/cmTC_a9374.dir/src.cxx.o
+/usr/lib/ccache/c++ -DHAVE_CXX_FLAG_WEXTRA  -Wall  -Wextra -fPIE   -Wextra -std=c++11 -o CMakeFiles/cmTC_a9374.dir/src.cxx.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-xXI5ai/src.cxx
+Linking CXX executable cmTC_a9374
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9374.dir/link.txt --verbose=1
+/usr/lib/ccache/c++   -Wall  -Wextra CMakeFiles/cmTC_a9374.dir/src.cxx.o -o cmTC_a9374 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-xXI5ai'
 
 
 Source file was:
 int main() { return 0; }
 
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSHADOW succeeded with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-F6koDt
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-LmTNnq
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_4cbc0/fast && /usr/bin/make  -f CMakeFiles/cmTC_4cbc0.dir/build.make CMakeFiles/cmTC_4cbc0.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-F6koDt'
-Building CXX object CMakeFiles/cmTC_4cbc0.dir/src.cxx.o
-/usr/lib/ccache/c++ -DHAVE_CXX_FLAG_WSHADOW  -Wall  -Wextra  -Wshadow -fPIE   -Wshadow -std=c++11 -o CMakeFiles/cmTC_4cbc0.dir/src.cxx.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-F6koDt/src.cxx
-Linking CXX executable cmTC_4cbc0
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4cbc0.dir/link.txt --verbose=1
-/usr/lib/ccache/c++   -Wall  -Wextra  -Wshadow CMakeFiles/cmTC_4cbc0.dir/src.cxx.o -o cmTC_4cbc0 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-F6koDt'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c1cd5/fast && /usr/bin/make  -f CMakeFiles/cmTC_c1cd5.dir/build.make CMakeFiles/cmTC_c1cd5.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-LmTNnq'
+Building CXX object CMakeFiles/cmTC_c1cd5.dir/src.cxx.o
+/usr/lib/ccache/c++ -DHAVE_CXX_FLAG_WSHADOW  -Wall  -Wextra  -Wshadow -fPIE   -Wshadow -std=c++11 -o CMakeFiles/cmTC_c1cd5.dir/src.cxx.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-LmTNnq/src.cxx
+Linking CXX executable cmTC_c1cd5
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1cd5.dir/link.txt --verbose=1
+/usr/lib/ccache/c++   -Wall  -Wextra  -Wshadow CMakeFiles/cmTC_c1cd5.dir/src.cxx.o -o cmTC_c1cd5 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-LmTNnq'
 
 
 Source file was:
 int main() { return 0; }
 
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WFLOAT_EQUAL succeeded with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-bukMia
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-kAp8My
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_c7d32/fast && /usr/bin/make  -f CMakeFiles/cmTC_c7d32.dir/build.make CMakeFiles/cmTC_c7d32.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-bukMia'
-Building CXX object CMakeFiles/cmTC_c7d32.dir/src.cxx.o
-/usr/lib/ccache/c++ -DHAVE_CXX_FLAG_WFLOAT_EQUAL  -Wall  -Wextra  -Wshadow  -Wfloat-equal -fPIE   -Wfloat-equal -std=c++11 -o CMakeFiles/cmTC_c7d32.dir/src.cxx.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-bukMia/src.cxx
-Linking CXX executable cmTC_c7d32
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7d32.dir/link.txt --verbose=1
-/usr/lib/ccache/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal CMakeFiles/cmTC_c7d32.dir/src.cxx.o -o cmTC_c7d32 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-bukMia'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5dfb9/fast && /usr/bin/make  -f CMakeFiles/cmTC_5dfb9.dir/build.make CMakeFiles/cmTC_5dfb9.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-kAp8My'
+Building CXX object CMakeFiles/cmTC_5dfb9.dir/src.cxx.o
+/usr/lib/ccache/c++ -DHAVE_CXX_FLAG_WFLOAT_EQUAL  -Wall  -Wextra  -Wshadow  -Wfloat-equal -fPIE   -Wfloat-equal -std=c++11 -o CMakeFiles/cmTC_5dfb9.dir/src.cxx.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-kAp8My/src.cxx
+Linking CXX executable cmTC_5dfb9
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5dfb9.dir/link.txt --verbose=1
+/usr/lib/ccache/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal CMakeFiles/cmTC_5dfb9.dir/src.cxx.o -o cmTC_5dfb9 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-kAp8My'
 
 
 Source file was:
 int main() { return 0; }
 
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WERROR succeeded with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-W79naR
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-U0QzoH
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_3ec92/fast && /usr/bin/make  -f CMakeFiles/cmTC_3ec92.dir/build.make CMakeFiles/cmTC_3ec92.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-W79naR'
-Building CXX object CMakeFiles/cmTC_3ec92.dir/src.cxx.o
-/usr/lib/ccache/c++ -DHAVE_CXX_FLAG_WERROR  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror -fPIE   -Werror -std=c++11 -o CMakeFiles/cmTC_3ec92.dir/src.cxx.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-W79naR/src.cxx
-Linking CXX executable cmTC_3ec92
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ec92.dir/link.txt --verbose=1
-/usr/lib/ccache/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror CMakeFiles/cmTC_3ec92.dir/src.cxx.o -o cmTC_3ec92 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-W79naR'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0adf0/fast && /usr/bin/make  -f CMakeFiles/cmTC_0adf0.dir/build.make CMakeFiles/cmTC_0adf0.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-U0QzoH'
+Building CXX object CMakeFiles/cmTC_0adf0.dir/src.cxx.o
+/usr/lib/ccache/c++ -DHAVE_CXX_FLAG_WERROR  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror -fPIE   -Werror -std=c++11 -o CMakeFiles/cmTC_0adf0.dir/src.cxx.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-U0QzoH/src.cxx
+Linking CXX executable cmTC_0adf0
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0adf0.dir/link.txt --verbose=1
+/usr/lib/ccache/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror CMakeFiles/cmTC_0adf0.dir/src.cxx.o -o cmTC_0adf0 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-U0QzoH'
 
 
 Source file was:
 int main() { return 0; }
 
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSUGGEST_OVERRIDE succeeded with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-lJj3dy
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-f8PecQ
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_0f948/fast && /usr/bin/make  -f CMakeFiles/cmTC_0f948.dir/build.make CMakeFiles/cmTC_0f948.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-lJj3dy'
-Building CXX object CMakeFiles/cmTC_0f948.dir/src.cxx.o
-/usr/lib/ccache/c++ -DHAVE_CXX_FLAG_WSUGGEST_OVERRIDE  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override -fPIE   -Wsuggest-override -std=c++11 -o CMakeFiles/cmTC_0f948.dir/src.cxx.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-lJj3dy/src.cxx
-Linking CXX executable cmTC_0f948
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f948.dir/link.txt --verbose=1
-/usr/lib/ccache/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override CMakeFiles/cmTC_0f948.dir/src.cxx.o -o cmTC_0f948 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-lJj3dy'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_6921c/fast && /usr/bin/make  -f CMakeFiles/cmTC_6921c.dir/build.make CMakeFiles/cmTC_6921c.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-f8PecQ'
+Building CXX object CMakeFiles/cmTC_6921c.dir/src.cxx.o
+/usr/lib/ccache/c++ -DHAVE_CXX_FLAG_WSUGGEST_OVERRIDE  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override -fPIE   -Wsuggest-override -std=c++11 -o CMakeFiles/cmTC_6921c.dir/src.cxx.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-f8PecQ/src.cxx
+Linking CXX executable cmTC_6921c
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6921c.dir/link.txt --verbose=1
+/usr/lib/ccache/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override CMakeFiles/cmTC_6921c.dir/src.cxx.o -o cmTC_6921c 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-f8PecQ'
 
 
 Source file was:
 int main() { return 0; }
 
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_PEDANTIC succeeded with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-Vxswtf
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-Uyv0bZ
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_ff719/fast && /usr/bin/make  -f CMakeFiles/cmTC_ff719.dir/build.make CMakeFiles/cmTC_ff719.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-Vxswtf'
-Building CXX object CMakeFiles/cmTC_ff719.dir/src.cxx.o
-/usr/lib/ccache/c++ -DHAVE_CXX_FLAG_PEDANTIC  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic -fPIE   -pedantic -std=c++11 -o CMakeFiles/cmTC_ff719.dir/src.cxx.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-Vxswtf/src.cxx
-Linking CXX executable cmTC_ff719
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff719.dir/link.txt --verbose=1
-/usr/lib/ccache/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic CMakeFiles/cmTC_ff719.dir/src.cxx.o -o cmTC_ff719 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-Vxswtf'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f4f0d/fast && /usr/bin/make  -f CMakeFiles/cmTC_f4f0d.dir/build.make CMakeFiles/cmTC_f4f0d.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-Uyv0bZ'
+Building CXX object CMakeFiles/cmTC_f4f0d.dir/src.cxx.o
+/usr/lib/ccache/c++ -DHAVE_CXX_FLAG_PEDANTIC  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic -fPIE   -pedantic -std=c++11 -o CMakeFiles/cmTC_f4f0d.dir/src.cxx.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-Uyv0bZ/src.cxx
+Linking CXX executable cmTC_f4f0d
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4f0d.dir/link.txt --verbose=1
+/usr/lib/ccache/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic CMakeFiles/cmTC_f4f0d.dir/src.cxx.o -o cmTC_f4f0d 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-Uyv0bZ'
 
 
 Source file was:
 int main() { return 0; }
 
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_PEDANTIC_ERRORS succeeded with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-GZDXUW
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-gdcjo8
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_81617/fast && /usr/bin/make  -f CMakeFiles/cmTC_81617.dir/build.make CMakeFiles/cmTC_81617.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-GZDXUW'
-Building CXX object CMakeFiles/cmTC_81617.dir/src.cxx.o
-/usr/lib/ccache/c++ -DHAVE_CXX_FLAG_PEDANTIC_ERRORS  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors -fPIE   -pedantic-errors -std=c++11 -o CMakeFiles/cmTC_81617.dir/src.cxx.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-GZDXUW/src.cxx
-Linking CXX executable cmTC_81617
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81617.dir/link.txt --verbose=1
-/usr/lib/ccache/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors CMakeFiles/cmTC_81617.dir/src.cxx.o -o cmTC_81617 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-GZDXUW'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_377dd/fast && /usr/bin/make  -f CMakeFiles/cmTC_377dd.dir/build.make CMakeFiles/cmTC_377dd.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-gdcjo8'
+Building CXX object CMakeFiles/cmTC_377dd.dir/src.cxx.o
+/usr/lib/ccache/c++ -DHAVE_CXX_FLAG_PEDANTIC_ERRORS  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors -fPIE   -pedantic-errors -std=c++11 -o CMakeFiles/cmTC_377dd.dir/src.cxx.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-gdcjo8/src.cxx
+Linking CXX executable cmTC_377dd
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_377dd.dir/link.txt --verbose=1
+/usr/lib/ccache/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors CMakeFiles/cmTC_377dd.dir/src.cxx.o -o cmTC_377dd 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-gdcjo8'
 
 
 Source file was:
 int main() { return 0; }
 
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_FSTRICT_ALIASING succeeded with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-BJcThm
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-DXlAir
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_bc064/fast && /usr/bin/make  -f CMakeFiles/cmTC_bc064.dir/build.make CMakeFiles/cmTC_bc064.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-BJcThm'
-Building CXX object CMakeFiles/cmTC_bc064.dir/src.cxx.o
-/usr/lib/ccache/c++ -DHAVE_CXX_FLAG_FSTRICT_ALIASING  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing -fPIE   -fstrict-aliasing -std=c++11 -o CMakeFiles/cmTC_bc064.dir/src.cxx.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-BJcThm/src.cxx
-Linking CXX executable cmTC_bc064
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc064.dir/link.txt --verbose=1
-/usr/lib/ccache/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing CMakeFiles/cmTC_bc064.dir/src.cxx.o -o cmTC_bc064 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-BJcThm'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_54459/fast && /usr/bin/make  -f CMakeFiles/cmTC_54459.dir/build.make CMakeFiles/cmTC_54459.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-DXlAir'
+Building CXX object CMakeFiles/cmTC_54459.dir/src.cxx.o
+/usr/lib/ccache/c++ -DHAVE_CXX_FLAG_FSTRICT_ALIASING  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing -fPIE   -fstrict-aliasing -std=c++11 -o CMakeFiles/cmTC_54459.dir/src.cxx.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-DXlAir/src.cxx
+Linking CXX executable cmTC_54459
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54459.dir/link.txt --verbose=1
+/usr/lib/ccache/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing CMakeFiles/cmTC_54459.dir/src.cxx.o -o cmTC_54459 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-DXlAir'
 
 
 Source file was:
 int main() { return 0; }
 
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS succeeded with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-yqLJd4
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-CS4l0A
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_5379d/fast && /usr/bin/make  -f CMakeFiles/cmTC_5379d.dir/build.make CMakeFiles/cmTC_5379d.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-yqLJd4'
-Building CXX object CMakeFiles/cmTC_5379d.dir/src.cxx.o
-/usr/lib/ccache/c++ -DHAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations -fPIE   -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/cmTC_5379d.dir/src.cxx.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-yqLJd4/src.cxx
-Linking CXX executable cmTC_5379d
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5379d.dir/link.txt --verbose=1
-/usr/lib/ccache/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations CMakeFiles/cmTC_5379d.dir/src.cxx.o -o cmTC_5379d 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-yqLJd4'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_21f76/fast && /usr/bin/make  -f CMakeFiles/cmTC_21f76.dir/build.make CMakeFiles/cmTC_21f76.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-CS4l0A'
+Building CXX object CMakeFiles/cmTC_21f76.dir/src.cxx.o
+/usr/lib/ccache/c++ -DHAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations -fPIE   -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/cmTC_21f76.dir/src.cxx.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-CS4l0A/src.cxx
+Linking CXX executable cmTC_21f76
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21f76.dir/link.txt --verbose=1
+/usr/lib/ccache/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations CMakeFiles/cmTC_21f76.dir/src.cxx.o -o cmTC_21f76 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-CS4l0A'
 
 
 Source file was:
 int main() { return 0; }
 
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WNO_DEPRECATED succeeded with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-htsFlM
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-nF4gUK
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_6d5a0/fast && /usr/bin/make  -f CMakeFiles/cmTC_6d5a0.dir/build.make CMakeFiles/cmTC_6d5a0.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-htsFlM'
-Building CXX object CMakeFiles/cmTC_6d5a0.dir/src.cxx.o
-/usr/lib/ccache/c++ -DHAVE_CXX_FLAG_WNO_DEPRECATED  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated -fPIE   -Wno-deprecated -std=c++11 -o CMakeFiles/cmTC_6d5a0.dir/src.cxx.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-htsFlM/src.cxx
-Linking CXX executable cmTC_6d5a0
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d5a0.dir/link.txt --verbose=1
-/usr/lib/ccache/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated CMakeFiles/cmTC_6d5a0.dir/src.cxx.o -o cmTC_6d5a0 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-htsFlM'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b8c94/fast && /usr/bin/make  -f CMakeFiles/cmTC_b8c94.dir/build.make CMakeFiles/cmTC_b8c94.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-nF4gUK'
+Building CXX object CMakeFiles/cmTC_b8c94.dir/src.cxx.o
+/usr/lib/ccache/c++ -DHAVE_CXX_FLAG_WNO_DEPRECATED  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated -fPIE   -Wno-deprecated -std=c++11 -o CMakeFiles/cmTC_b8c94.dir/src.cxx.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-nF4gUK/src.cxx
+Linking CXX executable cmTC_b8c94
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8c94.dir/link.txt --verbose=1
+/usr/lib/ccache/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated CMakeFiles/cmTC_b8c94.dir/src.cxx.o -o cmTC_b8c94 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-nF4gUK'
 
 
 Source file was:
 int main() { return 0; }
 
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSTRICT_ALIASING succeeded with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-NPsYFu
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-IcZx0U
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_9ed2d/fast && /usr/bin/make  -f CMakeFiles/cmTC_9ed2d.dir/build.make CMakeFiles/cmTC_9ed2d.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-NPsYFu'
-Building CXX object CMakeFiles/cmTC_9ed2d.dir/src.cxx.o
-/usr/lib/ccache/c++ -DHAVE_CXX_FLAG_WSTRICT_ALIASING  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -fPIE   -Wstrict-aliasing -std=c++11 -o CMakeFiles/cmTC_9ed2d.dir/src.cxx.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-NPsYFu/src.cxx
-Linking CXX executable cmTC_9ed2d
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ed2d.dir/link.txt --verbose=1
-/usr/lib/ccache/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing CMakeFiles/cmTC_9ed2d.dir/src.cxx.o -o cmTC_9ed2d 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-NPsYFu'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c0ace/fast && /usr/bin/make  -f CMakeFiles/cmTC_c0ace.dir/build.make CMakeFiles/cmTC_c0ace.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-IcZx0U'
+Building CXX object CMakeFiles/cmTC_c0ace.dir/src.cxx.o
+/usr/lib/ccache/c++ -DHAVE_CXX_FLAG_WSTRICT_ALIASING  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -fPIE   -Wstrict-aliasing -std=c++11 -o CMakeFiles/cmTC_c0ace.dir/src.cxx.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-IcZx0U/src.cxx
+Linking CXX executable cmTC_c0ace
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0ace.dir/link.txt --verbose=1
+/usr/lib/ccache/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing CMakeFiles/cmTC_c0ace.dir/src.cxx.o -o cmTC_c0ace 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-IcZx0U'
 
 
 Source file was:
 int main() { return 0; }
 
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_COVERAGE succeeded with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-AVA6tE
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-RqEk7p
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_2cbf7/fast && /usr/bin/make  -f CMakeFiles/cmTC_2cbf7.dir/build.make CMakeFiles/cmTC_2cbf7.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-AVA6tE'
-Building CXX object CMakeFiles/cmTC_2cbf7.dir/src.cxx.o
-/usr/lib/ccache/c++ -DHAVE_CXX_FLAG_COVERAGE  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  --coverage -fPIE   --coverage -std=c++11 -o CMakeFiles/cmTC_2cbf7.dir/src.cxx.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-AVA6tE/src.cxx
-Linking CXX executable cmTC_2cbf7
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2cbf7.dir/link.txt --verbose=1
-/usr/lib/ccache/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  --coverage CMakeFiles/cmTC_2cbf7.dir/src.cxx.o -o cmTC_2cbf7 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-AVA6tE'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_26b2d/fast && /usr/bin/make  -f CMakeFiles/cmTC_26b2d.dir/build.make CMakeFiles/cmTC_26b2d.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-RqEk7p'
+Building CXX object CMakeFiles/cmTC_26b2d.dir/src.cxx.o
+/usr/lib/ccache/c++ -DHAVE_CXX_FLAG_COVERAGE  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  --coverage -fPIE   --coverage -std=c++11 -o CMakeFiles/cmTC_26b2d.dir/src.cxx.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-RqEk7p/src.cxx
+Linking CXX executable cmTC_26b2d
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26b2d.dir/link.txt --verbose=1
+/usr/lib/ccache/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  --coverage CMakeFiles/cmTC_26b2d.dir/src.cxx.o -o cmTC_26b2d 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-RqEk7p'
 
 
 Source file was:
 int main() { return 0; }
 
 Determining if the function XOpenDisplay exists in the /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so passed with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-0cmOKN
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-m4Nhqx
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_1f80f/fast && /usr/bin/make  -f CMakeFiles/cmTC_1f80f.dir/build.make CMakeFiles/cmTC_1f80f.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-0cmOKN'
-Building C object CMakeFiles/cmTC_1f80f.dir/CheckFunctionExists.c.o
-/usr/lib/ccache/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -fPIE -o CMakeFiles/cmTC_1f80f.dir/CheckFunctionExists.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-0cmOKN/CheckFunctionExists.c
-Linking C executable cmTC_1f80f
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f80f.dir/link.txt --verbose=1
-/usr/lib/ccache/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_1f80f.dir/CheckFunctionExists.c.o -o cmTC_1f80f  /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-0cmOKN'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_4df17/fast && /usr/bin/make  -f CMakeFiles/cmTC_4df17.dir/build.make CMakeFiles/cmTC_4df17.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-m4Nhqx'
+Building C object CMakeFiles/cmTC_4df17.dir/CheckFunctionExists.c.o
+/usr/lib/ccache/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -fPIE -o CMakeFiles/cmTC_4df17.dir/CheckFunctionExists.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-m4Nhqx/CheckFunctionExists.c
+Linking C executable cmTC_4df17
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4df17.dir/link.txt --verbose=1
+/usr/lib/ccache/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_4df17.dir/CheckFunctionExists.c.o -o cmTC_4df17  /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-m4Nhqx'
 
 
 
 Determining if the function gethostbyname exists passed with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-iHlngd
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-ABuqdn
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_7de43/fast && /usr/bin/make  -f CMakeFiles/cmTC_7de43.dir/build.make CMakeFiles/cmTC_7de43.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-iHlngd'
-Building C object CMakeFiles/cmTC_7de43.dir/CheckFunctionExists.c.o
-/usr/lib/ccache/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname -fPIE -std=c11 -o CMakeFiles/cmTC_7de43.dir/CheckFunctionExists.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-iHlngd/CheckFunctionExists.c
-Linking C executable cmTC_7de43
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7de43.dir/link.txt --verbose=1
-/usr/lib/ccache/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_7de43.dir/CheckFunctionExists.c.o -o cmTC_7de43 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-iHlngd'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0f543/fast && /usr/bin/make  -f CMakeFiles/cmTC_0f543.dir/build.make CMakeFiles/cmTC_0f543.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-ABuqdn'
+Building C object CMakeFiles/cmTC_0f543.dir/CheckFunctionExists.c.o
+/usr/lib/ccache/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname -fPIE -std=c11 -o CMakeFiles/cmTC_0f543.dir/CheckFunctionExists.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-ABuqdn/CheckFunctionExists.c
+Linking C executable cmTC_0f543
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f543.dir/link.txt --verbose=1
+/usr/lib/ccache/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_0f543.dir/CheckFunctionExists.c.o -o cmTC_0f543 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-ABuqdn'
 
 
 
 Determining if the function connect exists passed with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-7jr7VC
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-8MYzad
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_f62f4/fast && /usr/bin/make  -f CMakeFiles/cmTC_f62f4.dir/build.make CMakeFiles/cmTC_f62f4.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-7jr7VC'
-Building C object CMakeFiles/cmTC_f62f4.dir/CheckFunctionExists.c.o
-/usr/lib/ccache/cc   -DCHECK_FUNCTION_EXISTS=connect -fPIE -std=c11 -o CMakeFiles/cmTC_f62f4.dir/CheckFunctionExists.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-7jr7VC/CheckFunctionExists.c
-Linking C executable cmTC_f62f4
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f62f4.dir/link.txt --verbose=1
-/usr/lib/ccache/cc  -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_f62f4.dir/CheckFunctionExists.c.o -o cmTC_f62f4 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-7jr7VC'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_fb499/fast && /usr/bin/make  -f CMakeFiles/cmTC_fb499.dir/build.make CMakeFiles/cmTC_fb499.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-8MYzad'
+Building C object CMakeFiles/cmTC_fb499.dir/CheckFunctionExists.c.o
+/usr/lib/ccache/cc   -DCHECK_FUNCTION_EXISTS=connect -fPIE -std=c11 -o CMakeFiles/cmTC_fb499.dir/CheckFunctionExists.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-8MYzad/CheckFunctionExists.c
+Linking C executable cmTC_fb499
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb499.dir/link.txt --verbose=1
+/usr/lib/ccache/cc  -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_fb499.dir/CheckFunctionExists.c.o -o cmTC_fb499 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-8MYzad'
 
 
 
 Determining if the function remove exists passed with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-c8r9M2
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-ZdjNi3
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_b9170/fast && /usr/bin/make  -f CMakeFiles/cmTC_b9170.dir/build.make CMakeFiles/cmTC_b9170.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-c8r9M2'
-Building C object CMakeFiles/cmTC_b9170.dir/CheckFunctionExists.c.o
-/usr/lib/ccache/cc   -DCHECK_FUNCTION_EXISTS=remove -fPIE -std=c11 -o CMakeFiles/cmTC_b9170.dir/CheckFunctionExists.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-c8r9M2/CheckFunctionExists.c
-Linking C executable cmTC_b9170
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9170.dir/link.txt --verbose=1
-/usr/lib/ccache/cc  -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_b9170.dir/CheckFunctionExists.c.o -o cmTC_b9170 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-c8r9M2'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_25c97/fast && /usr/bin/make  -f CMakeFiles/cmTC_25c97.dir/build.make CMakeFiles/cmTC_25c97.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-ZdjNi3'
+Building C object CMakeFiles/cmTC_25c97.dir/CheckFunctionExists.c.o
+/usr/lib/ccache/cc   -DCHECK_FUNCTION_EXISTS=remove -fPIE -std=c11 -o CMakeFiles/cmTC_25c97.dir/CheckFunctionExists.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-ZdjNi3/CheckFunctionExists.c
+Linking C executable cmTC_25c97
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25c97.dir/link.txt --verbose=1
+/usr/lib/ccache/cc  -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_25c97.dir/CheckFunctionExists.c.o -o cmTC_25c97 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-ZdjNi3'
 
 
 
 Determining if the function shmat exists passed with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-oP4DOs
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-97FQBT
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_b7b6a/fast && /usr/bin/make  -f CMakeFiles/cmTC_b7b6a.dir/build.make CMakeFiles/cmTC_b7b6a.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-oP4DOs'
-Building C object CMakeFiles/cmTC_b7b6a.dir/CheckFunctionExists.c.o
-/usr/lib/ccache/cc   -DCHECK_FUNCTION_EXISTS=shmat -fPIE -std=c11 -o CMakeFiles/cmTC_b7b6a.dir/CheckFunctionExists.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-oP4DOs/CheckFunctionExists.c
-Linking C executable cmTC_b7b6a
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7b6a.dir/link.txt --verbose=1
-/usr/lib/ccache/cc  -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_b7b6a.dir/CheckFunctionExists.c.o -o cmTC_b7b6a 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-oP4DOs'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5d8e0/fast && /usr/bin/make  -f CMakeFiles/cmTC_5d8e0.dir/build.make CMakeFiles/cmTC_5d8e0.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-97FQBT'
+Building C object CMakeFiles/cmTC_5d8e0.dir/CheckFunctionExists.c.o
+/usr/lib/ccache/cc   -DCHECK_FUNCTION_EXISTS=shmat -fPIE -std=c11 -o CMakeFiles/cmTC_5d8e0.dir/CheckFunctionExists.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-97FQBT/CheckFunctionExists.c
+Linking C executable cmTC_5d8e0
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d8e0.dir/link.txt --verbose=1
+/usr/lib/ccache/cc  -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_5d8e0.dir/CheckFunctionExists.c.o -o cmTC_5d8e0 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-97FQBT'
 
 
 
 Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
-Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-AjXE0S
+Change Dir: /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-H51u5J
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_e22f6/fast && /usr/bin/make  -f CMakeFiles/cmTC_e22f6.dir/build.make CMakeFiles/cmTC_e22f6.dir/build
-make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-AjXE0S'
-Building C object CMakeFiles/cmTC_e22f6.dir/CheckFunctionExists.c.o
-/usr/lib/ccache/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -fPIE -o CMakeFiles/cmTC_e22f6.dir/CheckFunctionExists.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-AjXE0S/CheckFunctionExists.c
-Linking C executable cmTC_e22f6
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e22f6.dir/link.txt --verbose=1
-/usr/lib/ccache/cc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber CMakeFiles/cmTC_e22f6.dir/CheckFunctionExists.c.o -o cmTC_e22f6  -lICE 
-make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-AjXE0S'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_3b201/fast && /usr/bin/make  -f CMakeFiles/cmTC_3b201.dir/build.make CMakeFiles/cmTC_3b201.dir/build
+make[1]: Entering directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-H51u5J'
+Building C object CMakeFiles/cmTC_3b201.dir/CheckFunctionExists.c.o
+/usr/lib/ccache/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -fPIE -o CMakeFiles/cmTC_3b201.dir/CheckFunctionExists.c.o -c /home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-H51u5J/CheckFunctionExists.c
+Linking C executable cmTC_3b201
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b201.dir/link.txt --verbose=1
+/usr/lib/ccache/cc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber CMakeFiles/cmTC_3b201.dir/CheckFunctionExists.c.o -o cmTC_3b201  -lICE 
+make[1]: Leaving directory '/home/anupam/github_robotics/simulator/mujoco/build/CMakeFiles/CMakeScratch/TryCompile-H51u5J'
 
 
 

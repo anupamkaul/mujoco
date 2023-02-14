@@ -1,200 +1,251 @@
-<mujoco model="Humanoid">
-  <compiler angle="radian" autolimits="true"/>
-  <option timestep="0.005"/>
-  <size nkey="2"/>
+<mujoco model="cassie scene">
+  <compiler angle="radian" meshdir="assets/" texturedir="assets/" autolimits="true"/>
+  <option timestep="0.0005"/>
+  <size nkey="1" nuser_actuator="1" nuser_sensor="1"/>
   <visual>
-    <global azimuth="120" elevation="-20" offwidth="2560" offheight="1440"/>
-    <map force="0.1" zfar="30"/>
+    <global azimuth="150" elevation="-20"/>
+    <headlight ambient="0.3 0.3 0.3" diffuse="0.6 0.6 0.6" specular="0 0 0"/>
     <rgba haze="0.15 0.25 0.35 1"/>
   </visual>
-  <statistic center="0 0 0.7"/>
+  <statistic extent="1.1" center="0 0 0.55"/>
   <default class="main">
-    <general ctrllimited="true" ctrlrange="-1 1"/>
-    <default class="body">
-      <joint limited="true" solimplimit="0 0.99 0.01 0.5 2" stiffness="1" armature="0.01" damping="0.2"/>
-      <geom type="capsule" condim="1" friction="0.7 0.005 0.0001" solref="0.015 1" solimp="0.9 0.99 0.003 0.5 2" material="body"/>
-      <default class="thigh">
-        <geom size="0.06 0 0"/>
+    <geom contype="0" conaffinity="0" condim="1" solref="0.005 1"/>
+    <equality solref="0.005 1"/>
+    <default class="cassie">
+      <geom group="2" material="cassie"/>
+    </default>
+    <default class="collision">
+      <geom type="capsule" contype="1" group="3"/>
+      <default class="collision-left">
+        <geom contype="2" conaffinity="4"/>
       </default>
-      <default class="shin">
-        <geom size="0.049 0 0"/>
-      </default>
-      <default class="foot">
-        <geom size="0.027 0 0"/>
-        <default class="foot1"/>
-        <default class="foot2"/>
-      </default>
-      <default class="arm_upper">
-        <geom size="0.04 0 0"/>
-      </default>
-      <default class="arm_lower">
-        <geom size="0.031 0 0"/>
-      </default>
-      <default class="hand">
-        <geom size="0.04 0 0" type="sphere"/>
-      </default>
-      <default class="joint_big">
-        <joint stiffness="10" damping="5"/>
-        <default class="hip_x">
-          <joint range="-30 10"/>
-        </default>
-        <default class="hip_z">
-          <joint range="-60 35"/>
-        </default>
-        <default class="hip_y">
-          <joint range="-150 20"/>
-        </default>
-        <default class="joint_big_stiff">
-          <joint stiffness="20"/>
-        </default>
-      </default>
-      <default class="knee">
-        <joint range="-160 2"/>
-      </default>
-      <default class="ankle">
-        <joint range="-50 50"/>
-        <default class="ankle_y">
-          <joint stiffness="6"/>
-        </default>
-        <default class="ankle_x">
-          <joint stiffness="3"/>
-        </default>
-      </default>
-      <default class="shoulder">
-        <joint range="-85 60"/>
-      </default>
-      <default class="elbow">
-        <joint stiffness="0" range="-100 50"/>
+      <default class="collision-right">
+        <geom contype="4" conaffinity="2"/>
       </default>
     </default>
   </default>
   <asset>
-    <texture type="skybox" builtin="gradient" rgb1="0.3 0.5 0.7" rgb2="0 0 0" width="32" height="192"/>
-    <texture type="cube" name="body" builtin="flat" mark="cross" rgb1="0.8 0.6 0.4" rgb2="0.8 0.6 0.4" markrgb="1 1 1" width="127" height="762"/>
-    <texture type="2d" name="grid" builtin="checker" rgb1="0.1 0.2 0.3" rgb2="0.2 0.3 0.4" width="512" height="512"/>
-    <material name="body" texture="body" texuniform="true" rgba="0.8 0.6 0.4 1"/>
-    <material name="grid" texture="grid" texuniform="true" reflectance="0.2"/>
+    <texture type="2d" name="cassie" file="cassie-texture.png"/>
+    <texture type="skybox" builtin="gradient" rgb1="0.3 0.5 0.7" rgb2="0 0 0" width="512" height="3072"/>
+    <texture type="2d" name="groundplane" builtin="checker" mark="edge" rgb1="0.2 0.3 0.4" rgb2="0.1 0.2 0.3" markrgb="0.8 0.8 0.8" width="300" height="300"/>
+    <material name="cassie" texture="cassie"/>
+    <material name="groundplane" texture="groundplane" texuniform="true" texrepeat="5 5" reflectance="0.2"/>
+    <mesh name="cassie-pelvis" file="pelvis.obj"/>
+    <mesh name="left-hip-roll" file="hip-roll.obj"/>
+    <mesh name="left-hip-yaw" file="hip-yaw.obj"/>
+    <mesh name="left-hip-pitch" file="hip-pitch.obj"/>
+    <mesh name="left-achilles-rod" file="achilles-rod.obj"/>
+    <mesh name="left-knee" file="knee.obj"/>
+    <mesh name="left-knee-spring" file="knee-spring.obj"/>
+    <mesh name="left-shin" file="shin.obj"/>
+    <mesh name="left-tarsus" file="tarsus.obj"/>
+    <mesh name="left-heel-spring" file="heel-spring.obj"/>
+    <mesh name="left-foot-crank" file="foot-crank.obj"/>
+    <mesh name="left-plantar-rod" file="plantar-rod.obj"/>
+    <mesh name="left-foot" file="foot.obj"/>
+    <mesh name="right-hip-roll" file="hip-roll.obj" scale="1 -1 1"/>
+    <mesh name="right-hip-yaw" file="hip-yaw.obj" scale="1 -1 1"/>
+    <mesh name="right-hip-pitch" file="hip-pitch.obj" scale="1 1 -1"/>
+    <mesh name="right-achilles-rod" file="achilles-rod.obj" scale="1 1 -1"/>
+    <mesh name="right-knee" file="knee.obj" scale="1 1 -1"/>
+    <mesh name="right-knee-spring" file="knee-spring.obj" scale="1 1 -1"/>
+    <mesh name="right-shin" file="shin.obj" scale="1 1 -1"/>
+    <mesh name="right-tarsus" file="tarsus.obj" scale="1 1 -1"/>
+    <mesh name="right-heel-spring" file="heel-spring.obj" scale="1 1 -1"/>
+    <mesh name="right-foot-crank" file="foot-crank.obj" scale="1 1 -1"/>
+    <mesh name="right-plantar-rod" file="plantar-rod.obj" scale="1 1 -1"/>
+    <mesh name="right-foot" file="foot.obj" scale="1 1 -1"/>
   </asset>
   <worldbody>
-    <geom name="floor" size="0 0 0.05" type="plane" material="grid"/>
-    <light name="spotlight" target="torso" pos="0 -6 4" dir="0 0 -1" cutoff="30" diffuse="0.8 0.8 0.8" mode="targetbodycom"/>
-    <body name="torso" childclass="body" pos="0 0 1.282" gravcomp="0">
-      <joint name="root" limited="false" type="free" solimplimit="0.9 0.95 0.001 0.5 2" stiffness="0" armature="0" damping="0"/>
-      <geom name="torso" size="0.07 0.07" quat="0.707107 0.707107 0 0"/>
-      <geom name="waist_upper" size="0.06 0.06" pos="-0.01 0 -0.12" quat="0.707107 0.707107 0 0"/>
-      <camera name="back" pos="-3 0 1" quat="0.601501 0.371748 -0.371748 -0.601501" mode="trackcom"/>
-      <camera name="side" pos="0 -3 1" quat="0.850651 0.525731 0 0" mode="trackcom"/>
-      <light name="top" pos="0 0 2" dir="0 0 -1" mode="trackcom"/>
-      <body name="head" pos="0 0 0.19" gravcomp="0">
-        <geom name="head" size="0.09" type="sphere"/>
-        <camera name="egocentric" pos="0.09 0 0" quat="0.524286 0.474472 -0.474472 -0.524286" fovy="80"/>
-      </body>
-      <body name="waist_lower" pos="-0.01 0 -0.26" gravcomp="0">
-        <joint name="abdomen_z" class="joint_big_stiff" pos="0 0 0.065" axis="0 0 1" range="-0.785398 0.785398"/>
-        <joint name="abdomen_y" class="joint_big" pos="0 0 0.065" axis="0 1 0" range="-1.309 0.523599"/>
-        <geom name="waist_lower" size="0.06 0.06" quat="0.707107 0.707107 0 0"/>
-        <body name="pelvis" pos="0 0 -0.165" gravcomp="0">
-          <joint name="abdomen_x" class="joint_big" pos="0 0 0.1" axis="1 0 0" range="-0.610865 0.610865"/>
-          <geom name="butt" size="0.09 0.07" pos="-0.02 0 0" quat="0.707107 0.707107 0 0"/>
-          <body name="thigh_right" pos="0 -0.1 -0.04" gravcomp="0">
-            <joint name="hip_x_right" class="hip_x" pos="0 0 0" axis="1 0 0" range="-0.523599 0.174533"/>
-            <joint name="hip_z_right" class="hip_z" pos="0 0 0" axis="0 0 1" range="-1.0472 0.610865"/>
-            <joint name="hip_y_right" class="hip_y" pos="0 0 0" axis="0 1 0" range="-2.61799 0.349066"/>
-            <geom name="thigh_right" class="thigh" size="0.06 0.170074" pos="0 0.005 -0.17" quat="0.999892 0.0147011 0 0"/>
-            <body name="shin_right" pos="0 0.01 -0.4" gravcomp="0">
-              <joint name="knee_right" class="knee" pos="0 0 0.02" axis="0 -1 0" range="-2.79253 0.0349066"/>
-              <geom name="shin_right" class="shin" size="0.049 0.15" pos="0 0 -0.15"/>
-              <body name="foot_right" pos="0 0 -0.39" gravcomp="0">
-                <joint name="ankle_y_right" class="ankle_y" pos="0 0 0.08" axis="0 1 0" range="-0.872665 0.872665"/>
-                <joint name="ankle_x_right" class="ankle_x" pos="0 0 0.04" axis="0.894427 0 0.447214" range="-0.872665 0.872665"/>
-                <geom name="foot1_right" class="foot1" size="0.027 0.105475" pos="0.035 -0.02 0" quat="0.707107 -0.0670402 -0.703922 0"/>
-                <geom name="foot2_right" class="foot2" size="0.027 0.105475" pos="0.035 0.02 0" quat="0.707107 0.0670402 -0.703922 0"/>
-              </body>
+    <geom name="floor" size="0 0 0.125" type="plane" conaffinity="15" condim="3" material="groundplane"/>
+    <light name="spotlight" target="cassie-pelvis" pos="0 -1 2" dir="0 0 -1" mode="targetbodycom"/>
+    <light pos="0 0 3" dir="0 0 -1"/>
+    <body name="cassie-pelvis" childclass="cassie" pos="0 0 1.1" gravcomp="0">
+      <inertial pos="0.05066 0.000346 0.02841" quat="0.41355 0.418369 -0.574939 0.568674" mass="10.33" diaginertia="0.0863165 0.0857691 0.0492174"/>
+      <joint type="free"/>
+      <geom quat="0.707107 0.707107 0 0" type="mesh" mesh="cassie-pelvis"/>
+      <geom class="collision" size="0.15 0.12 0.13" pos="0.03 0 0.03" type="ellipsoid"/>
+      <geom class="collision" size="0.095 0.03" pos="-0.01 0.14 0.01" quat="0.707107 0 -0.707107 0"/>
+      <geom class="collision" size="0.095 0.03" pos="-0.01 -0.14 0.01" quat="0.707107 0 -0.707107 0"/>
+      <site name="imu" pos="0.03155 0 -0.07996" size="0.01"/>
+      <camera name="track" pos="0 -3 1" quat="0.850651 0.525731 0 0" mode="track"/>
+      <body name="left-hip-roll" pos="0.021 0.135 0" quat="0.707107 0 0.707107 0" gravcomp="0">
+        <inertial pos="-0.01793 0.0001 -0.04428" quat="0.973759 -0.00445535 0.226405 -0.0226678" mass="1.82" diaginertia="0.00384401 0.0037929 0.0017221"/>
+        <joint name="left-hip-roll" pos="0 0 0" axis="0 0 1" range="-0.261799 0.392699" armature="0.038125" damping="1"/>
+        <geom quat="0.707107 0.707107 0 0" type="mesh" mesh="left-hip-roll"/>
+        <body name="left-hip-yaw" pos="0 0 -0.07" quat="0.707107 0 -0.707107 0" gravcomp="0">
+          <inertial pos="0 -1e-05 -0.034277" quat="0.707067 -5.92572e-05 -4.94815e-05 0.707146" mass="1.171" diaginertia="0.002803 0.002443 0.000842"/>
+          <joint name="left-hip-yaw" pos="0 0 0" axis="0 0 1" range="-0.392699 0.392699" armature="0.038125" damping="1"/>
+          <geom quat="0.707107 0.707107 0 0" type="mesh" mesh="left-hip-yaw"/>
+          <body name="left-hip-pitch" pos="0 0 -0.09" quat="-0.5 -0.5 -0.5 0.5" gravcomp="0">
+            <inertial pos="0.05946 5e-05 -0.03581" quat="0.00152796 0.70597 0.0115345 0.708147" mass="5.52" diaginertia="0.0302574 0.0297176 0.010894"/>
+            <joint name="left-hip-pitch" pos="0 0 0" axis="0 0 1" range="-0.872665 1.39626" armature="0.09344" damping="1"/>
+            <geom quat="0.707107 0.707107 0 0" type="mesh" mesh="left-hip-pitch"/>
+            <geom class="collision" size="0.08 0.06" pos="0.06 0 -0.05" quat="0.707107 0 -0.707107 0"/>
+            <body name="left-achilles-rod" pos="0 0 0.045" quat="0.946514 -0.0145065 0.042981 -0.319458" gravcomp="0">
+              <inertial pos="0.24719 0 0" quat="-2.94941e-06 0.707106 2.9494e-06 0.707108" mass="0.1567" diaginertia="0.004488 0.004487 3.754e-06"/>
+              <joint name="left-achilles-rod" pos="0 0 0" type="ball" damping="0.01"/>
+              <geom quat="0.707107 0.707107 0 0" type="mesh" mesh="left-achilles-rod"/>
             </body>
-          </body>
-          <body name="thigh_left" pos="0 0.1 -0.04" gravcomp="0">
-            <joint name="hip_x_left" class="hip_x" pos="0 0 0" axis="-1 0 0" range="-0.523599 0.174533"/>
-            <joint name="hip_z_left" class="hip_z" pos="0 0 0" axis="0 0 -1" range="-1.0472 0.610865"/>
-            <joint name="hip_y_left" class="hip_y" pos="0 0 0" axis="0 1 0" range="-2.61799 0.349066"/>
-            <geom name="thigh_left" class="thigh" size="0.06 0.170074" pos="0 -0.005 -0.17" quat="0.999892 -0.0147011 0 0"/>
-            <body name="shin_left" pos="0 -0.01 -0.4" gravcomp="0">
-              <joint name="knee_left" class="knee" pos="0 0 0.02" axis="0 -1 0" range="-2.79253 0.0349066"/>
-              <geom name="shin_left" class="shin" size="0.049 0.15" pos="0 0 -0.15"/>
-              <body name="foot_left" pos="0 0 -0.39" gravcomp="0">
-                <joint name="ankle_y_left" class="ankle_y" pos="0 0 0.08" axis="0 1 0" range="-0.872665 0.872665"/>
-                <joint name="ankle_x_left" class="ankle_x" pos="0 0 0.04" axis="-0.894427 0 -0.447214" range="-0.872665 0.872665"/>
-                <geom name="foot1_left" class="foot1" size="0.027 0.105475" pos="0.035 -0.02 0" quat="0.707107 -0.0670402 -0.703922 0"/>
-                <geom name="foot2_left" class="foot2" size="0.027 0.105475" pos="0.035 0.02 0" quat="0.707107 0.0670402 -0.703922 0"/>
+            <body name="left-knee" pos="0.12 0 0.0045" quat="0.92388 0 0 -0.382683" gravcomp="0">
+              <inertial pos="0.023 0.03207 -0.002181" quat="0.605859 0.340689 -0.638783 0.329883" mass="0.7578" diaginertia="0.00216699 0.00163747 0.000768734"/>
+              <joint name="left-knee" pos="0 0 0" axis="0 0 1" ref="-0.785398" range="-2.86234 -0.645772" armature="0.09344" damping="1"/>
+              <geom quat="0.707107 0.707107 0 0" type="mesh" mesh="left-knee"/>
+              <body name="left-knee-spring" pos="0.06068 0.08241 0" gravcomp="0">
+                <inertial pos="0.0836 0.0034 0" quat="0.504747 0.504747 0.495207 0.495207" mass="0.186" diaginertia="0.000412181 0.0003669 5.20189e-05"/>
+                <geom quat="0.707107 0.707107 0 0" type="mesh" mesh="left-knee-spring"/>
+              </body>
+              <body name="left-shin" pos="0.06068 0.04741 0" gravcomp="0">
+                <inertial pos="0.18338 0.001169 0.0002123" quat="0.500642 0.491981 0.508669 0.498566" mass="0.577" diaginertia="0.0147311 0.014707 0.000356291"/>
+                <joint name="left-shin" pos="0 0 0" axis="0 0 1" stiffness="1500" range="-0.349066 0.349066" damping="0.1"/>
+                <geom quat="0.707107 0.707107 0 0" type="mesh" mesh="left-shin"/>
+                <geom class="collision-left" size="0.04 0.115109" pos="0.055 -0.005 0" quat="0.707107 -0.0307148 -0.706439 0"/>
+                <geom class="collision-left" size="0.027 0.105628" pos="0.275 -0.0115 0" quat="0.707107 0.0769847 -0.702904 0"/>
+                <geom class="collision-left" size="0.025 0.240933" pos="0.19488 0.0225 0" quat="0.707107 -0.0660346 -0.704017 0"/>
+                <body name="left-tarsus" pos="0.43476 0.02 0" quat="0.87462 0 0 0.48481" gravcomp="0">
+                  <inertial pos="0.11046 -0.03058 -0.00131" quat="-0.0204441 0.705009 -0.0329952 0.708135" mass="0.782" diaginertia="0.0136746 0.0135988 0.000387958"/>
+                  <joint name="left-tarsus" pos="0 0 0" axis="0 0 1" ref="1.01229" range="0.872665 2.96706" damping="0.1"/>
+                  <geom quat="0.707107 0.707107 0 0" type="mesh" mesh="left-tarsus"/>
+                  <geom class="collision-left" size="0.028 0.110102" pos="0.12 -0.035295 0.00046" quat="0.708582 -0.0301541 -0.704984 0"/>
+                  <geom class="collision-left" size="0.033 0.08533" pos="0.124 -0.055 0.00046" quat="0.70901 0.123967 -0.694217 0"/>
+                  <geom class="collision-left" size="0.02 0.111" pos="0.319 -0.04 0" quat="0.707107 0 -0.707107 0"/>
+                  <body name="left-heel-spring" pos="-0.01269 -0.03059 0.00092" quat="0.209355 0.0108606 -0.0375558 0.977058" gravcomp="0">
+                    <inertial pos="0.081 0.0022 0" quat="0.509194 0.509145 0.488888 0.492425" mass="0.126" diaginertia="0.000222575 0.000200702 2.9323e-05"/>
+                    <joint name="left-heel-spring" pos="0 0 0" axis="0 0 1" stiffness="1250"/>
+                    <geom quat="0.707107 0.707107 0 0" type="mesh" mesh="left-heel-spring"/>
+                  </body>
+                  <body name="left-foot-crank" pos="0.058 -0.034 0.02275" gravcomp="0">
+                    <inertial pos="0.00493 2e-05 -0.00215" quat="-0.000325701 0.668237 -0.000197924 0.743948" mass="0.1261" diaginertia="6.37881e-05 4.9621e-05 2.65149e-05"/>
+                    <joint name="left-foot-crank" pos="0 0 0" axis="0 0 1" range="-2.44346 -0.523599" damping="1"/>
+                    <geom quat="0.707107 0.707107 0 0" type="mesh" mesh="left-foot-crank"/>
+                    <body name="left-plantar-rod" pos="0.055 0 -0.00791" gravcomp="0">
+                      <inertial pos="0.17792 0 0" quat="-4.67088e-06 0.707105 4.67086e-06 0.707108" mass="0.1186" diaginertia="0.001775 0.001774 2.779e-06"/>
+                      <joint name="left-plantar-rod" pos="0 0 0" axis="0 0 1"/>
+                      <geom quat="0.707107 0.707107 0 0" type="mesh" mesh="left-plantar-rod"/>
+                    </body>
+                  </body>
+                  <body name="left-foot" pos="0.408 -0.04 0" gravcomp="0">
+                    <inertial pos="0.00474 0.02748 -0.00014" quat="0.279268 0.655178 -0.270091 0.647921" mass="0.1498" diaginertia="0.000332627 0.000289071 5.27221e-05"/>
+                    <joint name="left-foot" pos="0 0 0" axis="0 0 1" range="-2.44346 -0.523599" armature="0.01225" damping="1"/>
+                    <geom quat="0.707107 0.707107 0 0" type="mesh" mesh="left-foot"/>
+                    <geom class="collision-left" size="0.02 0.08" pos="0.0084625 0.041199 0" quat="0.707107 -0.45452 -0.541675 0"/>
+                  </body>
+                </body>
               </body>
             </body>
           </body>
         </body>
       </body>
-      <body name="upper_arm_right" pos="0 -0.17 0.06" gravcomp="0">
-        <joint name="shoulder1_right" class="shoulder" pos="0 0 0" axis="0.816497 0.408248 0.408248" range="-1.48353 1.0472"/>
-        <joint name="shoulder2_right" class="shoulder" pos="0 0 0" axis="0 -0.707107 0.707107" range="-1.48353 1.0472"/>
-        <geom name="upper_arm_right" class="arm_upper" size="0.04 0.138564" pos="0.08 -0.08 -0.08" quat="0.888074 -0.325058 -0.325058 0"/>
-        <body name="lower_arm_right" pos="0.18 -0.18 -0.18" gravcomp="0">
-          <joint name="elbow_right" class="elbow" pos="0 0 0" axis="0 -0.707107 0.707107" range="-1.74533 0.872665"/>
-          <geom name="lower_arm_right" class="arm_lower" size="0.031 0.138564" pos="0.09 0.09 0.09" quat="0.459701 0.627963 -0.627963 0"/>
-          <body name="hand_right" pos="0.18 0.18 0.18" gravcomp="0">
-            <geom name="hand_right" class="hand" quat="0.888074 -0.325058 0.325058 0"/>
-          </body>
-        </body>
-      </body>
-      <body name="upper_arm_left" pos="0 0.17 0.06" gravcomp="0">
-        <joint name="shoulder1_left" class="shoulder" pos="0 0 0" axis="-0.816497 0.408248 -0.408248" range="-1.48353 1.0472"/>
-        <joint name="shoulder2_left" class="shoulder" pos="0 0 0" axis="0 -0.707107 -0.707107" range="-1.48353 1.0472"/>
-        <geom name="upper_arm_left" class="arm_upper" size="0.04 0.138564" pos="0.08 0.08 -0.08" quat="0.888074 0.325058 -0.325058 0"/>
-        <body name="lower_arm_left" pos="0.18 0.18 -0.18" gravcomp="0">
-          <joint name="elbow_left" class="elbow" pos="0 0 0" axis="0 -0.707107 -0.707107" range="-1.74533 0.872665"/>
-          <geom name="lower_arm_left" class="arm_lower" size="0.031 0.138564" pos="0.09 -0.09 0.09" quat="0.459701 -0.627963 -0.627963 0"/>
-          <body name="hand_left" pos="0.18 -0.18 0.18" gravcomp="0">
-            <geom name="hand_left" class="hand" quat="0.888074 0.325058 0.325058 0"/>
+      <body name="right-hip-roll" pos="0.021 -0.135 0" quat="0.707107 0 0.707107 0" gravcomp="0">
+        <inertial pos="-0.01793 0.0001 -0.04428" quat="0.973759 0.00445535 0.226405 0.0226678" mass="1.82" diaginertia="0.00384401 0.0037929 0.0017221"/>
+        <joint name="right-hip-roll" pos="0 0 0" axis="0 0 1" range="-0.392699 0.261799" armature="0.038125" damping="1"/>
+        <geom quat="0.707107 -0.707107 0 0" type="mesh" mesh="right-hip-roll"/>
+        <body name="right-hip-yaw" pos="0 0 -0.07" quat="0.707107 0 -0.707107 0" gravcomp="0">
+          <inertial pos="0 1e-05 -0.034277" quat="0.707146 -4.94815e-05 -5.92572e-05 0.707067" mass="1.171" diaginertia="0.002803 0.002443 0.000842"/>
+          <joint name="right-hip-yaw" pos="0 0 0" axis="0 0 1" range="-0.392699 0.392699" armature="0.038125" damping="1"/>
+          <geom quat="0.707107 -0.707107 0 0" type="mesh" mesh="right-hip-yaw"/>
+          <body name="right-hip-pitch" pos="0 0 -0.09" quat="-0.5 -0.5 -0.5 0.5" gravcomp="0">
+            <inertial pos="0.05946 5e-05 0.03581" quat="-0.0115345 0.708147 -0.00152796 0.70597" mass="5.52" diaginertia="0.0302574 0.0297176 0.010894"/>
+            <joint name="right-hip-pitch" pos="0 0 0" axis="0 0 1" range="-0.872665 1.39626" armature="0.09344" damping="1"/>
+            <geom quat="0.707107 -0.707107 0 0" type="mesh" mesh="right-hip-pitch"/>
+            <geom class="collision" size="0.08 0.06" pos="0.06 0 0.05" quat="0.707107 0 -0.707107 0"/>
+            <body name="right-achilles-rod" pos="0 0 -0.045" quat="0.946514 0.0145065 -0.042981 -0.319458" gravcomp="0">
+              <inertial pos="0.24719 0 0" quat="-2.9494e-06 0.707108 2.94941e-06 0.707106" mass="0.1567" diaginertia="0.004488 0.004487 3.754e-06"/>
+              <joint name="right-achilles-rod" pos="0 0 0" type="ball" damping="0.01"/>
+              <geom quat="0.707107 -0.707107 0 0" type="mesh" mesh="right-achilles-rod"/>
+            </body>
+            <body name="right-knee" pos="0.12 0 -0.0045" quat="0.92388 0 0 -0.382683" gravcomp="0">
+              <inertial pos="0.023 0.03207 0.002181" quat="0.638783 0.329883 -0.605859 0.340689" mass="0.7578" diaginertia="0.00216699 0.00163747 0.000768734"/>
+              <joint name="right-knee" pos="0 0 0" axis="0 0 1" ref="-0.785398" range="-2.86234 -0.645772" armature="0.09344" damping="1"/>
+              <geom quat="0.707107 -0.707107 0 0" type="mesh" mesh="right-knee"/>
+              <body name="right-knee-spring" pos="0.06068 0.08241 0" gravcomp="0">
+                <inertial pos="0.0836 0.0034 0" quat="0.504747 0.504747 0.495207 0.495207" mass="0.186" diaginertia="0.000412181 0.0003669 5.20189e-05"/>
+                <geom quat="0.707107 -0.707107 0 0" type="mesh" mesh="right-knee-spring"/>
+              </body>
+              <body name="right-shin" pos="0.06068 0.04741 0" gravcomp="0">
+                <inertial pos="0.18338 0.001169 -0.0002123" quat="0.491981 0.500642 0.498566 0.508669" mass="0.577" diaginertia="0.0147311 0.014707 0.000356291"/>
+                <joint name="right-shin" pos="0 0 0" axis="0 0 1" stiffness="1500" range="-0.349066 0.349066" damping="0.1"/>
+                <geom quat="0.707107 -0.707107 0 0" type="mesh" mesh="right-shin"/>
+                <geom class="collision-right" size="0.04 0.115109" pos="0.055 -0.005 0" quat="0.707107 -0.0307148 -0.706439 0"/>
+                <geom class="collision-right" size="0.027 0.105628" pos="0.275 -0.0115 0" quat="0.707107 0.0769847 -0.702904 0"/>
+                <geom class="collision-right" size="0.025 0.240933" pos="0.19488 0.0225 0" quat="0.707107 -0.0660346 -0.704017 0"/>
+                <body name="right-tarsus" pos="0.43476 0.02 0" quat="0.87462 0 0 0.48481" gravcomp="0">
+                  <inertial pos="0.11046 -0.03058 0.00131" quat="0.0329952 0.708135 0.0204441 0.705009" mass="0.782" diaginertia="0.0136746 0.0135988 0.000387958"/>
+                  <joint name="right-tarsus" pos="0 0 0" axis="0 0 1" ref="1.01229" range="0.872665 2.96706" damping="0.1"/>
+                  <geom quat="0.707107 -0.707107 0 0" type="mesh" mesh="right-tarsus"/>
+                  <geom class="collision-right" size="0.028 0.110102" pos="0.12 -0.035295 0.00046" quat="0.708582 -0.0301541 -0.704984 0"/>
+                  <geom class="collision-right" size="0.033 0.08533" pos="0.124 -0.055 0.00046" quat="0.70901 0.123967 -0.694217 0"/>
+                  <geom class="collision-right" size="0.02 0.111" pos="0.319 -0.04 0" quat="0.707107 0 -0.707107 0"/>
+                  <body name="right-heel-spring" pos="-0.01269 -0.03059 -0.00092" quat="0.209355 -0.0108606 0.0375558 0.977058" gravcomp="0">
+                    <inertial pos="0.081 0.0022 0" quat="0.509145 0.509194 0.492425 0.488888" mass="0.126" diaginertia="0.000222575 0.000200702 2.9323e-05"/>
+                    <joint name="right-heel-spring" pos="0 0 0" axis="0 0 1" stiffness="1250"/>
+                    <geom quat="0.707107 -0.707107 0 0" type="mesh" mesh="right-heel-spring"/>
+                  </body>
+                  <body name="right-foot-crank" pos="0.058 -0.034 -0.02275" gravcomp="0">
+                    <inertial pos="0.00493 2e-05 0.00215" quat="0.000197924 0.743948 0.000325701 0.668237" mass="0.1261" diaginertia="6.37881e-05 4.9621e-05 2.65149e-05"/>
+                    <joint name="right-foot-crank" pos="0 0 0" axis="0 0 1" range="-2.44346 -0.523599" damping="1"/>
+                    <geom quat="0.707107 -0.707107 0 0" type="mesh" mesh="right-foot-crank"/>
+                    <body name="right-plantar-rod" pos="0.055 0 0.00791" gravcomp="0">
+                      <inertial pos="0.17792 0 0" quat="-4.67086e-06 0.707108 4.67088e-06 0.707105" mass="0.1186" diaginertia="0.001775 0.001774 2.779e-06"/>
+                      <joint name="right-plantar-rod" pos="0 0 0" axis="0 0 1"/>
+                      <geom quat="0.707107 -0.707107 0 0" type="mesh" mesh="right-plantar-rod"/>
+                    </body>
+                  </body>
+                  <body name="right-foot" pos="0.408 -0.04 0" gravcomp="0">
+                    <inertial pos="0.00474 0.02748 0.00014" quat="0.270091 0.647921 -0.279268 0.655178" mass="0.1498" diaginertia="0.000332627 0.000289071 5.27221e-05"/>
+                    <joint name="right-foot" pos="0 0 0" axis="0 0 1" range="-2.44346 -0.523599" armature="0.01225" damping="1"/>
+                    <geom quat="0.707107 -0.707107 0 0" type="mesh" mesh="right-foot"/>
+                    <geom class="collision-right" size="0.02 0.08" pos="0.0084625 0.041199 0" quat="0.707107 -0.45452 -0.541675 0"/>
+                  </body>
+                </body>
+              </body>
+            </body>
           </body>
         </body>
       </body>
     </body>
   </worldbody>
-  <contact>
-    <exclude body1="waist_lower" body2="thigh_right"/>
-    <exclude body1="waist_lower" body2="thigh_left"/>
-  </contact>
-  <tendon>
-    <fixed name="hamstring_right" range="-0.3 2">
-      <joint joint="hip_y_right" coef="0.5"/>
-      <joint joint="knee_right" coef="-0.5"/>
-    </fixed>
-    <fixed name="hamstring_left" range="-0.3 2">
-      <joint joint="hip_y_left" coef="0.5"/>
-      <joint joint="knee_left" coef="-0.5"/>
-    </fixed>
-  </tendon>
+  <equality>
+    <connect body1="left-plantar-rod" body2="left-foot" anchor="0.35012 0 0"/>
+    <connect body1="left-achilles-rod" body2="left-heel-spring" anchor="0.5012 0 0"/>
+    <connect body1="right-plantar-rod" body2="right-foot" anchor="0.35012 0 0"/>
+    <connect body1="right-achilles-rod" body2="right-heel-spring" anchor="0.5012 0 0"/>
+  </equality>
   <actuator>
-    <general name="abdomen_y" joint="abdomen_y" gear="40 0 0 0 0 0" actdim="0"/>
-    <general name="abdomen_z" joint="abdomen_z" gear="40 0 0 0 0 0" actdim="0"/>
-    <general name="abdomen_x" joint="abdomen_x" gear="40 0 0 0 0 0" actdim="0"/>
-    <general name="hip_x_right" joint="hip_x_right" gear="40 0 0 0 0 0" actdim="0"/>
-    <general name="hip_z_right" joint="hip_z_right" gear="40 0 0 0 0 0" actdim="0"/>
-    <general name="hip_y_right" joint="hip_y_right" gear="120 0 0 0 0 0" actdim="0"/>
-    <general name="knee_right" joint="knee_right" gear="80 0 0 0 0 0" actdim="0"/>
-    <general name="ankle_x_right" joint="ankle_x_right" gear="20 0 0 0 0 0" actdim="0"/>
-    <general name="ankle_y_right" joint="ankle_y_right" gear="20 0 0 0 0 0" actdim="0"/>
-    <general name="hip_x_left" joint="hip_x_left" gear="40 0 0 0 0 0" actdim="0"/>
-    <general name="hip_z_left" joint="hip_z_left" gear="40 0 0 0 0 0" actdim="0"/>
-    <general name="hip_y_left" joint="hip_y_left" gear="120 0 0 0 0 0" actdim="0"/>
-    <general name="knee_left" joint="knee_left" gear="80 0 0 0 0 0" actdim="0"/>
-    <general name="ankle_x_left" joint="ankle_x_left" gear="20 0 0 0 0 0" actdim="0"/>
-    <general name="ankle_y_left" joint="ankle_y_left" gear="20 0 0 0 0 0" actdim="0"/>
-    <general name="shoulder1_right" joint="shoulder1_right" gear="20 0 0 0 0 0" actdim="0"/>
-    <general name="shoulder2_right" joint="shoulder2_right" gear="20 0 0 0 0 0" actdim="0"/>
-    <general name="elbow_right" joint="elbow_right" gear="40 0 0 0 0 0" actdim="0"/>
-    <general name="shoulder1_left" joint="shoulder1_left" gear="20 0 0 0 0 0" actdim="0"/>
-    <general name="shoulder2_left" joint="shoulder2_left" gear="20 0 0 0 0 0" actdim="0"/>
-    <general name="elbow_left" joint="elbow_left" gear="40 0 0 0 0 0" actdim="0"/>
+    <general name="left-hip-roll" joint="left-hip-roll" ctrlrange="-4.5 4.5" gear="25 0 0 0 0 0" actdim="0" user="2900"/>
+    <general name="left-hip-yaw" joint="left-hip-yaw" ctrlrange="-4.5 4.5" gear="25 0 0 0 0 0" actdim="0" user="2900"/>
+    <general name="left-hip-pitch" joint="left-hip-pitch" ctrlrange="-12.2 12.2" gear="16 0 0 0 0 0" actdim="0" user="1300"/>
+    <general name="left-knee" joint="left-knee" ctrlrange="-12.2 12.2" gear="16 0 0 0 0 0" actdim="0" user="1300"/>
+    <general name="left-foot" joint="left-foot" ctrlrange="-0.9 0.9" gear="50 0 0 0 0 0" actdim="0" user="5500"/>
+    <general name="right-hip-roll" joint="right-hip-roll" ctrlrange="-4.5 4.5" gear="25 0 0 0 0 0" actdim="0" user="2900"/>
+    <general name="right-hip-yaw" joint="right-hip-yaw" ctrlrange="-4.5 4.5" gear="25 0 0 0 0 0" actdim="0" user="2900"/>
+    <general name="right-hip-pitch" joint="right-hip-pitch" ctrlrange="-12.2 12.2" gear="16 0 0 0 0 0" actdim="0" user="1300"/>
+    <general name="right-knee" joint="right-knee" ctrlrange="-12.2 12.2" gear="16 0 0 0 0 0" actdim="0" user="1300"/>
+    <general name="right-foot" joint="right-foot" ctrlrange="-0.9 0.9" gear="50 0 0 0 0 0" actdim="0" user="5500"/>
   </actuator>
+  <sensor>
+    <actuatorpos actuator="left-hip-roll" name="left-hip-roll-input" user="13"/>
+    <actuatorpos actuator="left-hip-yaw" name="left-hip-yaw-input" user="13"/>
+    <actuatorpos actuator="left-hip-pitch" name="left-hip-pitch-input" user="13"/>
+    <actuatorpos actuator="left-knee" name="left-knee-input" user="13"/>
+    <actuatorpos actuator="left-foot" name="left-foot-input" user="18"/>
+    <jointpos joint="left-shin" name="left-shin-output" noise="0.0002" user="18"/>
+    <jointpos joint="left-tarsus" name="left-tarsus-output" noise="0.0002" user="18"/>
+    <jointpos joint="left-foot" name="left-foot-output" user="13"/>
+    <actuatorpos actuator="right-hip-roll" name="right-hip-roll-input" user="13"/>
+    <actuatorpos actuator="right-hip-yaw" name="right-hip-yaw-input" user="13"/>
+    <actuatorpos actuator="right-hip-pitch" name="right-hip-pitch-input" user="13"/>
+    <actuatorpos actuator="right-knee" name="right-knee-input" user="13"/>
+    <actuatorpos actuator="right-foot" name="right-foot-input" user="18"/>
+    <jointpos joint="right-shin" name="right-shin-output" noise="0.0002" user="18"/>
+    <jointpos joint="right-tarsus" name="right-tarsus-output" noise="0.0002" user="18"/>
+    <jointpos joint="right-foot" name="right-foot-output" user="13"/>
+    <framequat objtype="site" objname="imu" name="pelvis-orientation"/>
+    <gyro site="imu" name="pelvis-angular-velocity" cutoff="34.9" noise="0.0005"/>
+    <accelerometer site="imu" name="pelvis-linear-acceleration" cutoff="157" noise="0.01"/>
+    <magnetometer site="imu" name="pelvis-magnetometer"/>
+  </sensor>
   <keyframe>
-    <key name="squat" qpos="0 0 0.596 0.988015 0 0.154359 0 0 0.4 0 -0.25 -0.5 -2.5 -2.65 -0.8 0.56 -0.25 -0.5 -2.5 -2.65 -0.8 0.56 0 0 0 0 0 0"/>
-    <key name="stand_on_left_leg" qpos="0 0 1.21948 0.971588 -0.179973 0.135318 -0.0729076 -0.0516 -0.202 0.23 -0.24 -0.007 -0.34 -1.76 -0.466 -0.0415 -0.08 -0.01 -0.37 -0.685 -0.35 -0.09 0.109 -0.067 -0.7 -0.05 0.12 0.16"/>
+    <key name="home" qpos="0 0 1.00593 1 0 0 0 0.00449956 0 0.497301 0.97861 -0.0164104 0.0177766 -0.204298 -1.1997 0 1.42671 -2.25907e-06 -1.52439 1.50645 -1.59681 -0.00449956 0 0.497301 0.97874 0.0038687 -0.0151572 -0.204509 -1.1997 0 1.42671 0 -1.52439 1.50645 -1.59681"/>
   </keyframe>
 </mujoco>

@@ -5,7 +5,7 @@ CMakeFiles/mujoco.dir/src/engine/engine_util_misc.c.o: \
  /home/anupam/github_robotics/simulator/mujoco/include/mujoco/mjexport.h \
  /home/anupam/github_robotics/simulator/mujoco/include/mujoco/mjmodel.h \
  /home/anupam/github_robotics/simulator/mujoco/include/mujoco/mjtnum.h \
- /usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h /usr/include/math.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/stddef.h /usr/include/math.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
@@ -23,7 +23,7 @@ CMakeFiles/mujoco.dir/src/engine/engine_util_misc.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types.h \
  /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/libio.h \
  /usr/include/_G_config.h /usr/include/wchar.h \
- /usr/lib/gcc/x86_64-linux-gnu/7/include/stdarg.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
  /usr/include/x86_64-linux-gnu/bits/stdio.h \
@@ -48,7 +48,7 @@ CMakeFiles/mujoco.dir/src/engine/engine_util_misc.c.o: \
  /usr/include/x86_64-linux-gnu/bits/string2.h \
  /usr/include/x86_64-linux-gnu/bits/string3.h \
  /home/anupam/github_robotics/simulator/mujoco/include/mujoco/mjdata.h \
- /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /home/anupam/github_robotics/simulator/mujoco/src/engine/engine_array_safety.h \
  /home/anupam/github_robotics/simulator/mujoco/src/engine/engine_macro.h \

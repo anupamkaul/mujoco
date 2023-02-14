@@ -1,14 +1,14 @@
 # Don't commit binaries
-*.a
-*.asm
-*.dll
-*.dylib
-*.exe
-*.lib
-*.out
-*.o
-*.so
-*.so.*
+#*.a
+#*.asm
+#*.dll
+#*.dylib
+#*.exe
+#*.lib
+#*.out
+#*.o
+#*.so
+#*.so.*
 
 # Exclude editor config
 .vscode/

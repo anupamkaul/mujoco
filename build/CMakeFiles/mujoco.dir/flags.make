@@ -13,5 +13,5 @@ CXX_DEFINES = -DCCD_STATIC_DEFINE -DEIGEN_MPL2_ONLY -DMUJOCO_DLL_EXPORTS -D_GNU_
 
 CXX_INCLUDES = -I/home/anupam/github_robotics/simulator/mujoco/include -I/home/anupam/github_robotics/simulator/mujoco/src -I/home/anupam/github_robotics/simulator/mujoco/build/_deps/ccd-src/src -I/home/anupam/github_robotics/simulator/mujoco/build/_deps/ccd-build/src -I/home/anupam/github_robotics/simulator/mujoco/build/_deps/lodepng-src -I/home/anupam/github_robotics/simulator/mujoco/build/_deps/qhull-src/src/libqhull_r -I/home/anupam/github_robotics/simulator/mujoco/build/_deps/tinyobjloader-src -I/home/anupam/github_robotics/simulator/mujoco/build/_deps/tinyxml2-src
 
-CXX_FLAGS = -O3 -DNDEBUG -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -fdata-sections -ffunction-sections -mavx -Wno-int-in-bool-context -Wno-maybe-uninitialized -Wno-sign-compare -Wno-stringop-overflow -Wno-stringop-truncation -std=c++1z
+CXX_FLAGS = -O3 -DNDEBUG -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -fdata-sections -ffunction-sections -mavx -Wno-int-in-bool-context -Wno-maybe-uninitialized -Wno-sign-compare -Wno-stringop-overflow -Wno-stringop-truncation -std=c++17
 

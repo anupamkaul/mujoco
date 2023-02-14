@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/anupam/github_robotics/simulator/mujoco/build/_deps/qhull-src/src -I/home/anupam/github_robotics/simulator/mujoco/build/_deps/qhull-src/src/libqhull_r
 
-CXX_FLAGS = -O3 -DNDEBUG -fPIE -fvisibility=hidden -fvisibility-inlines-hidden -fdata-sections -ffunction-sections -std=c++1z
+CXX_FLAGS = -O3 -DNDEBUG -fPIE -fvisibility=hidden -fvisibility-inlines-hidden -fdata-sections -ffunction-sections -std=c++17
 

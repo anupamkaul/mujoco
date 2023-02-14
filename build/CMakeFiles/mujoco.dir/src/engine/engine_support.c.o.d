@@ -3,8 +3,8 @@ CMakeFiles/mujoco.dir/src/engine/engine_support.c.o: \
  /usr/include/stdc-predef.h \
  /home/anupam/github_robotics/simulator/mujoco/src/engine/engine_support.h \
  /home/anupam/github_robotics/simulator/mujoco/include/mujoco/mjdata.h \
- /usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h \
- /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/stddef.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/stdint.h /usr/include/stdint.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
@@ -24,7 +24,7 @@ CMakeFiles/mujoco.dir/src/engine/engine_support.c.o: \
  /usr/include/x86_64-linux-gnu/bits/string3.h \
  /home/anupam/github_robotics/simulator/mujoco/src/engine/engine_array_safety.h \
  /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h \
- /usr/include/wchar.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stdarg.h \
+ /usr/include/wchar.h /usr/lib/gcc/x86_64-linux-gnu/5/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
  /usr/include/x86_64-linux-gnu/bits/stdio.h \
@@ -62,39 +62,36 @@ CMakeFiles/mujoco.dir/src/engine/engine_support.c.o: \
  /home/anupam/github_robotics/simulator/mujoco/src/engine/engine_util_misc.h \
  /home/anupam/github_robotics/simulator/mujoco/src/engine/engine_util_sparse.h \
  /home/anupam/github_robotics/simulator/mujoco/src/engine/engine_util_spatial.h \
- /usr/lib/gcc/x86_64-linux-gnu/7/include/immintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/7/include/mmintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/7/include/xmmintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/7/include/mm_malloc.h \
- /usr/lib/gcc/x86_64-linux-gnu/7/include/emmintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/7/include/pmmintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/7/include/tmmintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/7/include/smmintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/7/include/popcntintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/7/include/wmmintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/7/include/avxintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/7/include/avx2intrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/7/include/avx512fintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/7/include/avx512erintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/7/include/avx512pfintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/7/include/avx512cdintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/7/include/avx512vlintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/7/include/avx512bwintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/7/include/avx512dqintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/7/include/avx512vlbwintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/7/include/avx512vldqintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/7/include/avx512ifmaintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/7/include/avx512ifmavlintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/7/include/avx512vbmiintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/7/include/avx512vbmivlintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/7/include/avx5124fmapsintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/7/include/avx5124vnniwintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/7/include/avx512vpopcntdqintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/7/include/shaintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/7/include/lzcntintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/7/include/bmiintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/7/include/bmi2intrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/7/include/fmaintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/7/include/f16cintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/7/include/rtmintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/7/include/xtestintrin.h
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/immintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/mmintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/xmmintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/mm_malloc.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/emmintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/pmmintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/tmmintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/smmintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/popcntintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/wmmintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/avxintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/avx2intrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512fintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512erintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512pfintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512cdintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512vlintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512bwintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512dqintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512vlbwintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512vldqintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512ifmaintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512ifmavlintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512vbmiintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512vbmivlintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/shaintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/lzcntintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/bmiintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/bmi2intrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/fmaintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/f16cintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/rtmintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/xtestintrin.h

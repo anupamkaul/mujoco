@@ -6,5 +6,5 @@ CXX_DEFINES = -DBENCHMARK_STATIC_DEFINE -DEIGEN_MPL2_ONLY -DMJSTATIC -DmjUSEPLAT
 
 CXX_INCLUDES = -I/home/anupam/github_robotics/simulator/mujoco/test/.. -I/home/anupam/github_robotics/simulator/mujoco/test/../src -I/home/anupam/github_robotics/simulator/mujoco/build/_deps/benchmark-src/include -I/home/anupam/github_robotics/simulator/mujoco/include -I/home/anupam/github_robotics/simulator/mujoco/build/_deps/abseil-cpp-src -isystem /home/anupam/github_robotics/simulator/mujoco/build/_deps/googletest-src/googletest/include -isystem /home/anupam/github_robotics/simulator/mujoco/build/_deps/googletest-src/googletest -isystem /home/anupam/github_robotics/simulator/mujoco/build/_deps/googletest-src/googlemock/include -isystem /home/anupam/github_robotics/simulator/mujoco/build/_deps/googletest-src/googlemock
 
-CXX_FLAGS = -lstdc++fs -std=c++17 -O3 -DNDEBUG -fPIE -fvisibility=hidden -fvisibility-inlines-hidden -fdata-sections -ffunction-sections -std=c++1z
+CXX_FLAGS = -lstdc++fs -std=c++17 -O3 -DNDEBUG -fPIE -fvisibility=hidden -fvisibility-inlines-hidden -fdata-sections -ffunction-sections -std=c++17
 

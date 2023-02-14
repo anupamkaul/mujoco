@@ -2,21 +2,21 @@ simulate/CMakeFiles/platform_ui_adapter.dir/platform_ui_adapter.cc.o: \
  /home/anupam/github_robotics/simulator/mujoco/simulate/platform_ui_adapter.cc \
  /usr/include/stdc-predef.h \
  /home/anupam/github_robotics/simulator/mujoco/simulate/platform_ui_adapter.h \
- /usr/include/c++/7/utility \
- /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h \
- /usr/include/x86_64-linux-gnu/c++/7/bits/os_defines.h \
+ /usr/include/c++/8/utility \
+ /usr/include/x86_64-linux-gnu/c++/8/bits/c++config.h \
+ /usr/include/x86_64-linux-gnu/c++/8/bits/os_defines.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
- /usr/include/x86_64-linux-gnu/c++/7/bits/cpu_defines.h \
- /usr/include/c++/7/bits/stl_relops.h /usr/include/c++/7/bits/stl_pair.h \
- /usr/include/c++/7/bits/move.h /usr/include/c++/7/bits/concept_check.h \
- /usr/include/c++/7/type_traits /usr/include/c++/7/initializer_list \
+ /usr/include/x86_64-linux-gnu/c++/8/bits/cpu_defines.h \
+ /usr/include/c++/8/bits/stl_relops.h /usr/include/c++/8/bits/stl_pair.h \
+ /usr/include/c++/8/bits/move.h /usr/include/c++/8/bits/concept_check.h \
+ /usr/include/c++/8/type_traits /usr/include/c++/8/initializer_list \
  /home/anupam/github_robotics/simulator/mujoco/include/mujoco/mujoco.h \
  /home/anupam/github_robotics/simulator/mujoco/include/mujoco/mjexport.h \
- /usr/include/c++/7/stdlib.h /usr/include/c++/7/cstdlib \
- /usr/include/stdlib.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h \
+ /usr/include/c++/8/stdlib.h /usr/include/c++/8/cstdlib \
+ /usr/include/stdlib.h /usr/lib/gcc/x86_64-linux-gnu/8/include/stddef.h \
  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h /usr/include/endian.h \
  /usr/include/x86_64-linux-gnu/bits/endian.h \
@@ -35,9 +35,9 @@ simulate/CMakeFiles/platform_ui_adapter.dir/platform_ui_adapter.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
- /usr/include/c++/7/bits/std_abs.h /usr/include/c++/7/math.h \
- /usr/include/c++/7/cmath /usr/include/c++/7/bits/cpp_type_traits.h \
- /usr/include/c++/7/ext/type_traits.h /usr/include/math.h \
+ /usr/include/c++/8/bits/std_abs.h /usr/include/c++/8/math.h \
+ /usr/include/c++/8/cmath /usr/include/c++/8/bits/cpp_type_traits.h \
+ /usr/include/c++/8/ext/type_traits.h /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
  /usr/include/x86_64-linux-gnu/bits/huge_val.h \
@@ -48,31 +48,31 @@ simulate/CMakeFiles/platform_ui_adapter.dir/platform_ui_adapter.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/mathdef.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/mathinline.h \
- /usr/include/c++/7/bits/specfun.h /usr/include/c++/7/bits/stl_algobase.h \
- /usr/include/c++/7/bits/functexcept.h \
- /usr/include/c++/7/bits/exception_defines.h \
- /usr/include/c++/7/ext/numeric_traits.h \
- /usr/include/c++/7/bits/stl_iterator_base_types.h \
- /usr/include/c++/7/bits/stl_iterator_base_funcs.h \
- /usr/include/c++/7/debug/assertions.h \
- /usr/include/c++/7/bits/stl_iterator.h \
- /usr/include/c++/7/bits/ptr_traits.h /usr/include/c++/7/debug/debug.h \
- /usr/include/c++/7/bits/predefined_ops.h /usr/include/c++/7/limits \
- /usr/include/c++/7/tr1/gamma.tcc \
- /usr/include/c++/7/tr1/special_function_util.h \
- /usr/include/c++/7/tr1/bessel_function.tcc \
- /usr/include/c++/7/tr1/special_function_util.h \
- /usr/include/c++/7/tr1/beta_function.tcc \
- /usr/include/c++/7/tr1/ell_integral.tcc \
- /usr/include/c++/7/tr1/exp_integral.tcc \
- /usr/include/c++/7/tr1/hypergeometric.tcc \
- /usr/include/c++/7/tr1/legendre_function.tcc \
- /usr/include/c++/7/tr1/modified_bessel_func.tcc \
- /usr/include/c++/7/tr1/poly_hermite.tcc \
- /usr/include/c++/7/tr1/poly_laguerre.tcc \
- /usr/include/c++/7/tr1/riemann_zeta.tcc \
+ /usr/include/c++/8/bits/specfun.h /usr/include/c++/8/bits/stl_algobase.h \
+ /usr/include/c++/8/bits/functexcept.h \
+ /usr/include/c++/8/bits/exception_defines.h \
+ /usr/include/c++/8/ext/numeric_traits.h \
+ /usr/include/c++/8/bits/stl_iterator_base_types.h \
+ /usr/include/c++/8/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/8/debug/assertions.h \
+ /usr/include/c++/8/bits/stl_iterator.h \
+ /usr/include/c++/8/bits/ptr_traits.h /usr/include/c++/8/debug/debug.h \
+ /usr/include/c++/8/bits/predefined_ops.h /usr/include/c++/8/limits \
+ /usr/include/c++/8/tr1/gamma.tcc \
+ /usr/include/c++/8/tr1/special_function_util.h \
+ /usr/include/c++/8/tr1/bessel_function.tcc \
+ /usr/include/c++/8/tr1/special_function_util.h \
+ /usr/include/c++/8/tr1/beta_function.tcc \
+ /usr/include/c++/8/tr1/ell_integral.tcc \
+ /usr/include/c++/8/tr1/exp_integral.tcc \
+ /usr/include/c++/8/tr1/hypergeometric.tcc \
+ /usr/include/c++/8/tr1/legendre_function.tcc \
+ /usr/include/c++/8/tr1/modified_bessel_func.tcc \
+ /usr/include/c++/8/tr1/poly_hermite.tcc \
+ /usr/include/c++/8/tr1/poly_laguerre.tcc \
+ /usr/include/c++/8/tr1/riemann_zeta.tcc \
  /home/anupam/github_robotics/simulator/mujoco/include/mujoco/mjdata.h \
- /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h \
+ /usr/lib/gcc/x86_64-linux-gnu/8/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /home/anupam/github_robotics/simulator/mujoco/include/mujoco/mjtnum.h \
  /home/anupam/github_robotics/simulator/mujoco/include/mujoco/mjmodel.h \
@@ -80,7 +80,7 @@ simulate/CMakeFiles/platform_ui_adapter.dir/platform_ui_adapter.cc.o: \
  /home/anupam/github_robotics/simulator/mujoco/include/mujoco/mjvisualize.h \
  /home/anupam/github_robotics/simulator/mujoco/include/mujoco/mjrender.h \
  /home/anupam/github_robotics/simulator/mujoco/include/mujoco/mjui.h \
- /usr/include/c++/7/chrono /usr/include/c++/7/ratio \
- /usr/include/c++/7/cstdint /usr/include/c++/7/ctime \
+ /usr/include/c++/8/chrono /usr/include/c++/8/ratio \
+ /usr/include/c++/8/cstdint /usr/include/c++/8/ctime \
  /usr/include/x86_64-linux-gnu/bits/timex.h \
- /usr/include/c++/7/bits/parse_numbers.h
+ /usr/include/c++/8/bits/parse_numbers.h
