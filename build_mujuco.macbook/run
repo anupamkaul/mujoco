@@ -1,0 +1,1 @@
+build_mujoco % ./bin/simulate ./model/humanoid.xml
